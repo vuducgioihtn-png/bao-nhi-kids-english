@@ -264,7 +264,7 @@ export const TEST_PACKAGES: TestPackage[] = [
     category: 'master',
     title: 'Đại Khảo Thí: Tổng Hợp 35 Chủ Đề BMyC',
     subtitle: 'Đánh giá định kỳ toàn diện nhất',
-    description: '15 câu hỏi ngẫu nhiên từ kho 600+ từ vựng tiếng Anh. Thích hợp kiểm tra định kỳ hàng tháng của bé!',
+    description: '15 câu hỏi ngẫu nhiên từ kho 1000+ từ vựng tiếng Anh. Thích hợp kiểm tra định kỳ hàng tháng của bé!',
     icon: '🌍',
     badgeLabel: 'Toàn Diện 35 Chủ Đề',
     badgeColor: {

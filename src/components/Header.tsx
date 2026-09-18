@@ -80,7 +80,7 @@ export const Header: React.FC<HeaderProps> = ({
                 </button>
               </div>
               <p className="text-[11px] text-slate-500 font-medium hidden sm:block">
-                Góc học tiếng Anh của Bé {progress.childProfile?.name || 'Bảo Nhi'} &bull; 600+ từ vựng
+                Góc học tiếng Anh của Bé {progress.childProfile?.name || 'Bảo Nhi'} &bull; 1000+ từ vựng
               </p>
             </div>
           </div>

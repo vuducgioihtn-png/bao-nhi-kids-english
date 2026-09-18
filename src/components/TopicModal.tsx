@@ -31,7 +31,7 @@ export const TopicModal: React.FC<TopicModalProps> = ({
             <span className="text-3xl">📚</span>
             <div>
               <h2 className="text-lg sm:text-xl font-black font-heading tracking-tight">Chọn Chủ Đề Học Cho Bé</h2>
-              <p className="text-xs text-amber-100 font-medium">Tổng hợp 35 chủ đề BMyC mở rộng (600+ từ vựng)</p>
+              <p className="text-xs text-amber-100 font-medium">Tổng hợp 35 chủ đề BMyC mở rộng (1000+ từ vựng)</p>
             </div>
           </div>
           <button

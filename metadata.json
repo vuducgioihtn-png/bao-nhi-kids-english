@@ -1,5 +1,5 @@
 {
-  "name": "BMyC Kids Vocab - 300+ Từ Vựng Cho Bé",
+  "name": "BMyC Kids Vocab - 1000+ Từ Vựng Cho Bé",
   "description": "Ứng dụng học từ vựng, 500 bài đoạn văn luyện nói tiếng Anh 4 cấp độ, hệ thống đăng ký học sinh, Admin duyệt tài khoản và cơ chế bảo lưu dữ liệu đồng bộ GitHub vĩnh viễn không bị mất account.",
   "requestFramePermissions": ["microphone"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

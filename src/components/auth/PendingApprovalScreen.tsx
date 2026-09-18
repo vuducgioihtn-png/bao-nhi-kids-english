@@ -114,7 +114,7 @@ export const PendingApprovalScreen: React.FC<PendingApprovalScreenProps> = ({
           </div>
 
           <p className="text-[11px] sm:text-xs text-amber-950 pt-2 bg-amber-100/60 p-2.5 rounded-xl">
-            💡 <strong>Dành cho phụ huynh:</strong> Thầy cô quản trị viên sẽ xem xét danh sách và bấm nút <em>&ldquo;Duyệt Vào Học&rdquo;</em> trong bảng điều khiển Admin. Sau khi được duyệt, bé sẽ được mở khóa toàn bộ 600+ từ vựng, 500 bài đọc và game vui nhộn!
+            💡 <strong>Dành cho phụ huynh:</strong> Thầy cô quản trị viên sẽ xem xét danh sách và bấm nút <em>&ldquo;Duyệt Vào Học&rdquo;</em> trong bảng điều khiển Admin. Sau khi được duyệt, bé sẽ được mở khóa toàn bộ 1000+ từ vựng, 500 bài đọc và game vui nhộn!
           </p>
         </div>
 

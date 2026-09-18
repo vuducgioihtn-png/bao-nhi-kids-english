@@ -303,7 +303,7 @@ export default function App() {
       {/* Bottom Footer Info */}
       <footer className="mt-auto py-4 text-center text-xs text-slate-400 font-medium border-t border-amber-100 bg-white/60">
         <p>
-          BMyC English Kids &bull; Dành tặng {progress.childProfile?.nickname || 'Bé Bảo Nhi'} &bull; 600+ từ vựng 35 chủ đề & Luyện nói giao tiếp chuẩn Tiểu học
+          BMyC English Kids &bull; Dành tặng {progress.childProfile?.nickname || 'Bé Bảo Nhi'} &bull; 1000+ từ vựng 35 chủ đề & Luyện nói giao tiếp chuẩn Tiểu học
         </p>
       </footer>
     </div>
