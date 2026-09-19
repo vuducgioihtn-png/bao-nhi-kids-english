@@ -1,0 +1,831 @@
+import json, re
+
+# Load source files
+with open('all_lesson_words.json', 'r', encoding='utf-8') as f:
+    all_words = json.load(f)
+
+with open('ipa_lookup_extracted.json', 'r', encoding='utf-8') as f:
+    raw_ipas = json.load(f)
+
+# Comprehensive curated dictionary of words in Grade 2 passages
+# (word -> (standard_learner_ipa, standard_vietnamese_reading))
+CURATED_DICT = {
+    # Chào hỏi & Xưng hô
+    'hello': ('/həˈloʊ/', 'he-lâu'),
+    'hi': ('/haɪ/', 'hai'),
+    'goodbye': ('/ɡʊdˈbaɪ/', 'gút-bai'),
+    'bye': ('/baɪ/', 'bai'),
+    'please': ('/pliːz/', 'p-li-z'),
+    'thank': ('/θæŋk/', 'thenh-k'),
+    'thanks': ('/θæŋks/', 'thenh-k-s'),
+    'welcome': ('/ˈwelkəm/', 'oen-cầm'),
+    'sorry': ('/ˈsɑːri/', 'so-ri'),
+    'excuse': ('/ɪkˈskjuːz/', 'íc-x-kiu-z'),
+    'yes': ('/jes/', 'dét-s'),
+    'no': ('/noʊ/', 'nâu'),
+    'everyone': ('/ˈevriwʌn/', 'e-vri-uăn'),
+    'everybody': ('/ˈevribɑːdi/', 'e-vri-ba-đi'),
+    'friends': ('/frendz/', 'ph-ren-đ-z'),
+    'friend': ('/frend/', 'ph-ren-đ'),
+    'friendly': ('/ˈfrendli/', 'ph-ren-đ-li'),
+    'friendship': ('/ˈfrendʃɪp/', 'ph-ren-đ-xíp'),
+
+    # Đại từ & Từ nối
+    'i': ('/aɪ/', 'ai'),
+    'you': ('/juː/', 'diu'),
+    'he': ('/hiː/', 'hi'),
+    'she': ('/ʃiː/', 'si'),
+    'it': ('/ɪt/', 'ít'),
+    'we': ('/wiː/', 'uy'),
+    'they': ('/ðeɪ/', 'đây'),
+    'me': ('/miː/', 'mi'),
+    'him': ('/hɪm/', 'him'),
+    'her': ('/hɜːr/', 'hơ'),
+    'us': ('/ʌs/', 'ắt-s'),
+    'them': ('/ðem/', 'đem'),
+    'my': ('/maɪ/', 'mai'),
+    'your': ('/jɔːr/', 'do'),
+    'his': ('/hɪz/', 'hít-z'),
+    'its': ('/ɪts/', 'ít-s'),
+    'our': ('/ˈaʊər/', 'ao-ơ'),
+    'their': ('/ðer/', 'đe-ơ'),
+    'this': ('/ðɪs/', 'đít-s'),
+    'that': ('/ðæt/', 'đét'),
+    'these': ('/ðiːz/', 'đi-z'),
+    'those': ('/ðoʊz/', 'đâu-z'),
+    'here': ('/hɪr/', 'hia'),
+    'there': ('/ðer/', 'đe-ơ'),
+    'who': ('/huː/', 'hu'),
+    'what': ('/wɒt/', 'oát'),
+    'where': ('/wer/', 'oe'),
+    'when': ('/wen/', 'oen'),
+    'why': ('/waɪ/', 'oai'),
+    'how': ('/haʊ/', 'hao'),
+    'which': ('/wɪtʃ/', 'oít-ch'),
+
+    # Đại từ phản thân (-self)
+    'myself': ('/maɪˈself/', 'mai-seo-ph'),
+    'yourself': ('/jɔːrˈself/', 'do-seo-ph'),
+    'himself': ('/hɪmˈself/', 'him-seo-ph'),
+    'herself': ('/hɜːrˈself/', 'hơ-seo-ph'),
+    'itself': ('/ɪtˈself/', 'ít-seo-ph'),
+    'ourselves': ('/aʊərˈselvz/', 'ao-seo-v-z'),
+    'yourselves': ('/jɔːrˈselvz/', 'do-seo-v-z'),
+    'themselves': ('/ðemˈselvz/', 'đem-seo-v-z'),
+
+    # Giới từ, liên từ, mạo từ
+    'the': ('/ðə/', 'đơ'),
+    'a': ('/ə/', 'ơ'),
+    'an': ('/ən/', 'ân'),
+    'and': ('/ænd/', 'en-đ'),
+    'in': ('/ɪn/', 'in'),
+    'on': ('/ɑːn/', 'on'),
+    'at': ('/æt/', 'ét'),
+    'to': ('/tuː/', 'tu'),
+    'for': ('/fɔːr/', 'pho'),
+    'of': ('/ʌv/', 'ơ-v'),
+    'with': ('/wɪð/', 'uýt-đ'),
+    'from': ('/frʌm/', 'ph-răm'),
+    'by': ('/baɪ/', 'bai'),
+    'about': ('/əˈbaʊt/', 'ơ-bao-t'),
+    'into': ('/ˈɪntuː/', 'in-tu'),
+    'through': ('/θruː/', 'th-ru'),
+    'across': ('/əˈkrɔːs/', 'ơ-c-rót-s'),
+    'around': ('/əˈraʊnd/', 'ơ-rao-n-đ'),
+    'over': ('/ˈoʊvər/', 'âu-vờ'),
+    'under': ('/ˈʌndər/', 'ăn-đờ'),
+    'up': ('/ʌp/', 'ắp'),
+    'down': ('/daʊn/', 'đao-n'),
+    'between': ('/bɪˈtwiːn/', 'bi-t-uin'),
+    'behind': ('/bɪˈhaɪnd/', 'bi-hain-đ'),
+    'near': ('/nɪr/', 'nia'),
+    'during': ('/ˈdʊrɪŋ/', 'đu-rinh'),
+    'without': ('/wɪˈðaʊt/', 'uýt-đao-t'),
+    'as': ('/æz/', 'át-z'),
+    'so': ('/soʊ/', 'xâu'),
+    'but': ('/bʌt/', 'bắt'),
+    'or': ('/ɔːr/', 'o'),
+    'if': ('/ɪf/', 'íp-ph'),
+    'because': ('/bɪˈkɔːz/', 'bi-cơ-z'),
+    'while': ('/waɪl/', 'oai-l'),
+    'after': ('/ˈæftər/', 'áp-tơ'),
+    'before': ('/bɪˈfɔːr/', 'bi-pho'),
+    'then': ('/ðen/', 'đen'),
+    'now': ('/naʊ/', 'nao'),
+    'all': ('/ɔːl/', 'ool'),
+    'every': ('/ˈevri/', 'e-vri'),
+    'each': ('/iːtʃ/', 'ích'),
+    'both': ('/boʊθ/', 'bôuth'),
+    'some': ('/sʌm/', 'xăm'),
+    'any': ('/ˈeni/', 'e-ni'),
+    'many': ('/ˈmeni/', 'me-ni'),
+    'much': ('/mʌtʃ/', 'mắt-ch'),
+    'more': ('/mɔːr/', 'mo'),
+    'most': ('/moʊst/', 'mâu-x-t'),
+    'little': ('/ˈlɪtl/', 'lít-tồl'),
+    'very': ('/ˈveri/', 've-ri'),
+    'too': ('/tuː/', 'tu'),
+    'also': ('/ˈɔːlsoʊ/', 'on-xâu'),
+    'always': ('/ˈɔːlweɪz/', 'on-uây-z'),
+    'often': ('/ˈɔːfn/', 'ó-phừn'),
+    'sometimes': ('/ˈsʌmtaɪmz/', 'xăm-tai-m-z'),
+    'never': ('/ˈnevər/', 'ne-vờ'),
+    'together': ('/təˈɡeðər/', 'tơ-ge-đờ'),
+    'again': ('/əˈɡen/', 'ơ-ghen'),
+    'today': ('/təˈdeɪ/', 'tơ-đây'),
+    'tomorrow': ('/təˈmɔːroʊ/', 'tơ-mo-râu'),
+    'yesterday': ('/ˈjestərdeɪ/', 'dét-tơ-đây'),
+
+    # To be & Trợ động từ
+    'am': ('/æm/', 'am'),
+    'is': ('/ɪz/', 'i-z'),
+    'are': ('/ɑːr/', 'a'),
+    'was': ('/wɒz/', 'uót-z'),
+    'were': ('/wɜːr/', 'uơ'),
+    'be': ('/biː/', 'bi'),
+    'been': ('/bɪn/', 'bin'),
+    'being': ('/ˈbiːɪŋ/', 'bi-inh'),
+    'do': ('/duː/', 'đu'),
+    'does': ('/dʌz/', 'đắt-z'),
+    'did': ('/dɪd/', 'đít'),
+    'done': ('/dʌn/', 'đăn'),
+    'have': ('/hæv/', 'he-v'),
+    'has': ('/hæz/', 'hét-z'),
+    'had': ('/hæd/', 'hét-đ'),
+    'can': ('/kæn/', 'khen'),
+    'could': ('/kʊd/', 'cu-đ'),
+    'will': ('/wɪl/', 'uy-l'),
+    'would': ('/wʊd/', 'u-đ'),
+    'shall': ('/ʃæl/', 'seo-l'),
+    'should': ('/ʃʊd/', 'su-đ'),
+    'may': ('/meɪ/', 'mêi'),
+    'might': ('/maɪt/', 'mai-t'),
+    'must': ('/mʌst/', 'mắt-x-t'),
+
+    # Dạng viết tắt (Contractions)
+    "it's": ('/ɪts/', 'ít-s'),
+    "i'm": ('/aɪm/', 'aim'),
+    "don't": ('/doʊnt/', 'đôun-t'),
+    "can't": ('/kænt/', 'khen-t'),
+    "we're": ('/wɪr/', 'uy-ơ'),
+    "they're": ('/ðer/', 'đe-ơ'),
+    "you're": ('/jɔːr/', 'do'),
+    "that's": ('/ðæts/', 'đét-s'),
+    "there's": ('/ðerz/', 'đe-ơ-z'),
+    "he's": ('/hiːz/', 'hi-z'),
+    "she's": ('/ʃiːz/', 'si-z'),
+    "let's": ('/lets/', 'lét-s'),
+    "what's": ('/wɒts/', 'oát-s'),
+    "didn't": ('/ˈdɪdnt/', 'đít-đần-t'),
+    "doesn't": ('/ˈdʌznt/', 'đắt-zần-t'),
+    "isn't": ('/ˈɪznt/', 'i-zần-t'),
+    "aren't": ('/ɑːrnt/', 'an-t'),
+    "won't": ('/woʊnt/', 'uôn-t'),
+
+    # Động từ nói, giao tiếp, thuyết trình
+    'talk': ('/tɔːk/', 'thoóc'),
+    'talks': ('/tɔːks/', 'thoóc-s'),
+    'talked': ('/tɔːkt/', 'thoóc-t'),
+    'talking': ('/ˈtɔːkɪŋ/', 'thoóc-kinh'),
+    'speak': ('/spiːk/', 'x-píc'),
+    'speaks': ('/spiːks/', 'x-píc-s'),
+    'speaking': ('/ˈspiːkɪŋ/', 'x-pí-kinh'),
+    'spoke': ('/spoʊk/', 'x-pâu-k'),
+    'say': ('/seɪ/', 'xêi'),
+    'says': ('/sez/', 'xét-z'),
+    'saying': ('/ˈseɪɪŋ/', 'xêi-inh'),
+    'said': ('/sed/', 'xét-đ'),
+    'tell': ('/tel/', 'theo-l'),
+    'tells': ('/telz/', 'theo-l-z'),
+    'telling': ('/ˈtelɪŋ/', 'te-linh'),
+    'told': ('/toʊld/', 'tôu-l-đ'),
+    'share': ('/ʃer/', 'seo'),
+    'shares': ('/ʃerz/', 'seo-z'),
+    'sharing': ('/ˈʃerɪŋ/', 'se-rinh'),
+    'shared': ('/ʃerd/', 'seo-đ'),
+    'ask': ('/æsk/', 'át-x-k'),
+    'asks': ('/æsks/', 'át-x-ks'),
+    'asking': ('/ˈæskɪŋ/', 'át-x-kinh'),
+    'asked': ('/æskt/', 'át-x-k-t'),
+    'answer': ('/ˈænsər/', 'en-xờ'),
+    'answers': ('/ˈænsərz/', 'en-xờ-z'),
+    'answering': ('/ˈænsərɪŋ/', 'en-xơ-rinh'),
+    'present': ('/prɪˈzent/', 'p-ri-zen-t'),
+    'presentation': ('/ˌpreznˈteɪʃn/', 'p-re-zừn-têi-sần'),
+    'introduce': ('/ˌɪntrəˈduːs/', 'in-t-rơ-đu-s'),
+    'introducing': ('/ˌɪntrəˈduːsɪŋ/', 'in-t-rơ-đu-xinh'),
+
+    # Động từ thường nhật & học tập
+    'like': ('/laɪk/', 'lai-k'),
+    'likes': ('/laɪks/', 'lai-k-s'),
+    'liked': ('/laɪkt/', 'lai-k-t'),
+    'liking': ('/ˈlaɪkɪŋ/', 'lai-kinh'),
+    'love': ('/lʌv/', 'lớp-v'),
+    'loves': ('/lʌvz/', 'lớp-v-z'),
+    'loving': ('/ˈlʌvɪŋ/', 'lắp-vinh'),
+    'loved': ('/lʌvd/', 'lớp-v-đ'),
+    'live': ('/lɪv/', 'li-v'),
+    'lives': ('/lɪvz/', 'li-v-z'),
+    'living': ('/ˈlɪvɪŋ/', 'li-vinh'),
+    'lived': ('/lɪvd/', 'li-v-đ'),
+    'name': ('/neɪm/', 'nêm'),
+    'names': ('/neɪmz/', 'nêm-z'),
+    'named': ('/neɪmd/', 'nêm-đ'),
+    'meet': ('/miːt/', 'mít'),
+    'meets': ('/miːts/', 'mít-s'),
+    'meeting': ('/ˈmiːtɪŋ/', 'mí-tinh'),
+    'met': ('/met/', 'mét'),
+    'see': ('/siː/', 'si'),
+    'sees': ('/siːz/', 'si-z'),
+    'seeing': ('/ˈsiːɪŋ/', 'si-inh'),
+    'saw': ('/sɔː/', 'so'),
+    'look': ('/lʊk/', 'lúc-k'),
+    'looks': ('/lʊks/', 'lúc-ks'),
+    'looking': ('/ˈlʊkɪŋ/', 'lúc-kinh'),
+    'looked': ('/lʊkt/', 'lúc-t'),
+    'play': ('/pleɪ/', 'p-lây'),
+    'plays': ('/pleɪz/', 'p-lây-z'),
+    'playing': ('/ˈpleɪɪŋ/', 'p-lây-inh'),
+    'played': ('/pleɪd/', 'p-lây-đ'),
+    'help': ('/help/', 'heo-p'),
+    'helps': ('/helps/', 'heo-p-s'),
+    'helping': ('/ˈhelpɪŋ/', 'heo-pinh'),
+    'helped': ('/helpt/', 'heo-p-t'),
+    'helpful': ('/ˈhelpfl/', 'heo-p-phồl'),
+    'clean': ('/kliːn/', 'c-lin'),
+    'cleans': ('/kliːnz/', 'c-lin-z'),
+    'cleaning': ('/ˈkliːnɪŋ/', 'c-li-ninh'),
+    'cleaned': ('/kliːnd/', 'c-lin-đ'),
+    'wash': ('/wɒʃ/', 'uót-sh'),
+    'washes': ('/ˈwɒʃɪz/', 'uót-sịt-z'),
+    'washing': ('/ˈwɒʃɪŋ/', 'uót-sinh'),
+    'washed': ('/wɒʃt/', 'uót-sh-t'),
+    'brush': ('/brʌʃ/', 'b-rắt-sh'),
+    'brushes': ('/ˈbrʌʃɪz/', 'b-rắt-sịt-z'),
+    'brushing': ('/ˈbrʌʃɪŋ/', 'b-rắt-sinh'),
+    'brushed': ('/brʌʃt/', 'b-rắt-sh-t'),
+    'wake': ('/weɪk/', 'uêi-k'),
+    'wakes': ('/weɪks/', 'uêi-k-s'),
+    'waking': ('/ˈweɪkɪŋ/', 'uêi-kinh'),
+    'woke': ('/woʊk/', 'uâu-k'),
+    'sleep': ('/sliːp/', 'x-líp'),
+    'sleeps': ('/sliːps/', 'x-líp-s'),
+    'sleeping': ('/ˈsliːpɪŋ/', 'x-lí-pinh'),
+    'slept': ('/slept/', 'x-lép-t'),
+    'eat': ('/iːt/', 'ít'),
+    'eats': ('/iːts/', 'ít-s'),
+    'eating': ('/ˈiːtɪŋ/', 'í-tinh'),
+    'ate': ('/eɪt/', 'êi-t'),
+    'drink': ('/drɪŋk/', 'đ-rinh-k'),
+    'drinks': ('/drɪŋks/', 'đ-rinh-ks'),
+    'drinking': ('/ˈdrɪŋkɪŋ/', 'đ-rinh-kinh'),
+    'drank': ('/dræŋk/', 'đ-renh-k'),
+    'read': ('/riːd/', 'rit-đ'),
+    'reads': ('/riːdz/', 'rit-đ-z'),
+    'reading': ('/ˈriːdɪŋ/', 'ri-đinh'),
+    'write': ('/raɪt/', 'rai-t'),
+    'writes': ('/raɪts/', 'rai-t-s'),
+    'writing': ('/ˈraɪtɪŋ/', 'rai-tinh'),
+    'wrote': ('/roʊt/', 'râu-t'),
+    'draw': ('/drɔː/', 'đ-ro'),
+    'draws': ('/drɔːz/', 'đ-ro-z'),
+    'drawing': ('/ˈdrɔːɪŋ/', 'đ-ro-inh'),
+    'drew': ('/druː/', 'đ-ru'),
+    'sing': ('/sɪŋ/', 'xinh'),
+    'sings': ('/sɪŋz/', 'xinh-z'),
+    'singing': ('/ˈsɪŋɪŋ/', 'xinh-inh'),
+    'sang': ('/sæŋ/', 'xenh'),
+    'song': ('/sɔːŋ/', 'xoong'),
+    'songs': ('/sɔːŋz/', 'xoong-z'),
+    'run': ('/rʌn/', 'răn'),
+    'runs': ('/rʌnz/', 'răn-z'),
+    'running': ('/ˈrʌnɪŋ/', 'răn-ninh'),
+    'ran': ('/ræn/', 'ren'),
+    'walk': ('/wɔːk/', 'uoóc'),
+    'walks': ('/wɔːks/', 'uoóc-s'),
+    'walking': ('/ˈwɔːkɪŋ/', 'uoóc-kinh'),
+    'walked': ('/wɔːkt/', 'uoóc-t'),
+    'jump': ('/dʒʌmp/', 'chăm-p'),
+    'jumps': ('/dʒʌmps/', 'chăm-p-s'),
+    'jumping': ('/ˈdʒʌmpɪŋ/', 'chăm-pinh'),
+    'jumped': ('/dʒʌmpt/', 'chăm-p-t'),
+    'make': ('/meɪk/', 'mêi-k'),
+    'makes': ('/meɪks/', 'mêi-k-s'),
+    'making': ('/ˈmeɪkɪŋ/', 'mêi-kinh'),
+    'made': ('/meɪd/', 'mêi-đ'),
+    'take': ('/teɪk/', 'thêi-k'),
+    'takes': ('/teɪks/', 'thêi-k-s'),
+    'taking': ('/ˈteɪkɪŋ/', 'thêi-kinh'),
+    'took': ('/tʊk/', 'thúc-k'),
+    'give': ('/ɡɪv/', 'gíp-v'),
+    'gives': ('/ɡɪvz/', 'gíp-v-z'),
+    'giving': ('/ˈɡɪvɪŋ/', 'gi-vinh'),
+    'gave': ('/ɡeɪv/', 'gêi-v'),
+    'keep': ('/kiːp/', 'kíp'),
+    'keeps': ('/kiːps/', 'kíp-s'),
+    'keeping': ('/ˈkiːpɪŋ/', 'kí-pinh'),
+    'kept': ('/kept/', 'kép-t'),
+    'bring': ('/brɪŋ/', 'b-rinh'),
+    'brings': ('/brɪŋz/', 'b-rinh-z'),
+    'bringing': ('/ˈbrɪŋɪŋ/', 'b-rinh-inh'),
+    'brought': ('/brɔːt/', 'b-root'),
+    'learn': ('/lɜːrn/', 'lơn'),
+    'learns': ('/lɜːrnz/', 'lơn-z'),
+    'learning': ('/ˈlɜːrnɪŋ/', 'lơ-ninh'),
+    'learned': ('/lɜːrnd/', 'lơn-đ'),
+    'teach': ('/tiːtʃ/', 'tí-ch'),
+    'teaches': ('/ˈtiːtʃɪz/', 'tí-chịt-z'),
+    'teaching': ('/ˈtiːtʃɪŋ/', 'tí-chinh'),
+    'taught': ('/tɔːt/', 'thoot'),
+    'study': ('/ˈstʌdi/', 'x-tă-đi'),
+    'studies': ('/ˈstʌdiz/', 'x-tă-đi-z'),
+    'studying': ('/ˈstʌdiɪŋ/', 'x-tă-đi-inh'),
+    'studied': ('/ˈstʌdid/', 'x-tă-đit'),
+    'listen': ('/ˈlɪsn/', 'lít-sừn'),
+    'listens': ('/ˈlɪsnz/', 'lít-sừn-z'),
+    'listening': ('/ˈlɪsnɪŋ/', 'lít-sừ-ninh'),
+    'listened': ('/ˈlɪsnd/', 'lít-sừn-đ'),
+    'hear': ('/hɪr/', 'hia'),
+    'hears': ('/hɪrz/', 'hia-z'),
+    'hearing': ('/ˈhɪrɪŋ/', 'hia-rinh'),
+    'heard': ('/hɜːrd/', 'hơ-đ'),
+    'grow': ('/ɡroʊ/', 'g-râu'),
+    'grows': ('/ɡroʊz/', 'g-râu-z'),
+    'growing': ('/ˈɡroʊɪŋ/', 'g-râu-inh'),
+    'grew': ('/ɡruː/', 'g-ru'),
+    'start': ('/stɑːrt/', 'x-tát'),
+    'starts': ('/stɑːrts/', 'x-tát-s'),
+    'starting': ('/ˈstɑːrtɪŋ/', 'x-tá-tinh'),
+    'started': ('/ˈstɑːrtɪd/', 'x-tá-tịt-đ'),
+    'stay': ('/steɪ/', 'x-tây'),
+    'stays': ('/steɪz/', 'x-tây-z'),
+    'staying': ('/ˈsteɪɪŋ/', 'x-tây-inh'),
+    'stop': ('/stɑːp/', 'x-tóp'),
+    'stops': ('/stɑːps/', 'x-tóp-s'),
+    'stopping': ('/ˈstɑːpɪŋ/', 'x-tó-pinh'),
+    'put': ('/pʊt/', 'phút'),
+    'puts': ('/pʊts/', 'phút-s'),
+    'putting': ('/ˈpʊtɪŋ/', 'phú-tinh'),
+    'work': ('/wɜːrk/', 'uớc-k'),
+    'works': ('/wɜːrks/', 'uớc-ks'),
+    'working': ('/ˈwɜːrkɪŋ/', 'uớc-kinh'),
+    'worked': ('/wɜːrkt/', 'uớc-t'),
+    'practice': ('/ˈpræktɪs/', 'p-réc-tít-s'),
+    'practices': ('/ˈpræktɪsɪz/', 'p-réc-tít-sịt-z'),
+    'practicing': ('/ˈpræktɪsɪŋ/', 'p-réc-tí-sinh'),
+    'practiced': ('/ˈpræktɪst/', 'p-réc-tít-s-t'),
+    'protect': ('/prəˈtekt/', 'p-rơ-tếch-t'),
+    'protects': ('/prəˈtekts/', 'p-rơ-tếch-t-s'),
+    'protecting': ('/prəˈtektɪŋ/', 'p-rơ-tếch-tinh'),
+    'protected': ('/prəˈtektɪd/', 'p-rơ-tếch-tịt-đ'),
+    'preserve': ('/prɪˈzɜːrv/', 'p-ri-zơ-v'),
+    'preserves': ('/prɪˈzɜːrvz/', 'p-ri-zơ-v-z'),
+    'preserving': ('/prɪˈzɜːrvɪŋ/', 'p-ri-zơ-vinh'),
+    'achieve': ('/əˈtʃiːv/', 'ơ-chí-v'),
+    'achieves': ('/əˈtʃiːvz/', 'ơ-chí-v-z'),
+    'achieving': ('/əˈtʃiːvɪŋ/', 'ơ-chí-vinh'),
+
+    # Trường học & Vật dụng
+    'school': ('/skuːl/', 'x-cu-l'),
+    'schools': ('/skuːlz/', 'x-cu-l-z'),
+    'classroom': ('/ˈklæsruːm/', 'c-lát-s-rum'),
+    'classrooms': ('/ˈklæsruːmz/', 'c-lát-s-rum-z'),
+    'class': ('/klæs/', 'c-lát-s'),
+    'classes': ('/ˈklæsɪz/', 'c-lát-sịt-z'),
+    'teacher': ('/ˈtiːtʃər/', 'tí-chờ'),
+    'teachers': ('/ˈtiːtʃərz/', 'tí-chờ-z'),
+    'student': ('/ˈstuːdnt/', 'x-tiu-đần-t'),
+    'students': ('/ˈstuːdnts/', 'x-tiu-đần-t-s'),
+    'book': ('/bʊk/', 'búc-k'),
+    'books': ('/bʊks/', 'búc-ks'),
+    'bookshelf': ('/ˈbʊkʃelf/', 'búc-k-seo-ph'),
+    'pencil': ('/ˈpensl/', 'phen-xồl'),
+    'pencils': ('/ˈpenslz/', 'phen-xồl-z'),
+    'pen': ('/pen/', 'phen'),
+    'pens': ('/penz/', 'phen-z'),
+    'bag': ('/bæɡ/', 'béc-g'),
+    'bags': ('/bæɡz/', 'béc-g-z'),
+    'backpack': ('/ˈbækpæk/', 'béc-k-péc-k'),
+    'backpacks': ('/ˈbækpæks/', 'béc-k-péc-ks'),
+    'uniform': ('/ˈjuːnɪfɔːrm/', 'iu-ni-phom'),
+    'uniforms': ('/ˈjuːnɪfɔːrmz/', 'iu-ni-phom-z'),
+    'desk': ('/desk/', 'đét-x-k'),
+    'desks': ('/desks/', 'đét-x-ks'),
+    'chair': ('/tʃer/', 'cheo'),
+    'chairs': ('/tʃerz/', 'cheo-z'),
+    'table': ('/ˈteɪbl/', 'thê-bồl'),
+    'tables': ('/ˈteɪblz/', 'thê-bồl-z'),
+    'board': ('/bɔːrd/', 'bo-đ'),
+    'boards': ('/bɔːrdz/', 'bo-đ-z'),
+    'paper': ('/ˈpeɪpər/', 'pê-pờ'),
+    'lesson': ('/ˈlesn/', 'le-sừn'),
+    'lessons': ('/ˈlesnz/', 'le-sừn-z'),
+
+    # Gia đình & Ngôi nhà
+    'family': ('/ˈfæməli/', 'fe-mơ-li'),
+    'families': ('/ˈfæmɪliz/', 'fe-mơ-li-z'),
+    'father': ('/ˈfɑːðər/', 'pha-đờ'),
+    'mother': ('/ˈmʌðər/', 'mă-đờ'),
+    'parents': ('/ˈperənts/', 'phe-rần-t-s'),
+    'brother': ('/ˈbrʌðər/', 'b-ră-đờ'),
+    'brothers': ('/ˈbrʌðərz/', 'b-ră-đờ-z'),
+    'sister': ('/ˈsɪstər/', 'xít-x-tờ'),
+    'sisters': ('/ˈsɪstərz/', 'xít-x-tờ-z'),
+    'baby': ('/ˈbeɪbi/', 'bê-bi'),
+    'grandpa': ('/ˈɡrænpɑː/', 'g-ren-pha'),
+    'grandma': ('/ˈɡrænmɑː/', 'g-ren-ma'),
+    'grandfather': ('/ˈɡrænfɑːðər/', 'g-ren-pha-đờ'),
+    'grandmother': ('/ˈɡrænmʌðər/', 'g-ren-mă-đờ'),
+    'home': ('/hoʊm/', 'hôm'),
+    'homes': ('/hoʊmz/', 'hôm-z'),
+    'house': ('/haʊs/', 'hao-s'),
+    'houses': ('/ˈhaʊzɪz/', 'hao-zịt-z'),
+    'room': ('/ruːm/', 'rum'),
+    'rooms': ('/ruːmz/', 'rum-z'),
+    'bedroom': ('/ˈbedruːm/', 'bét-đ-rum'),
+    'kitchen': ('/ˈkɪtʃɪn/', 'kít-chừn'),
+    'garden': ('/ˈɡɑːrdn/', 'ga-đần'),
+    'gardens': ('/ˈɡɑːrdnz/', 'ga-đần-z'),
+    'yard': ('/jɑːrd/', 'da-đ'),
+    'door': ('/dɔːr/', 'đo'),
+    'window': ('/ˈwɪndoʊ/', 'uín-đâu'),
+    'windows': ('/ˈwɪndoʊz/', 'uín-đâu-z'),
+    'wall': ('/wɔːl/', 'uool'),
+    'floor': ('/flɔːr/', 'ph-lo'),
+    'roof': ('/ruːf/', 'ru-ph'),
+    'cozy': ('/ˈkoʊzi/', 'câu-zi'),
+
+    # Cơ thể, đồ dùng cá nhân
+    'body': ('/ˈbɑːdi/', 'ba-đi'),
+    'bodies': ('/ˈbɑːdiz/', 'ba-đi-z'),
+    'head': ('/hed/', 'hét-đ'),
+    'face': ('/feɪs/', 'phêi-s'),
+    'faces': ('/ˈfeɪsɪz/', 'phêi-xịt-z'),
+    'hair': ('/her/', 'heo'),
+    'eye': ('/aɪ/', 'ai'),
+    'eyes': ('/aɪz/', 'ai-z'),
+    'ear': ('/ɪr/', 'ia'),
+    'ears': ('/ɪrz/', 'ia-z'),
+    'nose': ('/noʊz/', 'nâu-z'),
+    'mouth': ('/maʊθ/', 'maoth'),
+    'teeth': ('/tiːθ/', 'tith'),
+    'tooth': ('/tuːθ/', 'tuth'),
+    'hand': ('/hænd/', 'hen-đ'),
+    'hands': ('/hændz/', 'hen-đ-z'),
+    'arm': ('/ɑːrm/', 'a-m'),
+    'arms': ('/ɑːrmz/', 'a-m-z'),
+    'leg': ('/leɡ/', 'léc-g'),
+    'legs': ('/leɡz/', 'léc-g-z'),
+    'foot': ('/fʊt/', 'phút'),
+    'feet': ('/fiːt/', 'phít'),
+    'heart': ('/hɑːrt/', 'hát'),
+    'brain': ('/breɪn/', 'b-rên'),
+    'skin': ('/skɪn/', 'x-kin'),
+    'clothes': ('/kloʊðz/', 'c-lâu-đ-z'),
+    'shirt': ('/ʃɜːrt/', 'sơ-t'),
+    'shirts': ('/ʃɜːrts/', 'sơ-t-s'),
+    'pants': ('/pænts/', 'phen-t-s'),
+    'dress': ('/dres/', 'đ-rét-s'),
+    'hat': ('/hæt/', 'hét'),
+    'cap': ('/kæp/', 'kép'),
+    'shoes': ('/ʃuːz/', 'su-z'),
+    'shoe': ('/ʃuː/', 'su'),
+    'socks': ('/sɑːks/', 'xóc-ks'),
+
+    # Đồ ăn, thức uống, sức khỏe
+    'water': ('/ˈwɔːtər/', 'ua-tờ'),
+    'bottle': ('/ˈbɑːtl/', 'ba-tồl'),
+    'bottles': ('/ˈbɑːtlz/', 'ba-tồl-z'),
+    'faucet': ('/ˈfɔːsɪt/', 'pho-xịt'),
+    'food': ('/fuːd/', 'phu-đ'),
+    'breakfast': ('/ˈbrekfəst/', 'b-réc-phớt-s'),
+    'lunch': ('/lʌntʃ/', 'lăn-ch'),
+    'dinner': ('/ˈdɪnər/', 'đi-nờ'),
+    'fruit': ('/fruːt/', 'ph-rut'),
+    'fruits': ('/fruːts/', 'ph-rut-s'),
+    'apple': ('/ˈæpl/', 'áp-pồl'),
+    'apples': ('/ˈæplz/', 'áp-pồl-z'),
+    'banana': ('/bəˈnænə/', 'bơ-ne-nơ'),
+    'bananas': ('/bəˈnænəz/', 'bơ-ne-nơ-z'),
+    'orange': ('/ˈɔːrɪndʒ/', 'o-rên-ch'),
+    'oranges': ('/ˈɔːrɪndʒɪz/', 'o-rên-chịt-z'),
+    'milk': ('/mɪlk/', 'miu-k'),
+    'tea': ('/tiː/', 'ti'),
+    'rice': ('/raɪs/', 'rai-s'),
+    'bread': ('/bred/', 'b-rét-đ'),
+    'egg': ('/eɡ/', 'éc-g'),
+    'eggs': ('/eɡz/', 'éc-g-z'),
+    'vegetable': ('/ˈvedʒtəbl/', 've-ch-tơ-bồl'),
+    'vegetables': ('/ˈvedʒtəblz/', 've-ch-tơ-bồl-z'),
+    'soup': ('/suːp/', 'xup'),
+    'cake': ('/keɪk/', 'khêi-k'),
+    'cakes': ('/keɪks/', 'khêi-k-s'),
+    'sweet': ('/swiːt/', 'x-uít'),
+    'sweets': ('/swiːts/', 'x-uít-s'),
+    'healthy': ('/ˈhelθi/', 'heo-thi'),
+    'health': ('/helθ/', 'heo-th'),
+    'energy': ('/ˈenərdʒi/', 'e-nơ-di'),
+    'exercise': ('/ˈeksərsaɪz/', 'éc-xơ-xai-z'),
+    'routine': ('/ruːˈtiːn/', 'ru-tin'),
+    'habit': ('/ˈhæbɪt/', 'he-bịt'),
+    'habits': ('/ˈhæbɪts/', 'he-bịt-s'),
+
+    # Màu sắc
+    'color': ('/ˈkʌlər/', 'ca-lờ'),
+    'colors': ('/ˈkʌlərz/', 'ca-lờ-z'),
+    'favorite': ('/ˈfeɪvərɪt/', 'phây-vơ-rịt'),
+    'blue': ('/bluː/', 'blu'),
+    'red': ('/red/', 'rét-đ'),
+    'green': ('/ɡriːn/', 'g-rin'),
+    'yellow': ('/ˈjeloʊ/', 'de-lâu'),
+    'white': ('/waɪt/', 'oai-t'),
+    'black': ('/blæk/', 'b-léc-k'),
+    'pink': ('/pɪŋk/', 'phinh-k'),
+    'purple': ('/ˈpɜːrpl/', 'pơ-pồl'),
+    'brown': ('/braʊn/', 'b-rao-n'),
+    'gray': ('/ɡreɪ/', 'g-rêi'),
+    'bright': ('/braɪt/', 'b-rai-t'),
+    'brighter': ('/ˈbraɪtər/', 'b-rai-tờ'),
+    'brightly': ('/ˈbraɪtli/', 'b-rai-t-li'),
+    'dark': ('/dɑːrk/', 'đác-k'),
+    'light': ('/laɪt/', 'lai-t'),
+    'lights': ('/laɪts/', 'lai-t-s'),
+    'colorful': ('/ˈkʌlərfl/', 'ca-lơ-phồl'),
+
+    # Số đếm & Thời gian
+    'one': ('/wʌn/', 'uăn'),
+    'two': ('/tuː/', 'tu'),
+    'three': ('/θriː/', 'th-ri'),
+    'four': ('/fɔːr/', 'pho'),
+    'five': ('/faɪv/', 'phai-v'),
+    'six': ('/sɪks/', 'xíc-s'),
+    'seven': ('/ˈsevən/', 'se-vừn'),
+    'eight': ('/eɪt/', 'êi-t'),
+    'nine': ('/naɪn/', 'nai-n'),
+    'ten': ('/ten/', 'then'),
+    'eleven': ('/ɪˈlevn/', 'i-le-vừn'),
+    'twelve': ('/twelv/', 't-ueo-v'),
+    'first': ('/fɜːrst/', 'phơ-x-t'),
+    'second': ('/ˈsekənd/', 'xe-cần-đ'),
+    'third': ('/θɜːrd/', 'thơ-đ'),
+    'single': ('/ˈsɪŋɡl/', 'xinh-gồl'),
+    'many': ('/ˈmeni/', 'me-ni'),
+    'plenty': ('/ˈplenti/', 'p-len-ti'),
+    'years': ('/jɪrz/', 'diơ-z'),
+    'year': ('/jɪr/', 'diơ'),
+    'old': ('/oʊld/', 'âu-l-đ'),
+    'older': ('/ˈoʊldər/', 'âu-l-đờ'),
+    'oldest': ('/ˈoʊldɪst/', 'âu-l-địt-s-t'),
+    'young': ('/jʌŋ/', 'dăng'),
+    'day': ('/deɪ/', 'đây'),
+    'days': ('/deɪz/', 'đây-z'),
+    'time': ('/taɪm/', 'tai-m'),
+    'times': ('/taɪmz/', 'tai-m-z'),
+    'playtime': ('/ˈpleɪtaɪm/', 'p-lây-tai-m'),
+    'bedtime': ('/ˈbedtaɪm/', 'bét-đ-tai-m'),
+    'hour': ('/ˈaʊər/', 'ao-ơ'),
+    'hours': ('/ˈaʊərz/', 'ao-ơ-z'),
+    'minute': ('/ˈmɪnɪt/', 'mi-nịt'),
+    'minutes': ('/ˈmɪnɪts/', 'mi-nịt-s'),
+    'clock': ('/klɑːk/', 'c-lóc-k'),
+    'oclock': ('/əˈklɑːk/', 'âu-c-lóc-k'),
+    "o'clock": ('/əˈklɑːk/', 'âu-c-lóc-k'),
+    'early': ('/ˈɜːrli/', 'ơ-li'),
+    'late': ('/leɪt/', 'lêi-t'),
+    'night': ('/naɪt/', 'nai-t'),
+    'nights': ('/naɪts/', 'nai-t-s'),
+    'sun': ('/sʌn/', 'xăn'),
+    'sunny': ('/ˈsʌni/', 'xăn-ni'),
+    'moon': ('/muːn/', 'mun'),
+    'star': ('/stɑːr/', 'x-ta'),
+    'stars': ('/stɑːrz/', 'x-ta-z'),
+    'sky': ('/skaɪ/', 'x-kai'),
+    'skies': ('/skaɪz/', 'x-kai-z'),
+    'earth': ('/ɜːrθ/', 'ơth'),
+    'world': ('/wɜːrld/', 'uơ-l-đ'),
+    'sea': ('/siː/', 'si'),
+    'ocean': ('/ˈoʊʃn/', 'âu-sừn'),
+    'river': ('/ˈrɪvər/', 'ri-vờ'),
+    'rivers': ('/ˈrɪvərz/', 'ri-vờ-z'),
+    'tree': ('/triː/', 't-ri'),
+    'trees': ('/triːz/', 't-ri-z'),
+    'flower': ('/ˈflaʊər/', 'ph-lao-ơ'),
+    'flowers': ('/ˈflaʊərz/', 'ph-lao-ơ-z'),
+    'plant': ('/plænt/', 'p-len-t'),
+    'plants': ('/plænts/', 'p-len-t-s'),
+    'leaf': ('/liːf/', 'lip-ph'),
+    'leaves': ('/liːvz/', 'li-v-z'),
+    'grass': ('/ɡræs/', 'g-rát-s'),
+    'animal': ('/ˈænɪml/', 'e-ni-mồl'),
+    'animals': ('/ˈænɪmlz/', 'e-ni-mồl-z'),
+    'dog': ('/dɔːɡ/', 'đoóc-g'),
+    'dogs': ('/dɔːɡz/', 'đoóc-g-z'),
+    'cat': ('/kæt/', 'két'),
+    'cats': ('/kæts/', 'két-s'),
+    'bird': ('/bɜːrd/', 'bơ-đ'),
+    'birds': ('/bɜːrdz/', 'bơ-đ-z'),
+    'fish': ('/fɪʃ/', 'phít-sh'),
+    'creature': ('/ˈkriːtʃər/', 'c-ri-chờ'),
+    'creatures': ('/ˈkriːtʃərz/', 'c-ri-chờ-z'),
+
+    # Tính từ mô tả cảm xúc & tính chất
+    'happy': ('/ˈhæpi/', 'hép-pi'),
+    'happiness': ('/ˈhæpinəs/', 'hép-pi-nợt-s'),
+    'glad': ('/ɡlæd/', 'g-lét-đ'),
+    'warm': ('/wɔːrm/', 'uo-m'),
+    'cool': ('/kuːl/', 'cu-l'),
+    'cold': ('/koʊld/', 'câu-l-đ'),
+    'hot': ('/hɑːt/', 'hót'),
+    'fresh': ('/freʃ/', 'ph-rét-sh'),
+    'soft': ('/sɔːft/', 'xo-ph-t'),
+    'hard': ('/hɑːrd/', 'ha-đ'),
+    'easy': ('/ˈiːzi/', 'i-zi'),
+    'great': ('/ɡreɪt/', 'g-rêi-t'),
+    'good': ('/ɡʊd/', 'gút-đ'),
+    'nice': ('/naɪs/', 'nai-s'),
+    'wonderful': ('/ˈwʌndərfl/', 'uăn-đơ-phồl'),
+    'beautiful': ('/ˈbjuːtɪfl/', 'biu-ti-phồl'),
+    'important': ('/ɪmˈpɔːrtnt/', 'im-po-tần-t'),
+    'precious': ('/ˈpreʃəs/', 'p-re-sợt-s'),
+    'exciting': ('/ɪkˈsaɪtɪŋ/', 'íc-xai-tinh'),
+    'special': ('/ˈspeʃl/', 'x-pe-sồl'),
+    'sweet': ('/swiːt/', 'x-uít'),
+    'small': ('/smɔːl/', 'x-mool'),
+    'big': ('/bɪɡ/', 'bích-g'),
+    'tall': ('/tɔːl/', 'tool'),
+    'short': ('/ʃɔːrt/', 'so-t'),
+    'long': ('/lɔːŋ/', 'loong'),
+    'new': ('/nuː/', 'niu'),
+    'fast': ('/fæst/', 'phát-x-t'),
+    'slow': ('/sloʊ/', 'x-lâu'),
+    'bright': ('/braɪt/', 'b-rai-t'),
+    'proud': ('/praʊd/', 'p-rao-đ'),
+    'brave': ('/breɪv/', 'b-rêi-v'),
+    'strong': ('/strɔːŋ/', 'x-t-roong'),
+    'kind': ('/kaɪnd/', 'kain-đ'),
+    'kindness': ('/ˈkaɪndnəs/', 'kain-đ-nợt-s'),
+    'polite': ('/pəˈlaɪt/', 'pơ-lai-t'),
+    'careful': ('/ˈkerfl/', 'khe-phồl'),
+    'carefully': ('/ˈkerfəli/', 'khe-phơ-li'),
+    'tight': ('/taɪt/', 'tai-t'),
+    'tightly': ('/ˈtaɪtli/', 'tai-t-li'),
+    'tidy': ('/ˈtaɪdi/', 'tai-đi'),
+    'neat': ('/niːt/', 'nit'),
+    'neatly': ('/ˈniːtli/', 'nit-li'),
+    'punctual': ('/ˈpʌŋktʃuəl/', 'păng-k-chu-ồl'),
+    'punctually': ('/ˈpʌŋktʃuəli/', 'păng-k-chu-ơ-li'),
+    'patient': ('/ˈpeɪʃnt/', 'phêi-sừn-t'),
+    'safe': ('/seɪf/', 'xêi-ph'),
+    'active': ('/ˈæktɪv/', 'éc-típ-v'),
+
+    # Các từ đặc trưng bài học
+    'success': ('/səkˈses/', 'xơ-k-xét-s'),
+    'key': ('/kiː/', 'khi'),
+    'keys': ('/kiːz/', 'khi-z'),
+    'step': ('/step/', 'x-tép'),
+    'steps': ('/steps/', 'x-tép-s'),
+    'dream': ('/driːm/', 'đ-rim'),
+    'dreams': ('/driːmz/', 'đ-rim-z'),
+    'thing': ('/θɪŋ/', 'thinh'),
+    'things': ('/θɪŋz/', 'thinh-z'),
+    'closer': ('/ˈkloʊsər/', 'c-lâu-xờ'),
+    'give': ('/ɡɪv/', 'gíp-v'),
+    'give up': ('/ɡɪv ʌp/', 'gip-v ắp'),
+
+    # Tên riêng tiếng Việt
+    'nam': ('/næm/', 'Nam'),
+    'mai': ('/maɪ/', 'Mai'),
+    'lan': ('/læn/', 'Lan'),
+    'hoa': ('/hwɑː/', 'Hoa'),
+    'minh': ('/mɪn/', 'Minh'),
+    'linh': ('/lɪn/', 'Linh'),
+    'ha': ('/hɑː/', 'Hà'),
+    'an': ('/æn/', 'An'),
+    'bao': ('/baʊ/', 'Bảo'),
+    'nhi': ('/niː/', 'Nhi'),
+    'hanoi': ('/ˌhɑːˈnɔɪ/', 'Hà Nội'),
+    'vietnam': ('/ˌvjetˈnæm/', 'Việt Nam'),
+    'vietnamese': ('/ˌvjetnəˈmiːz/', 'Việt-na-mi-z'),
+    'ao': ('/aʊ/', 'áo'),
+    'dai': ('/daɪ/', 'dài'),
+    'tet': ('/tet/', 'Tết'),
+}
+
+# Phonetic rules engine for words not explicitly listed
+def normalize_ipa(raw_ipa: str) -> str:
+    s = raw_ipa.strip('/')
+    s = s.replace('ɫ', 'l')
+    s = s.replace('ɹ', 'r')
+    s = s.replace('ɝ', 'ɜːr')
+    s = s.replace('ɚ', 'ər')
+    s = s.replace('ɛ', 'e')
+    s = s.replace('ɑ', 'ɑː')
+    s = s.replace('ɔ', 'ɔː')
+    s = s.replace('ɪ', 'ɪ')
+    s = s.replace('æ', 'æ')
+    s = s.replace('ʊ', 'ʊ')
+    s = s.replace('ɡ', 'g')
+    # Standardize length marks
+    s = re.sub(r'([iu])(?![ː])', r'\1ː', s)
+    s = s.replace('iːr', 'ɪr')
+    s = s.replace('uːr', 'ʊr')
+    s = s.replace('ːː', 'ː')
+    return '/' + s + '/'
+
+def convert_word_to_readvi(word: str, raw_ipa: str) -> str:
+    w = word.lower().strip("'\"")
+    if w in CURATED_DICT:
+        return CURATED_DICT[w][1]
+
+    # Handle suffix -s / -es
+    if w.endswith('s') and len(w) > 3:
+        base = w[:-2] if w.endswith('es') else w[:-1]
+        if base in CURATED_DICT:
+            base_read = CURATED_DICT[base][1]
+            is_voiced = base.endswith(('b','d','g','l','m','n','r','v','w','y','e','o','a','i','u'))
+            return f"{base_read}-z" if is_voiced else f"{base_read}-s"
+
+    # Handle suffix -ed
+    if w.endswith('ed') and len(w) > 4:
+        base = w[:-2]
+        if base in CURATED_DICT:
+            return f"{CURATED_DICT[base][1]}-đ"
+
+    # Handle suffix -ing
+    if w.endswith('ing') and len(w) > 4:
+        base = w[:-3]
+        if base in CURATED_DICT:
+            return f"{CURATED_DICT[base][1]}-inh"
+
+    # Handle suffix -ly
+    if w.endswith('ly') and len(w) > 3:
+        base = w[:-2]
+        if base in CURATED_DICT:
+            return f"{CURATED_DICT[base][1]}-li"
+
+    # Phoneme-based conversion from IPA
+    ipa = raw_ipa.strip('/')
+    s = ipa
+    # Syllable markers
+    s = s.replace('ˈ', '').replace('ˌ', '')
+    
+    # Common clusters
+    s = re.sub(r'sp', 'x-p-', s)
+    s = re.sub(r'st', 'x-t-', s)
+    s = re.sub(r'sk', 'x-k-', s)
+    s = re.sub(r'sm', 'x-m-', s)
+    s = re.sub(r'sn', 'x-n-', s)
+    s = re.sub(r'sl', 'x-l-', s)
+    s = re.sub(r'sw', 'x-u-', s)
+    s = re.sub(r'bl', 'b-l-', s)
+    s = re.sub(r'br', 'b-r-', s)
+    s = re.sub(r'cl|kl', 'c-l-', s)
+    s = re.sub(r'cr|kr', 'c-r-', s)
+    s = re.sub(r'dr', 'đ-r-', s)
+    s = re.sub(r'tr', 't-r-', s)
+    s = re.sub(r'fl', 'ph-l-', s)
+    s = re.sub(r'fr', 'ph-r-', s)
+    s = re.sub(r'gl', 'g-l-', s)
+    s = re.sub(r'gr', 'g-r-', s)
+    s = re.sub(r'pl', 'p-l-', s)
+    s = re.sub(r'pr', 'p-r-', s)
+    
+    # Vowels
+    s = re.sub(r'aɪ', 'ai', s)
+    s = re.sub(r'aʊ', 'ao', s)
+    s = re.sub(r'ɔɪ', 'oi', s)
+    s = re.sub(r'eɪ', 'êi', s)
+    s = re.sub(r'oʊ', 'âu', s)
+    s = re.sub(r'ju', 'iu', s)
+    s = re.sub(r'i|iː', 'i', s)
+    s = re.sub(r'ɪ', 'i', s)
+    s = re.sub(r'e|ɛ', 'e', s)
+    s = re.sub(r'æ', 'e', s)
+    s = re.sub(r'ɑ|ɑː', 'a', s)
+    s = re.sub(r'ɔ|ɔː', 'o', s)
+    s = re.sub(r'ʊ', 'u', s)
+    s = re.sub(r'u|uː', 'u', s)
+    s = re.sub(r'ʌ', 'ă', s)
+    s = re.sub(r'ɝ|ɜːr|ɚ|ər', 'ơ', s)
+    s = re.sub(r'ə', 'ơ', s)
+
+    # Special endings
+    s = re.sub(r'ɛɫf|elf', 'seo-ph', s)
+    s = re.sub(r'ɫ$', '-l', s)
+    s = re.sub(r'l$', '-l', s)
+    s = re.sub(r'θ$', 'th', s)
+    s = re.sub(r'tʃ', 'ch', s)
+    s = re.sub(r'dʒ', 'ch', s)
+    s = re.sub(r'ʃ', 'sh', s)
+    s = re.sub(r'ŋ', 'nh', s)
+    s = re.sub(r'ð', 'đ', s)
+    s = re.sub(r'θ', 'th', s)
+    s = re.sub(r'ɹ|r', 'r', s)
+    s = re.sub(r'ɫ', 'l', s)
+    s = re.sub(r'ɡ', 'g', s)
+
+    # Clean hyphens
+    s = re.sub(r'-+', '-', s).strip('-')
+    return s if s else w
+
+print("Converter functions ready.")

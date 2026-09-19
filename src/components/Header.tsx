@@ -45,6 +45,7 @@ export const Header: React.FC<HeaderProps> = ({
 
   const navItems = [
     { id: 'flashcards' as LearningMode, label: 'Thẻ Flashcard', icon: BookOpen, color: 'text-amber-600' },
+    { id: 'ipa' as LearningMode, label: '44 Âm IPA', icon: Sparkles, color: 'text-teal-600' },
     { id: 'listen-spell' as LearningMode, label: 'Nghe & Viết', icon: PenTool, color: 'text-blue-600' },
     { id: 'speaking' as LearningMode, label: 'Nói Giao Tiếp', icon: MessageSquare, color: 'text-indigo-600' },
     { id: 'games' as LearningMode, label: 'Trò Chơi Vui', icon: Gamepad2, color: 'text-emerald-600' },

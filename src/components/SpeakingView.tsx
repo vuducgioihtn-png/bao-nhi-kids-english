@@ -12,6 +12,7 @@ import { getPhoneticsForLine, generateSentencePhonetics } from '../utils/phoneti
 import { ALL_SPEAKING_PASSAGES, SpeakingPassage } from '../data/passages';
 import { PassageSlider } from './speaking/PassageSlider';
 import { PassageReader } from './speaking/PassageReader';
+import { Grade2PresentationView } from './speaking/Grade2PresentationView';
 
 const GRADE_CONFIG: {
   id: GradeLevel;
@@ -99,19 +100,21 @@ interface SpeakingViewProps {
   onAddStars: (count: number) => void;
   soundEnabled: boolean;
   childProfile?: ChildProfile;
+  onNavigateToIPA?: () => void;
 }
 
 export const SpeakingView: React.FC<SpeakingViewProps> = ({
   onAddStars,
   soundEnabled,
   childProfile,
+  onNavigateToIPA,
 }) => {
   const childName = childProfile?.name || 'Bảo Nhi';
   const childNickname = childProfile?.nickname || 'Bé Bảo Nhi';
   const childAvatar = childProfile?.avatar || '👧';
 
-  // Section toggle: 'passages' (100 Đoạn Văn Luyện Nói) vs 'dialogues' (Hội Thoại Giao Tiếp 2 Chiều)
-  const [speakingSection, setSpeakingSection] = useState<'passages' | 'dialogues'>('passages');
+  // Section toggle: 'grade2-presentation' (100 Bài Thuyết Trình Lớp 2) vs 'passages' (500 Đoạn Văn Luyện Nói) vs 'dialogues' (Hội Thoại Giao Tiếp 2 Chiều)
+  const [speakingSection, setSpeakingSection] = useState<'grade2-presentation' | 'passages' | 'dialogues'>('grade2-presentation');
 
   // Passages State
   const [selectedPassageLevel, setSelectedPassageLevel] = useState<number>(0);
@@ -426,15 +429,34 @@ export const SpeakingView: React.FC<SpeakingViewProps> = ({
         </div>
       </div>
 
-      {/* Primary Section Switcher: 100 Đoạn Văn Luyện Nói (Kèm Thanh Trượt) vs Hội Thoại Giao Tiếp 2 Chiều */}
-      <div className="flex items-center gap-2 p-1.5 bg-amber-100/70 rounded-2xl border border-amber-200/80 shadow-2xs">
+      {/* Primary Section Switcher: 100 Bài Thuyết Trình Lớp 2 vs 500 Đoạn Văn Luyện Nói vs Hội Thoại Giao Tiếp 2 Chiều */}
+      <div className="flex items-center gap-1.5 p-1.5 bg-amber-100/70 rounded-2xl border border-amber-200/80 shadow-2xs overflow-x-auto scrollbar-none">
+        <button
+          type="button"
+          onClick={() => {
+            sound.playTap();
+            setSpeakingSection('grade2-presentation');
+          }}
+          className={`flex-1 py-2.5 px-3 sm:px-4 rounded-xl text-xs sm:text-sm font-black flex items-center justify-center gap-2 transition-all cursor-pointer shrink-0 ${
+            speakingSection === 'grade2-presentation'
+              ? 'bg-linear-to-r from-teal-600 to-emerald-600 text-white shadow-sm scale-[1.01]'
+              : 'text-teal-950 hover:bg-teal-100/60'
+          }`}
+        >
+          <span className="text-base">🌟</span>
+          <span>100 Bài Thuyết Trình Lớp 2</span>
+          <span className="hidden sm:inline px-2 py-0.5 rounded-full text-[10px] bg-amber-300 text-amber-950 font-black shadow-2xs">
+            Trực Quan Cho Bé
+          </span>
+        </button>
+
         <button
           type="button"
           onClick={() => {
             sound.playTap();
             setSpeakingSection('passages');
           }}
-          className={`flex-1 py-2.5 px-3 sm:px-4 rounded-xl text-xs sm:text-sm font-extrabold flex items-center justify-center gap-2 transition-all cursor-pointer ${
+          className={`py-2.5 px-3 sm:px-4 rounded-xl text-xs sm:text-sm font-extrabold flex items-center justify-center gap-2 transition-all cursor-pointer shrink-0 ${
             speakingSection === 'passages'
               ? 'bg-amber-500 text-white shadow-sm scale-[1.01]'
               : 'text-amber-900 hover:bg-amber-200/50'
@@ -442,9 +464,6 @@ export const SpeakingView: React.FC<SpeakingViewProps> = ({
         >
           <span className="text-base">📖</span>
           <span>500 Đoạn Văn Luyện Nói</span>
-          <span className="hidden sm:inline px-2 py-0.5 rounded-full text-[10px] bg-white/20 text-white font-bold">
-            Thanh trượt kéo 500 bài
-          </span>
         </button>
 
         <button
@@ -453,21 +472,40 @@ export const SpeakingView: React.FC<SpeakingViewProps> = ({
             sound.playTap();
             setSpeakingSection('dialogues');
           }}
-          className={`flex-1 py-2.5 px-3 sm:px-4 rounded-xl text-xs sm:text-sm font-extrabold flex items-center justify-center gap-2 transition-all cursor-pointer ${
+          className={`py-2.5 px-3 sm:px-4 rounded-xl text-xs sm:text-sm font-extrabold flex items-center justify-center gap-2 transition-all cursor-pointer shrink-0 ${
             speakingSection === 'dialogues'
               ? 'bg-amber-500 text-white shadow-sm scale-[1.01]'
               : 'text-amber-900 hover:bg-amber-200/50'
           }`}
         >
           <span className="text-base">💬</span>
-          <span>Hội Thoại Giao Tiếp 2 Chiều</span>
-          <span className="hidden sm:inline px-2 py-0.5 rounded-full text-[10px] bg-white/20 text-white font-bold">
-            30+ Chủ đề
-          </span>
+          <span>Hội Thoại Giao Tiếp</span>
         </button>
+
+        {onNavigateToIPA && (
+          <button
+            type="button"
+            onClick={() => {
+              sound.playTap();
+              onNavigateToIPA();
+            }}
+            className="py-2.5 px-3 sm:px-4 rounded-xl text-xs sm:text-sm font-extrabold flex items-center justify-center gap-1.5 transition-all cursor-pointer shrink-0 bg-teal-50 hover:bg-teal-100 text-teal-900 border border-teal-300 shadow-2xs"
+            title="Mở Bảng Phiên Âm 44 Âm IPA Quốc Tế"
+          >
+            <span className="text-base">🔤</span>
+            <span>44 Âm IPA Chuẩn</span>
+            <span className="text-[10px] bg-teal-200 text-teal-950 font-bold px-1.5 py-0.2 rounded-md">Mới</span>
+          </button>
+        )}
       </div>
 
-      {speakingSection === 'passages' ? (
+      {speakingSection === 'grade2-presentation' ? (
+        <Grade2PresentationView
+          onAddStars={onAddStars}
+          childName={childName}
+          soundEnabled={soundEnabled}
+        />
+      ) : speakingSection === 'passages' ? (
         <div className="space-y-4">
           {/* Horizontal Draggable / Scrollable Slider for 500 Passages */}
           <PassageSlider

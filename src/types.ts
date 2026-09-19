@@ -28,7 +28,7 @@ export interface Topic {
   description: string;
 }
 
-export type LearningMode = 'flashcards' | 'listen-spell' | 'games' | 'speaking' | 'test' | 'progress';
+export type LearningMode = 'flashcards' | 'listen-spell' | 'games' | 'speaking' | 'ipa' | 'test' | 'progress';
 
 export interface DialogueLine {
   speaker: string;

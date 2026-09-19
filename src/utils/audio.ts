@@ -130,6 +130,12 @@ class SoundManager {
     });
   }
 
+  // Success celebration combo
+  public playSuccess() {
+    this.playCorrect();
+    this.playStar();
+  }
+
   // Gentle bounce sound for wrong answer (not harsh for kids)
   public playWrong() {
     if (!this.soundEnabled) return;

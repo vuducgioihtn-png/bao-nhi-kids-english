@@ -12,6 +12,7 @@ import { FlashcardView } from './components/FlashcardView';
 import { ListenSpellView } from './components/ListenSpellView';
 import { GameCenter } from './components/GameCenter';
 import { SpeakingView } from './components/SpeakingView';
+import { IPAChartView } from './components/IPAChartView';
 import { AssessmentTestView } from './components/AssessmentTestView';
 import { ProgressReportView } from './components/ProgressReportView';
 import { LoginModal } from './components/auth/LoginModal';
@@ -177,7 +178,7 @@ export default function App() {
           /* Màn hình học tập đầy đủ cho học sinh đã được duyệt và Admin */
           <>
             {/* Quick Topic Switcher with Interactive Slider & Drag Controls */}
-            {currentMode !== 'progress' && currentMode !== 'speaking' && (
+            {currentMode !== 'progress' && currentMode !== 'speaking' && currentMode !== 'ipa' && (
               <TopicSliderBar
                 currentTopic={currentTopic}
                 onSelectTopic={setCurrentTopic}
@@ -196,6 +197,13 @@ export default function App() {
               />
             )}
 
+            {currentMode === 'ipa' && (
+              <IPAChartView
+                onAddStars={handleAddStars}
+                childProfile={progress.childProfile}
+              />
+            )}
+
             {currentMode === 'listen-spell' && (
               <ListenSpellView
                 key={currentTopic.id}
@@ -211,6 +219,7 @@ export default function App() {
                 onAddStars={handleAddStars}
                 soundEnabled={soundEnabled}
                 childProfile={progress.childProfile}
+                onNavigateToIPA={() => setCurrentMode('ipa')}
               />
             )}
 

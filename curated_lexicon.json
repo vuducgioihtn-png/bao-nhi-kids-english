@@ -1,0 +1,5066 @@
+{
+  "i": {
+    "ipa": "/aɪ/",
+    "readVi": "ai"
+  },
+  "please": {
+    "ipa": "/pliːz/",
+    "readVi": "p-li-z"
+  },
+  "thank": {
+    "ipa": "/θæŋk/",
+    "readVi": "thenh-k"
+  },
+  "a": {
+    "ipa": "/ə/",
+    "readVi": "ơ"
+  },
+  "about": {
+    "ipa": "/əˈbaʊt/",
+    "readVi": "ơ-bao-t"
+  },
+  "above": {
+    "ipa": "/əˈbʌv/",
+    "readVi": "ơ-bớp-v"
+  },
+  "acacia": {
+    "ipa": "/əˈkeɪʃə/",
+    "readVi": "ơ-kêi-shơ"
+  },
+  "accidental": {
+    "ipa": "/ˌæksəˈdenəl/",
+    "readVi": "eksơdenơ-l"
+  },
+  "accidentally": {
+    "ipa": "/ˌæksɪˈdentli/",
+    "readVi": "éc-xi-đen-t-li"
+  },
+  "achieve": {
+    "ipa": "/əˈtʃiːv/",
+    "readVi": "ơ-chí-v"
+  },
+  "acoustic": {
+    "ipa": "/əˈkuːstɪk/",
+    "readVi": "ơkux-t-ik"
+  },
+  "across": {
+    "ipa": "/əˈkrɔːs/",
+    "readVi": "ơ-c-rót-s"
+  },
+  "action": {
+    "ipa": "/ˈækʃən/",
+    "readVi": "éc-shơn"
+  },
+  "active": {
+    "ipa": "/ˈæktɪv/",
+    "readVi": "éc-tiv"
+  },
+  "addition": {
+    "ipa": "/əˈdɪʃən/",
+    "readVi": "ơ-đi-shơn"
+  },
+  "admire": {
+    "ipa": "/ædˈmaɪər/",
+    "readVi": "ét-mai-ơ"
+  },
+  "adventures": {
+    "ipa": "/ædˈventʃərz/",
+    "readVi": "ét-ven-chờ-z"
+  },
+  "after": {
+    "ipa": "/ˈæftər/",
+    "readVi": "áp-tơ"
+  },
+  "afternoon": {
+    "ipa": "/ˌæftərˈnuːn/",
+    "readVi": "ép-tơ-nun"
+  },
+  "afternoons": {
+    "ipa": "/ˌæftɜːrˈnuːnz/",
+    "readVi": "áp-tơ-nun-z"
+  },
+  "air": {
+    "ipa": "/ˈer/",
+    "readVi": "er"
+  },
+  "airplanes": {
+    "ipa": "/ˈerpleɪnz/",
+    "readVi": "e-p-lên-z"
+  },
+  "aisles": {
+    "ipa": "/ˈaɪəlz/",
+    "readVi": "ai-ơ-l-z"
+  },
+  "all": {
+    "ipa": "/ɔːl/",
+    "readVi": "ool"
+  },
+  "along": {
+    "ipa": "/əˈlɔːŋ/",
+    "readVi": "ơ-loong"
+  },
+  "alphabet": {
+    "ipa": "/ˈælfəbet/",
+    "readVi": "eo-phơ-bét"
+  },
+  "also": {
+    "ipa": "/ˈɔːlsoʊ/",
+    "readVi": "on-xâu"
+  },
+  "always": {
+    "ipa": "/ˈɔːlweɪz/",
+    "readVi": "on-uêi-z"
+  },
+  "am": {
+    "ipa": "/æm/",
+    "readVi": "am"
+  },
+  "an": {
+    "ipa": "/æn/",
+    "readVi": "An"
+  },
+  "and": {
+    "ipa": "/ænd/",
+    "readVi": "en-đ"
+  },
+  "animal": {
+    "ipa": "/ˈænɪməl/",
+    "readVi": "e-ni-mơ-l"
+  },
+  "animals": {
+    "ipa": "/ˈænɪməlz/",
+    "readVi": "e-ni-mơ-l-z"
+  },
+  "anything": {
+    "ipa": "/ˈeniθɪŋ/",
+    "readVi": "e-ni-thinh"
+  },
+  "ao": {
+    "ipa": "/ao/",
+    "readVi": "ao"
+  },
+  "apologizing": {
+    "ipa": "/əˈpɑːlədʒaɪzɪŋ/",
+    "readVi": "ơ-po-lơ-jai-zinh"
+  },
+  "apology": {
+    "ipa": "/əˈpɑːlədʒi/",
+    "readVi": "ơ-po-lơ-ji"
+  },
+  "appears": {
+    "ipa": "/əˈpɪrz/",
+    "readVi": "ơ-pi-ơ-z"
+  },
+  "apple": {
+    "ipa": "/ˈæpəl/",
+    "readVi": "ép-pồ"
+  },
+  "apples": {
+    "ipa": "/ˈæpəlz/",
+    "readVi": "ép-pồ-z"
+  },
+  "are": {
+    "ipa": "/ɑːr/",
+    "readVi": "a"
+  },
+  "arms": {
+    "ipa": "/ˈɑːrmz/",
+    "readVi": "armz"
+  },
+  "around": {
+    "ipa": "/əˈraʊnd/",
+    "readVi": "ơ-rao-n-đ"
+  },
+  "arrive": {
+    "ipa": "/əˈraɪv/",
+    "readVi": "ơ-rai-v"
+  },
+  "as": {
+    "ipa": "/æz/",
+    "readVi": "át-z"
+  },
+  "asking": {
+    "ipa": "/ˈæskɪŋ/",
+    "readVi": "át-x-kinh"
+  },
+  "assemble": {
+    "ipa": "/əˈsembəl/",
+    "readVi": "ơ-xem-bồ"
+  },
+  "astronauts": {
+    "ipa": "/ˈæstrənɔːts/",
+    "readVi": "ét-x-t-rơ-nót-s"
+  },
+  "at": {
+    "ipa": "/æt/",
+    "readVi": "ét"
+  },
+  "attentively": {
+    "ipa": "/əˈtentɪvli/",
+    "readVi": "ơ-ten-tiv-li"
+  },
+  "autumn": {
+    "ipa": "/ˈɔːtəm/",
+    "readVi": "o-từm"
+  },
+  "away": {
+    "ipa": "/əˈweɪ/",
+    "readVi": "ơ-uêi"
+  },
+  "baby": {
+    "ipa": "/ˈbeɪbi/",
+    "readVi": "bê-bi"
+  },
+  "back": {
+    "ipa": "/ˈbæk/",
+    "readVi": "bek"
+  },
+  "backpack": {
+    "ipa": "/ˈbækpæk/",
+    "readVi": "béc-k-péc-k"
+  },
+  "bad": {
+    "ipa": "/ˈbæd/",
+    "readVi": "bed"
+  },
+  "bag": {
+    "ipa": "/bæɡ/",
+    "readVi": "béc-g"
+  },
+  "baker": {
+    "ipa": "/ˈbeɪkər/",
+    "readVi": "bêi-cờ"
+  },
+  "bakery": {
+    "ipa": "/ˈbeɪkəri/",
+    "readVi": "bêi-cơ-ri"
+  },
+  "bakes": {
+    "ipa": "/ˈbeɪks/",
+    "readVi": "bêi-k-s"
+  },
+  "ball": {
+    "ipa": "/ˈbɔːl/",
+    "readVi": "bo-l"
+  },
+  "balls": {
+    "ipa": "/ˈbɔːlz/",
+    "readVi": "bolz"
+  },
+  "banana": {
+    "ipa": "/bəˈnænə/",
+    "readVi": "bơ-ne-nơ"
+  },
+  "bananas": {
+    "ipa": "/bəˈnænəz/",
+    "readVi": "bơ-ne-nơ-z"
+  },
+  "banyan": {
+    "ipa": "/ˈbænjən/",
+    "readVi": "ben-dơn"
+  },
+  "beach": {
+    "ipa": "/ˈbiːtʃ/",
+    "readVi": "bich"
+  },
+  "beautiful": {
+    "ipa": "/ˈbjuːtɪfl/",
+    "readVi": "biu-ti-phồl"
+  },
+  "beauty": {
+    "ipa": "/ˈbjuːti/",
+    "readVi": "biu-ti"
+  },
+  "become": {
+    "ipa": "/bɪˈkʌm/",
+    "readVi": "bi-khăm"
+  },
+  "bed": {
+    "ipa": "/ˈbed/",
+    "readVi": "bed"
+  },
+  "bedroom": {
+    "ipa": "/ˈbedruːm/",
+    "readVi": "bét-đ-rum"
+  },
+  "bedtime": {
+    "ipa": "/ˈbedtaɪm/",
+    "readVi": "bét-đ-tai-m"
+  },
+  "bee": {
+    "ipa": "/ˈbiː/",
+    "readVi": "bi"
+  },
+  "bees": {
+    "ipa": "/ˈbiːz/",
+    "readVi": "bi-z"
+  },
+  "before": {
+    "ipa": "/bɪˈfɔːr/",
+    "readVi": "bi-pho"
+  },
+  "beginnings": {
+    "ipa": "/bɪˈɡɪnɪŋz/",
+    "readVi": "bi-gi-ninh-z"
+  },
+  "begins": {
+    "ipa": "/bɪˈɡɪnz/",
+    "readVi": "bi-gin-z"
+  },
+  "being": {
+    "ipa": "/ˈbiːɪŋ/",
+    "readVi": "bi-inh"
+  },
+  "bell": {
+    "ipa": "/ˈbel/",
+    "readVi": "be-l"
+  },
+  "bells": {
+    "ipa": "/ˈbelz/",
+    "readVi": "belz"
+  },
+  "berry": {
+    "ipa": "/ˈberi/",
+    "readVi": "be-ri"
+  },
+  "best": {
+    "ipa": "/ˈbest/",
+    "readVi": "bex-t"
+  },
+  "bicycle": {
+    "ipa": "/ˈbaɪsɪkəl/",
+    "readVi": "baisikơ-l"
+  },
+  "big": {
+    "ipa": "/ˈbɪg/",
+    "readVi": "big"
+  },
+  "bike": {
+    "ipa": "/ˈbaɪk/",
+    "readVi": "baik"
+  },
+  "bikes": {
+    "ipa": "/ˈbaɪks/",
+    "readVi": "baiks"
+  },
+  "bird": {
+    "ipa": "/ˈbɜːrd/",
+    "readVi": "bơd"
+  },
+  "birthday": {
+    "ipa": "/ˈbɜːrθdeɪ/",
+    "readVi": "bơ-th-đây"
+  },
+  "bite": {
+    "ipa": "/ˈbaɪt/",
+    "readVi": "bait"
+  },
+  "black": {
+    "ipa": "/blæk/",
+    "readVi": "b-léc-k"
+  },
+  "blank": {
+    "ipa": "/blæŋk/",
+    "readVi": "b-lenh-k"
+  },
+  "block": {
+    "ipa": "/ˈblɑːk/",
+    "readVi": "blak"
+  },
+  "blocks": {
+    "ipa": "/ˈblɑːks/",
+    "readVi": "blaks"
+  },
+  "blossoms": {
+    "ipa": "/ˈblɑːsəmz/",
+    "readVi": "b-lo-xơm-z"
+  },
+  "blows": {
+    "ipa": "/ˈbloʊz/",
+    "readVi": "blâuz"
+  },
+  "blue": {
+    "ipa": "/bluː/",
+    "readVi": "blu"
+  },
+  "bodies": {
+    "ipa": "/ˈbɑːdiz/",
+    "readVi": "ba-đi-z"
+  },
+  "body": {
+    "ipa": "/ˈbɑːdi/",
+    "readVi": "ba-đi"
+  },
+  "boiled": {
+    "ipa": "/bɔɪld/",
+    "readVi": "boi-l-đ"
+  },
+  "bonds": {
+    "ipa": "/ˈbɑːndz/",
+    "readVi": "bandz"
+  },
+  "bones": {
+    "ipa": "/ˈboʊnz/",
+    "readVi": "bâunz"
+  },
+  "books": {
+    "ipa": "/bʊks/",
+    "readVi": "búc-s"
+  },
+  "bookshelf": {
+    "ipa": "/ˈbʊkʃelf/",
+    "readVi": "búc-k-sheo-ph"
+  },
+  "bop": {
+    "ipa": "/ˈbɑːp/",
+    "readVi": "bap"
+  },
+  "borrowing": {
+    "ipa": "/ˈbɑːroʊɪŋ/",
+    "readVi": "bo-râu-inh"
+  },
+  "bottle": {
+    "ipa": "/ˈbɑːtl/",
+    "readVi": "ba-tồl"
+  },
+  "bowl": {
+    "ipa": "/ˈboʊl/",
+    "readVi": "bâu-l"
+  },
+  "box": {
+    "ipa": "/ˈbɑːks/",
+    "readVi": "baks"
+  },
+  "brain": {
+    "ipa": "/ˈbreɪn/",
+    "readVi": "brêin"
+  },
+  "brave": {
+    "ipa": "/ˈbreɪv/",
+    "readVi": "brêiv"
+  },
+  "bravely": {
+    "ipa": "/ˈbreɪvli/",
+    "readVi": "b-rêi-v-li"
+  },
+  "bravery": {
+    "ipa": "/ˈbreɪvəri/",
+    "readVi": "b-rêi-vơ-ri"
+  },
+  "bread": {
+    "ipa": "/bred/",
+    "readVi": "b-rét-đ"
+  },
+  "break": {
+    "ipa": "/ˈbreɪk/",
+    "readVi": "brêik"
+  },
+  "breakfast": {
+    "ipa": "/ˈbrekfəst/",
+    "readVi": "b-réc-phớt"
+  },
+  "breathe": {
+    "ipa": "/ˈbriːð/",
+    "readVi": "briđ"
+  },
+  "breeze": {
+    "ipa": "/ˈbriːz/",
+    "readVi": "briz"
+  },
+  "bricks": {
+    "ipa": "/ˈbrɪks/",
+    "readVi": "briks"
+  },
+  "bridge": {
+    "ipa": "/ˈbrɪdʒ/",
+    "readVi": "brich"
+  },
+  "bridges": {
+    "ipa": "/ˈbrɪdʒɪz/",
+    "readVi": "b-ri-jiz"
+  },
+  "bright": {
+    "ipa": "/braɪt/",
+    "readVi": "b-rai-t"
+  },
+  "brighter": {
+    "ipa": "/ˈbraɪtər/",
+    "readVi": "b-rai-tờ"
+  },
+  "brightly": {
+    "ipa": "/ˈbraɪtliː/",
+    "readVi": "b-rai-t-li"
+  },
+  "bring": {
+    "ipa": "/brɪŋ/",
+    "readVi": "b-rinh"
+  },
+  "brings": {
+    "ipa": "/brɪŋz/",
+    "readVi": "b-rinh-z"
+  },
+  "broccoli": {
+    "ipa": "/ˈbrɑːkəli/",
+    "readVi": "b-ro-cơ-li"
+  },
+  "broken": {
+    "ipa": "/ˈbroʊkən/",
+    "readVi": "b-râu-khừn"
+  },
+  "brother": {
+    "ipa": "/ˈbrʌðər/",
+    "readVi": "b-ra-đờ"
+  },
+  "brown": {
+    "ipa": "/braʊn/",
+    "readVi": "b-rao-n"
+  },
+  "brush": {
+    "ipa": "/brʌʃ/",
+    "readVi": "b-rắt-sh"
+  },
+  "brushing": {
+    "ipa": "/ˈbrʌʃɪŋ/",
+    "readVi": "b-rắt-sinh"
+  },
+  "buds": {
+    "ipa": "/ˈbədz/",
+    "readVi": "bơdz"
+  },
+  "build": {
+    "ipa": "/ˈbɪld/",
+    "readVi": "bild"
+  },
+  "building": {
+    "ipa": "/ˈbɪldɪŋ/",
+    "readVi": "bi-l-đinh"
+  },
+  "bus": {
+    "ipa": "/ˈbəs/",
+    "readVi": "bơs"
+  },
+  "buses": {
+    "ipa": "/ˈbʌsɪz/",
+    "readVi": "bắt-xịt-s"
+  },
+  "bushes": {
+    "ipa": "/ˈbʊʃɪz/",
+    "readVi": "bu-shịt-s"
+  },
+  "bustling": {
+    "ipa": "/ˈbʌslɪŋ/",
+    "readVi": "bắt-x-linh"
+  },
+  "busy": {
+    "ipa": "/ˈbɪzi/",
+    "readVi": "bi-zi"
+  },
+  "but": {
+    "ipa": "/bʌt/",
+    "readVi": "bắt"
+  },
+  "butter": {
+    "ipa": "/ˈbʌtər/",
+    "readVi": "bắt-tờ"
+  },
+  "butterflies": {
+    "ipa": "/ˈbʌtərflaɪz/",
+    "readVi": "bắt-tơ-ph-lai-z"
+  },
+  "by": {
+    "ipa": "/baɪ/",
+    "readVi": "bai"
+  },
+  "c": {
+    "ipa": "/ˈsiː/",
+    "readVi": "si"
+  },
+  "cake": {
+    "ipa": "/ˈkeɪk/",
+    "readVi": "kêik"
+  },
+  "calcium": {
+    "ipa": "/ˈkælsiəm/",
+    "readVi": "khen-xi-ơm"
+  },
+  "calm": {
+    "ipa": "/ˈkɑːlm/",
+    "readVi": "kalm"
+  },
+  "can": {
+    "ipa": "/kæn/",
+    "readVi": "khen"
+  },
+  "canary": {
+    "ipa": "/kəˈneri/",
+    "readVi": "cơ-ne-ri"
+  },
+  "candles": {
+    "ipa": "/ˈkændəlz/",
+    "readVi": "khen-đơ-l-z"
+  },
+  "candy": {
+    "ipa": "/ˈkændi/",
+    "readVi": "khen-đi"
+  },
+  "canes": {
+    "ipa": "/ˈkeɪnz/",
+    "readVi": "khen-z"
+  },
+  "care": {
+    "ipa": "/ˈker/",
+    "readVi": "ker"
+  },
+  "carefully": {
+    "ipa": "/ˈkerfəli/",
+    "readVi": "khe-phơ-li"
+  },
+  "caring": {
+    "ipa": "/ˈkerɪŋ/",
+    "readVi": "khe-rinh"
+  },
+  "carols": {
+    "ipa": "/ˈkærəlz/",
+    "readVi": "khe-rơ-l-z"
+  },
+  "carries": {
+    "ipa": "/ˈkæriz/",
+    "readVi": "khe-ri-z"
+  },
+  "carrots": {
+    "ipa": "/ˈkærəts/",
+    "readVi": "khe-rơ-t-s"
+  },
+  "cars": {
+    "ipa": "/ˈkɑːrz/",
+    "readVi": "karz"
+  },
+  "cart": {
+    "ipa": "/ˈkɑːrt/",
+    "readVi": "kart"
+  },
+  "cartons": {
+    "ipa": "/ˈkɑːrtənz/",
+    "readVi": "ca-từn-z"
+  },
+  "cartoons": {
+    "ipa": "/kɑːrˈtuːnz/",
+    "readVi": "ca-tun-z"
+  },
+  "case": {
+    "ipa": "/ˈkeɪs/",
+    "readVi": "kêis"
+  },
+  "castles": {
+    "ipa": "/ˈkæsəlz/",
+    "readVi": "két-xồ-z"
+  },
+  "cat": {
+    "ipa": "/ˈkæt/",
+    "readVi": "ket"
+  },
+  "catching": {
+    "ipa": "/ˈkætʃɪŋ/",
+    "readVi": "két-chinh"
+  },
+  "celebrate": {
+    "ipa": "/ˈselɪbreɪt/",
+    "readVi": "xe-li-b-rết"
+  },
+  "center": {
+    "ipa": "/ˈsentər/",
+    "readVi": "xen-tờ"
+  },
+  "cereals": {
+    "ipa": "/ˈsɪriəlz/",
+    "readVi": "xi-ri-ơ-l-z"
+  },
+  "chasing": {
+    "ipa": "/ˈtʃeɪsɪŋ/",
+    "readVi": "chêi-xinh"
+  },
+  "cheeks": {
+    "ipa": "/ˈtʃiːks/",
+    "readVi": "chiks"
+  },
+  "cheer": {
+    "ipa": "/ˈtʃɪr/",
+    "readVi": "chir"
+  },
+  "cheerful": {
+    "ipa": "/ˈtʃɪrfəl/",
+    "readVi": "chirfơ-l"
+  },
+  "child": {
+    "ipa": "/tʃaɪld/",
+    "readVi": "chai-l-đ"
+  },
+  "children": {
+    "ipa": "/ˈtʃɪldrən/",
+    "readVi": "chil-đ-rừn"
+  },
+  "chocolate": {
+    "ipa": "/ˈtʃɔːklət/",
+    "readVi": "chó-c-lợt"
+  },
+  "chores": {
+    "ipa": "/ˈtʃɔːrz/",
+    "readVi": "chorz"
+  },
+  "christmas": {
+    "ipa": "/ˈkrɪsməs/",
+    "readVi": "krix-m-ơs"
+  },
+  "chubby": {
+    "ipa": "/ˈtʃʌbi/",
+    "readVi": "chắp-bi"
+  },
+  "city": {
+    "ipa": "/ˈsɪti/",
+    "readVi": "xi-ti"
+  },
+  "class": {
+    "ipa": "/ˈklæs/",
+    "readVi": "kles"
+  },
+  "classic": {
+    "ipa": "/ˈklæsɪk/",
+    "readVi": "c-le-xíc"
+  },
+  "classmate": {
+    "ipa": "/ˈklæsˌmeɪt/",
+    "readVi": "klex-m-êit"
+  },
+  "classmates": {
+    "ipa": "/ˈklæsˌmeɪts/",
+    "readVi": "klex-m-êits"
+  },
+  "classrooms": {
+    "ipa": "/ˈklæsˌruːmz/",
+    "readVi": "c-lát-s-rum-z"
+  },
+  "clean": {
+    "ipa": "/kliːn/",
+    "readVi": "c-lin"
+  },
+  "cleaning": {
+    "ipa": "/ˈkliːnɪŋ/",
+    "readVi": "c-li-ninh"
+  },
+  "clear": {
+    "ipa": "/ˈklɪr/",
+    "readVi": "klir"
+  },
+  "cliffs": {
+    "ipa": "/ˈklɪfs/",
+    "readVi": "klifs"
+  },
+  "clocks": {
+    "ipa": "/ˈklɑːks/",
+    "readVi": "c-lóc-k-s"
+  },
+  "close": {
+    "ipa": "/ˈkloʊs/",
+    "readVi": "klâus"
+  },
+  "closer": {
+    "ipa": "/ˈkloʊsər/",
+    "readVi": "c-lâu-xờ"
+  },
+  "clothes": {
+    "ipa": "/kloʊðz/",
+    "readVi": "c-lâu-đ-z"
+  },
+  "clouds": {
+    "ipa": "/klaʊdz/",
+    "readVi": "c-lao-đ-z"
+  },
+  "clover": {
+    "ipa": "/ˈkloʊvər/",
+    "readVi": "c-lâu-vờ"
+  },
+  "coco": {
+    "ipa": "/ˈkoʊkoʊ/",
+    "readVi": "câu-câu"
+  },
+  "cocoa": {
+    "ipa": "/ˈkoʊkoʊ/",
+    "readVi": "câu-câu"
+  },
+  "cold": {
+    "ipa": "/ˈkoʊld/",
+    "readVi": "kâuld"
+  },
+  "coldest": {
+    "ipa": "/ˈkoʊldəst/",
+    "readVi": "kâuldơx-t"
+  },
+  "color": {
+    "ipa": "/ˈkʌlər/",
+    "readVi": "ca-lờ"
+  },
+  "colored": {
+    "ipa": "/ˈkəlɜːrd/",
+    "readVi": "ca-lờ-đ"
+  },
+  "colorful": {
+    "ipa": "/ˈkəlɜːrfəl/",
+    "readVi": "kơlơfơ-l"
+  },
+  "colors": {
+    "ipa": "/ˈkʌlərz/",
+    "readVi": "ca-lờ-z"
+  },
+  "comfortable": {
+    "ipa": "/ˈkəmfɜːrtəbəl/",
+    "readVi": "kơmfơtơbơ-l"
+  },
+  "comics": {
+    "ipa": "/ˈkɑːmɪks/",
+    "readVi": "co-míc-s"
+  },
+  "community": {
+    "ipa": "/kəˈmjuːnəti/",
+    "readVi": "cơ-miu-nơ-ti"
+  },
+  "companions": {
+    "ipa": "/kəmˈpænjənz/",
+    "readVi": "cơm-pen-dơn-z"
+  },
+  "confident": {
+    "ipa": "/ˈkɑːnfɪdənt/",
+    "readVi": "con-phi-đừn-t"
+  },
+  "contain": {
+    "ipa": "/kənˈteɪn/",
+    "readVi": "cơn-tên"
+  },
+  "continuously": {
+    "ipa": "/kənˈtɪnjuəsli/",
+    "readVi": "cơn-tin-du-ớt-li"
+  },
+  "conversations": {
+    "ipa": "/ˌkɑːnvərˈseɪʃənz/",
+    "readVi": "con-vơ-xêi-shơn-z"
+  },
+  "cook": {
+    "ipa": "/ˈkʊk/",
+    "readVi": "kuk"
+  },
+  "cool": {
+    "ipa": "/kuːl/",
+    "readVi": "cu-l"
+  },
+  "cooperation": {
+    "ipa": "/koʊˌɑːpəˈreɪʃən/",
+    "readVi": "câu-o-pơ-rêi-shơn"
+  },
+  "coral": {
+    "ipa": "/ˈkɔːrəl/",
+    "readVi": "korơ-l"
+  },
+  "corner": {
+    "ipa": "/ˈkɔːrnər/",
+    "readVi": "co-nờ"
+  },
+  "cough": {
+    "ipa": "/ˈkɑːf/",
+    "readVi": "kaf"
+  },
+  "counting": {
+    "ipa": "/ˈkaʊntɪŋ/",
+    "readVi": "khao-n-tinh"
+  },
+  "countryside": {
+    "ipa": "/ˈkʌntrisaɪd/",
+    "readVi": "khăn-t-ri-sai-đ"
+  },
+  "cover": {
+    "ipa": "/ˈkʌvər/",
+    "readVi": "că-vờ"
+  },
+  "covers": {
+    "ipa": "/ˈkʌvərz/",
+    "readVi": "că-vơ-z"
+  },
+  "cozy": {
+    "ipa": "/ˈkoʊzi/",
+    "readVi": "câu-zi"
+  },
+  "crayons": {
+    "ipa": "/ˈkreɪɑːnz/",
+    "readVi": "c-rêi-on-z"
+  },
+  "creamy": {
+    "ipa": "/ˈkriːmi/",
+    "readVi": "c-ri-mi"
+  },
+  "create": {
+    "ipa": "/kriˈeɪt/",
+    "readVi": "c-ri-ết"
+  },
+  "creates": {
+    "ipa": "/kriˈeɪts/",
+    "readVi": "c-ri-ết-s"
+  },
+  "creative": {
+    "ipa": "/kriˈeɪtɪv/",
+    "readVi": "c-ri-êi-tiv"
+  },
+  "creature": {
+    "ipa": "/ˈkriːtʃər/",
+    "readVi": "c-ri-chờ"
+  },
+  "creatures": {
+    "ipa": "/ˈkriːtʃərz/",
+    "readVi": "c-ri-chờ-z"
+  },
+  "crisp": {
+    "ipa": "/ˈkrɪsp/",
+    "readVi": "krix-p"
+  },
+  "crops": {
+    "ipa": "/ˈkrɑːps/",
+    "readVi": "kraps"
+  },
+  "crossing": {
+    "ipa": "/ˈkrɔːsɪŋ/",
+    "readVi": "c-rót-xinh"
+  },
+  "crunchy": {
+    "ipa": "/ˈkrʌntʃi/",
+    "readVi": "c-răn-chi"
+  },
+  "cupcakes": {
+    "ipa": "/ˈkʌpkeɪks/",
+    "readVi": "khắp-khêi-k-s"
+  },
+  "cups": {
+    "ipa": "/ˈkəps/",
+    "readVi": "kơps"
+  },
+  "curiosity": {
+    "ipa": "/ˌkjʊriˈɑːsəti/",
+    "readVi": "kiu-ri-o-xơ-ti"
+  },
+  "curious": {
+    "ipa": "/ˈkjʊriəs/",
+    "readVi": "kiu-ri-ớt"
+  },
+  "cute": {
+    "ipa": "/ˈkjuːt/",
+    "readVi": "kiut"
+  },
+  "dai": {
+    "ipa": "/ˈdaɪ/",
+    "readVi": "dai"
+  },
+  "daily": {
+    "ipa": "/ˈdeɪli/",
+    "readVi": "đêi-li"
+  },
+  "dances": {
+    "ipa": "/ˈdænsɪz/",
+    "readVi": "đen-xịt-s"
+  },
+  "dangerous": {
+    "ipa": "/ˈdeɪndʒərəs/",
+    "readVi": "đên-jơ-rớt"
+  },
+  "dark": {
+    "ipa": "/ˈdɑːrk/",
+    "readVi": "dark"
+  },
+  "david": {
+    "ipa": "/ˈdeɪvɪd/",
+    "readVi": "Đêi-vit-đ"
+  },
+  "day": {
+    "ipa": "/deɪ/",
+    "readVi": "đây"
+  },
+  "days": {
+    "ipa": "/deɪz/",
+    "readVi": "đây-z"
+  },
+  "dear": {
+    "ipa": "/ˈdɪr/",
+    "readVi": "dir"
+  },
+  "dearly": {
+    "ipa": "/ˈdɪrli/",
+    "readVi": "đi-ơ-li"
+  },
+  "december": {
+    "ipa": "/dɪˈsembər/",
+    "readVi": "đi-xem-bờ"
+  },
+  "decorate": {
+    "ipa": "/ˈdekəreɪt/",
+    "readVi": "đe-cơ-rết"
+  },
+  "deep": {
+    "ipa": "/ˈdiːp/",
+    "readVi": "dip"
+  },
+  "delicious": {
+    "ipa": "/dɪˈlɪʃəs/",
+    "readVi": "đi-li-shớt"
+  },
+  "delivers": {
+    "ipa": "/dɪˈlɪvərz/",
+    "readVi": "đi-li-vơ-z"
+  },
+  "desk": {
+    "ipa": "/desk/",
+    "readVi": "đét-x-k"
+  },
+  "diamonds": {
+    "ipa": "/ˈdaɪəməndz/",
+    "readVi": "đai-ơ-mừn-đ-z"
+  },
+  "digestive": {
+    "ipa": "/daɪˈdʒestɪv/",
+    "readVi": "daichex-t-iv"
+  },
+  "dining": {
+    "ipa": "/ˈdaɪnɪŋ/",
+    "readVi": "đai-ninh"
+  },
+  "dinner": {
+    "ipa": "/ˈdɪnər/",
+    "readVi": "đin-nờ"
+  },
+  "direct": {
+    "ipa": "/dəˈrekt/",
+    "readVi": "đơ-réc-t"
+  },
+  "discover": {
+    "ipa": "/dɪˈskəvɜːr/",
+    "readVi": "dix-k-ơvơ"
+  },
+  "distant": {
+    "ipa": "/ˈdɪstənt/",
+    "readVi": "dix-t-ơnt"
+  },
+  "do": {
+    "ipa": "/duː/",
+    "readVi": "đu"
+  },
+  "doctor": {
+    "ipa": "/ˈdɑːktər/",
+    "readVi": "đóc-tờ"
+  },
+  "doctors": {
+    "ipa": "/ˈdɑːktərz/",
+    "readVi": "đóc-tơ-z"
+  },
+  "doing": {
+    "ipa": "/ˈduːɪŋ/",
+    "readVi": "đu-inh"
+  },
+  "dolphins": {
+    "ipa": "/ˈdɑːlfɪnz/",
+    "readVi": "đo-l-phin-z"
+  },
+  "doorstep": {
+    "ipa": "/ˈdɔːrˌstep/",
+    "readVi": "dorx-t-ep"
+  },
+  "dotted": {
+    "ipa": "/ˈdɑːtɪd/",
+    "readVi": "đo-tịt-đ"
+  },
+  "down": {
+    "ipa": "/daʊn/",
+    "readVi": "đao-n"
+  },
+  "draw": {
+    "ipa": "/drɔː/",
+    "readVi": "đ-ro"
+  },
+  "drawing": {
+    "ipa": "/ˈdrɔːɪŋ/",
+    "readVi": "đ-ro-inh"
+  },
+  "dream": {
+    "ipa": "/driːm/",
+    "readVi": "đ-rim"
+  },
+  "dreams": {
+    "ipa": "/driːmz/",
+    "readVi": "đ-rim-z"
+  },
+  "drink": {
+    "ipa": "/drɪŋk/",
+    "readVi": "đ-rinh-k"
+  },
+  "drinking": {
+    "ipa": "/ˈdrɪŋkɪŋ/",
+    "readVi": "đ-rinh-kinh"
+  },
+  "drive": {
+    "ipa": "/ˈdraɪv/",
+    "readVi": "draiv"
+  },
+  "drops": {
+    "ipa": "/ˈdrɑːps/",
+    "readVi": "draps"
+  },
+  "drumming": {
+    "ipa": "/ˈdrʌmɪŋ/",
+    "readVi": "đ-răm-minh"
+  },
+  "during": {
+    "ipa": "/ˈdʊrɪŋ/",
+    "readVi": "đu-rinh"
+  },
+  "each": {
+    "ipa": "/iːtʃ/",
+    "readVi": "ích"
+  },
+  "early": {
+    "ipa": "/ˈɜːrli/",
+    "readVi": "ơ-li"
+  },
+  "ears": {
+    "ipa": "/ˈɪrz/",
+    "readVi": "irz"
+  },
+  "earth": {
+    "ipa": "/ˈɜːrθ/",
+    "readVi": "ơth"
+  },
+  "easier": {
+    "ipa": "/ˈiːziər/",
+    "readVi": "i-zi-ơ"
+  },
+  "east": {
+    "ipa": "/ˈiːst/",
+    "readVi": "ix-t"
+  },
+  "easy": {
+    "ipa": "/ˈiːzi/",
+    "readVi": "i-zi"
+  },
+  "eat": {
+    "ipa": "/iːt/",
+    "readVi": "ít"
+  },
+  "eating": {
+    "ipa": "/ˈiːtɪŋ/",
+    "readVi": "í-tinh"
+  },
+  "echo": {
+    "ipa": "/ˈekoʊ/",
+    "readVi": "e-câu"
+  },
+  "eco": {
+    "ipa": "/ˈekoʊ/",
+    "readVi": "ekâu"
+  },
+  "egg": {
+    "ipa": "/ˈeg/",
+    "readVi": "eg"
+  },
+  "elbow": {
+    "ipa": "/ˈelboʊ/",
+    "readVi": "eo-bâu"
+  },
+  "elders": {
+    "ipa": "/ˈeldərz/",
+    "readVi": "eo-đơ-z"
+  },
+  "elephant": {
+    "ipa": "/ˈelɪfənt/",
+    "readVi": "e-li-phừn-t"
+  },
+  "elephants": {
+    "ipa": "/ˈelɪfənts/",
+    "readVi": "e-li-phừn-t-s"
+  },
+  "energetic": {
+    "ipa": "/ˌenərˈdʒetɪk/",
+    "readVi": "e-nơ-je-tíc"
+  },
+  "energy": {
+    "ipa": "/ˈenərdʒi/",
+    "readVi": "e-nơ-ji"
+  },
+  "english": {
+    "ipa": "/ˈɪŋɡlɪʃ/",
+    "readVi": "inh-g-lish"
+  },
+  "enjoy": {
+    "ipa": "/ɪnˈdʒɔɪ/",
+    "readVi": "in-joi"
+  },
+  "envelopes": {
+    "ipa": "/ˈenvəloʊps/",
+    "readVi": "en-vơ-lâu-p-s"
+  },
+  "eraser": {
+    "ipa": "/ɪˈreɪsər/",
+    "readVi": "i-rêi-xờ"
+  },
+  "even": {
+    "ipa": "/ˈiːvən/",
+    "readVi": "i-vừn"
+  },
+  "evening": {
+    "ipa": "/ˈiːvnɪŋ/",
+    "readVi": "i-v-ninh"
+  },
+  "every": {
+    "ipa": "/ˈevri/",
+    "readVi": "e-vri"
+  },
+  "everyone": {
+    "ipa": "/ˈevriwʌn/",
+    "readVi": "e-vri-uăn"
+  },
+  "everything": {
+    "ipa": "/ˈevriθɪŋ/",
+    "readVi": "e-vri-thinh"
+  },
+  "exchange": {
+    "ipa": "/ɪksˈtʃeɪndʒ/",
+    "readVi": "ikx-t-shêinch"
+  },
+  "excited": {
+    "ipa": "/ɪkˈsaɪtɪd/",
+    "readVi": "íc-xai-tịt-đ"
+  },
+  "exciting": {
+    "ipa": "/ɪkˈsaɪtɪŋ/",
+    "readVi": "íc-xai-tinh"
+  },
+  "exercise": {
+    "ipa": "/ˈeksərsaɪz/",
+    "readVi": "éc-xơ-xai-z"
+  },
+  "exercises": {
+    "ipa": "/ˈeksərsaɪzɪz/",
+    "readVi": "éc-xơ-xai-ziz"
+  },
+  "exercising": {
+    "ipa": "/ˈeksərsaɪzɪŋ/",
+    "readVi": "éc-xơ-xai-zinh"
+  },
+  "expands": {
+    "ipa": "/ɪkˈspændz/",
+    "readVi": "ikx-p-endz"
+  },
+  "explore": {
+    "ipa": "/ɪksˈplɔːr/",
+    "readVi": "ikx-p-lor"
+  },
+  "express": {
+    "ipa": "/ɪksˈpres/",
+    "readVi": "ikx-p-res"
+  },
+  "eyes": {
+    "ipa": "/ˈaɪz/",
+    "readVi": "aiz"
+  },
+  "face": {
+    "ipa": "/feɪs/",
+    "readVi": "phêi-s"
+  },
+  "fairy": {
+    "ipa": "/ˈferi/",
+    "readVi": "phe-ri"
+  },
+  "fall": {
+    "ipa": "/ˈfɑːl/",
+    "readVi": "fa-l"
+  },
+  "falling": {
+    "ipa": "/ˈfɔːlɪŋ/",
+    "readVi": "pho-linh"
+  },
+  "falls": {
+    "ipa": "/ˈfɔːlz/",
+    "readVi": "folz"
+  },
+  "families": {
+    "ipa": "/ˈfæməliz/",
+    "readVi": "phe-mơ-li-z"
+  },
+  "family": {
+    "ipa": "/ˈfæməli/",
+    "readVi": "phe-mơ-li"
+  },
+  "fantastic": {
+    "ipa": "/fænˈtæstɪk/",
+    "readVi": "fentex-t-ik"
+  },
+  "far": {
+    "ipa": "/ˈfɑːr/",
+    "readVi": "far"
+  },
+  "faraway": {
+    "ipa": "/ˈfɑːrəweɪ/",
+    "readVi": "pha-rơ-uêi"
+  },
+  "fast": {
+    "ipa": "/ˈfæst/",
+    "readVi": "fex-t"
+  },
+  "faster": {
+    "ipa": "/ˈfæstɜːr/",
+    "readVi": "fex-t-ơ"
+  },
+  "father": {
+    "ipa": "/ˈfɑːðər/",
+    "readVi": "pha-đờ"
+  },
+  "faucet": {
+    "ipa": "/ˈfɔːsɪt/",
+    "readVi": "pho-xịt"
+  },
+  "favorite": {
+    "ipa": "/ˈfeɪvərɪt/",
+    "readVi": "phêi-vơ-rịt"
+  },
+  "feel": {
+    "ipa": "/ˈfiːl/",
+    "readVi": "fi-l"
+  },
+  "feelings": {
+    "ipa": "/ˈfiːlɪŋz/",
+    "readVi": "phi-linh-z"
+  },
+  "feels": {
+    "ipa": "/ˈfiːlz/",
+    "readVi": "filz"
+  },
+  "festival": {
+    "ipa": "/ˈfestəvəl/",
+    "readVi": "phet-x-ti-vồ"
+  },
+  "fiber": {
+    "ipa": "/ˈfaɪbər/",
+    "readVi": "phai-bờ"
+  },
+  "fields": {
+    "ipa": "/ˈfiːldz/",
+    "readVi": "fildz"
+  },
+  "filled": {
+    "ipa": "/ˈfɪld/",
+    "readVi": "fild"
+  },
+  "filling": {
+    "ipa": "/ˈfɪlɪŋ/",
+    "readVi": "phi-linh"
+  },
+  "fills": {
+    "ipa": "/ˈfɪlz/",
+    "readVi": "filz"
+  },
+  "firefighters": {
+    "ipa": "/ˈfaɪərfaɪtərz/",
+    "readVi": "phai-ơ-phai-tơ-z"
+  },
+  "fires": {
+    "ipa": "/ˈfaɪərz/",
+    "readVi": "phai-ơ-z"
+  },
+  "first": {
+    "ipa": "/fɜːrst/",
+    "readVi": "phơ-x-t"
+  },
+  "flappy": {
+    "ipa": "/ˈflæpi/",
+    "readVi": "ph-lep-pi"
+  },
+  "flashing": {
+    "ipa": "/ˈflæʃɪŋ/",
+    "readVi": "ph-le-shinh"
+  },
+  "flies": {
+    "ipa": "/ˈflaɪz/",
+    "readVi": "flaiz"
+  },
+  "floating": {
+    "ipa": "/ˈfloʊtɪŋ/",
+    "readVi": "ph-lâu-tinh"
+  },
+  "floors": {
+    "ipa": "/ˈflɔːrz/",
+    "readVi": "florz"
+  },
+  "floppy": {
+    "ipa": "/ˈflɑːpi/",
+    "readVi": "ph-lo-pi"
+  },
+  "flow": {
+    "ipa": "/ˈfloʊ/",
+    "readVi": "flâu"
+  },
+  "flower": {
+    "ipa": "/ˈflaʊər/",
+    "readVi": "ph-lao-ơ"
+  },
+  "flowers": {
+    "ipa": "/ˈflaʊərz/",
+    "readVi": "ph-lao-ơ-z"
+  },
+  "fluffy": {
+    "ipa": "/ˈflʌfi/",
+    "readVi": "ph-lắp-phi"
+  },
+  "fly": {
+    "ipa": "/ˈflaɪ/",
+    "readVi": "flai"
+  },
+  "flying": {
+    "ipa": "/ˈflaɪɪŋ/",
+    "readVi": "ph-lai-inh"
+  },
+  "folk": {
+    "ipa": "/ˈfoʊk/",
+    "readVi": "fâuk"
+  },
+  "food": {
+    "ipa": "/fuːd/",
+    "readVi": "phu-đ"
+  },
+  "footwork": {
+    "ipa": "/ˈfʊtwɜːrk/",
+    "readVi": "phút-uơ-k"
+  },
+  "for": {
+    "ipa": "/fɔːr/",
+    "readVi": "pho"
+  },
+  "forests": {
+    "ipa": "/ˈfɔːrəsts/",
+    "readVi": "forơx-t-s"
+  },
+  "forward": {
+    "ipa": "/ˈfɔːrwərd/",
+    "readVi": "pho-uơ-đ"
+  },
+  "four": {
+    "ipa": "/fɔːr/",
+    "readVi": "pho"
+  },
+  "fragrance": {
+    "ipa": "/ˈfreɪɡrəns/",
+    "readVi": "ph-rêi-g-rừn-s"
+  },
+  "fresh": {
+    "ipa": "/freʃ/",
+    "readVi": "ph-rét-sh"
+  },
+  "friend": {
+    "ipa": "/frend/",
+    "readVi": "ph-ren-đ"
+  },
+  "friend's": {
+    "ipa": "/frendz/",
+    "readVi": "ph-ren-đ-z"
+  },
+  "friendly": {
+    "ipa": "/ˈfrendli/",
+    "readVi": "ph-ren-đ-li"
+  },
+  "friends": {
+    "ipa": "/frendz/",
+    "readVi": "ph-ren-đ-z"
+  },
+  "friendships": {
+    "ipa": "/ˈfrendʃɪps/",
+    "readVi": "ph-ren-đ-xíp-s"
+  },
+  "from": {
+    "ipa": "/frʌm/",
+    "readVi": "ph-răm"
+  },
+  "front": {
+    "ipa": "/ˈfrənt/",
+    "readVi": "frơnt"
+  },
+  "fruit": {
+    "ipa": "/fruːt/",
+    "readVi": "ph-rut"
+  },
+  "fruits": {
+    "ipa": "/fruːts/",
+    "readVi": "ph-rut-s"
+  },
+  "full": {
+    "ipa": "/ˈfʊl/",
+    "readVi": "fu-l"
+  },
+  "fun": {
+    "ipa": "/ˈfən/",
+    "readVi": "fơn"
+  },
+  "funny": {
+    "ipa": "/ˈfʌni/",
+    "readVi": "phăn-ni"
+  },
+  "fur": {
+    "ipa": "/ˈfɜːr/",
+    "readVi": "fơ"
+  },
+  "future": {
+    "ipa": "/ˈfjuːtʃər/",
+    "readVi": "phiu-chờ"
+  },
+  "game": {
+    "ipa": "/ˈgeɪm/",
+    "readVi": "gêim"
+  },
+  "games": {
+    "ipa": "/ˈgeɪmz/",
+    "readVi": "gêimz"
+  },
+  "garden": {
+    "ipa": "/ˈɡɑːrdn/",
+    "readVi": "ga-đần"
+  },
+  "gate": {
+    "ipa": "/ˈgeɪt/",
+    "readVi": "gêit"
+  },
+  "gathering": {
+    "ipa": "/ˈɡæðərɪŋ/",
+    "readVi": "ge-đơ-rinh"
+  },
+  "gathers": {
+    "ipa": "/ˈɡæðərz/",
+    "readVi": "ge-đơ-z"
+  },
+  "gave": {
+    "ipa": "/ɡeɪv/",
+    "readVi": "gêi-v"
+  },
+  "generous": {
+    "ipa": "/ˈdʒenərəs/",
+    "readVi": "je-nơ-rớt"
+  },
+  "gentle": {
+    "ipa": "/ˈdʒenəl/",
+    "readVi": "chenơ-l"
+  },
+  "gently": {
+    "ipa": "/ˈdʒentli/",
+    "readVi": "jen-t-li"
+  },
+  "germs": {
+    "ipa": "/ˈdʒɜːrmz/",
+    "readVi": "chơmz"
+  },
+  "get": {
+    "ipa": "/ˈget/",
+    "readVi": "get"
+  },
+  "gifts": {
+    "ipa": "/ˈgɪfs/",
+    "readVi": "gifs"
+  },
+  "giggle": {
+    "ipa": "/ˈgɪgəl/",
+    "readVi": "gigơ-l"
+  },
+  "giraffe": {
+    "ipa": "/dʒəˈræf/",
+    "readVi": "ji-re-ph"
+  },
+  "give": {
+    "ipa": "/ɡɪv/",
+    "readVi": "gíp-v"
+  },
+  "gives": {
+    "ipa": "/ɡɪvz/",
+    "readVi": "gíp-v-z"
+  },
+  "giving": {
+    "ipa": "/ˈɡɪvɪŋ/",
+    "readVi": "gi-vinh"
+  },
+  "glass": {
+    "ipa": "/ˈglæs/",
+    "readVi": "gles"
+  },
+  "gleaming": {
+    "ipa": "/ˈɡliːmɪŋ/",
+    "readVi": "g-li-minh"
+  },
+  "gloves": {
+    "ipa": "/ˈgləvz/",
+    "readVi": "glơvz"
+  },
+  "glow": {
+    "ipa": "/ˈgloʊ/",
+    "readVi": "glâu"
+  },
+  "glowing": {
+    "ipa": "/ˈɡloʊɪŋ/",
+    "readVi": "g-lâu-inh"
+  },
+  "go": {
+    "ipa": "/ˈgoʊ/",
+    "readVi": "gâu"
+  },
+  "goal": {
+    "ipa": "/ˈgoʊl/",
+    "readVi": "gâu-l"
+  },
+  "goes": {
+    "ipa": "/ˈgoʊz/",
+    "readVi": "gâuz"
+  },
+  "going": {
+    "ipa": "/ˈɡoʊɪŋ/",
+    "readVi": "gâu-inh"
+  },
+  "gold": {
+    "ipa": "/ˈgoʊld/",
+    "readVi": "gâuld"
+  },
+  "golden": {
+    "ipa": "/ˈɡoʊldən/",
+    "readVi": "gâu-l-đừn"
+  },
+  "goldfish": {
+    "ipa": "/ˈɡoʊldfɪʃ/",
+    "readVi": "gâu-l-đi-phi-sh"
+  },
+  "good": {
+    "ipa": "/ɡʊd/",
+    "readVi": "gút-đ"
+  },
+  "grandfather": {
+    "ipa": "/ˈɡrændfɑːðər/",
+    "readVi": "g-ren-đ-pha-đờ"
+  },
+  "grandmother": {
+    "ipa": "/ˈɡrændmʌðər/",
+    "readVi": "g-ren-đ-ma-đờ"
+  },
+  "grandparents": {
+    "ipa": "/ˈɡrændperənts/",
+    "readVi": "g-ren-đ-pe-rừn-t-s"
+  },
+  "grass": {
+    "ipa": "/ˈgræs/",
+    "readVi": "gres"
+  },
+  "gray": {
+    "ipa": "/ɡreɪ/",
+    "readVi": "g-rêi"
+  },
+  "great": {
+    "ipa": "/ɡreɪt/",
+    "readVi": "g-rêi-t"
+  },
+  "green": {
+    "ipa": "/ɡriːn/",
+    "readVi": "g-rin"
+  },
+  "grocery": {
+    "ipa": "/ˈɡroʊsəri/",
+    "readVi": "g-râu-xơ-ri"
+  },
+  "ground": {
+    "ipa": "/ɡraʊnd/",
+    "readVi": "g-rao-n-đ"
+  },
+  "groups": {
+    "ipa": "/ˈgruːps/",
+    "readVi": "grups"
+  },
+  "grow": {
+    "ipa": "/ɡroʊ/",
+    "readVi": "g-râu"
+  },
+  "guardians": {
+    "ipa": "/ˈɡɑːrdiənz/",
+    "readVi": "ga-đi-ơn-z"
+  },
+  "guitar": {
+    "ipa": "/ɡɪˈtɑːr/",
+    "readVi": "ghi-ta"
+  },
+  "gym": {
+    "ipa": "/ˈdʒɪm/",
+    "readVi": "chim"
+  },
+  "habit": {
+    "ipa": "/ˈhæbɪt/",
+    "readVi": "he-bịt"
+  },
+  "habits": {
+    "ipa": "/ˈhæbɪts/",
+    "readVi": "he-bịt-t-s"
+  },
+  "half": {
+    "ipa": "/ˈhæf/",
+    "readVi": "hef"
+  },
+  "hamster": {
+    "ipa": "/ˈhæmstɜːr/",
+    "readVi": "hemx-t-ơ"
+  },
+  "handrails": {
+    "ipa": "/ˈhændreɪlz/",
+    "readVi": "hen-đ-rêi-l-z"
+  },
+  "hands": {
+    "ipa": "/hændz/",
+    "readVi": "hen-đ-z"
+  },
+  "happily": {
+    "ipa": "/ˈhæpɪli/",
+    "readVi": "hép-pi-li"
+  },
+  "happiness": {
+    "ipa": "/ˈhæpinəs/",
+    "readVi": "hép-pi-nớt"
+  },
+  "happy": {
+    "ipa": "/ˈhæpi/",
+    "readVi": "hép-pi"
+  },
+  "hard": {
+    "ipa": "/hɑːrd/",
+    "readVi": "ha-đ"
+  },
+  "harm": {
+    "ipa": "/ˈhɑːrm/",
+    "readVi": "harm"
+  },
+  "has": {
+    "ipa": "/hæz/",
+    "readVi": "hét-z"
+  },
+  "have": {
+    "ipa": "/hæv/",
+    "readVi": "he-v"
+  },
+  "he": {
+    "ipa": "/hiː/",
+    "readVi": "hi"
+  },
+  "heal": {
+    "ipa": "/ˈhiːl/",
+    "readVi": "hi-l"
+  },
+  "health": {
+    "ipa": "/ˈhelθ/",
+    "readVi": "helth"
+  },
+  "healthy": {
+    "ipa": "/ˈhelθi/",
+    "readVi": "heo-thi"
+  },
+  "heart": {
+    "ipa": "/ˈhɑːrt/",
+    "readVi": "hart"
+  },
+  "heartbeat": {
+    "ipa": "/ˈhɑːrtbiːt/",
+    "readVi": "ha-t-bít"
+  },
+  "heartfelt": {
+    "ipa": "/ˈhɑːrtfelt/",
+    "readVi": "ha-t-pheo-t"
+  },
+  "hearts": {
+    "ipa": "/ˈhɑːrts/",
+    "readVi": "harts"
+  },
+  "heater": {
+    "ipa": "/ˈhiːtər/",
+    "readVi": "hi-tờ"
+  },
+  "heavy": {
+    "ipa": "/ˈhevi/",
+    "readVi": "he-vi"
+  },
+  "hello": {
+    "ipa": "/həˈloʊ/",
+    "readVi": "hơ-lâu"
+  },
+  "help": {
+    "ipa": "/help/",
+    "readVi": "heo-p"
+  },
+  "helping": {
+    "ipa": "/ˈhelpɪŋ/",
+    "readVi": "heo-pinh"
+  },
+  "helps": {
+    "ipa": "/helps/",
+    "readVi": "heo-p-s"
+  },
+  "her": {
+    "ipa": "/hɜːr/",
+    "readVi": "hơ"
+  },
+  "here": {
+    "ipa": "/hɪr/",
+    "readVi": "hia"
+  },
+  "hero": {
+    "ipa": "/ˈhɪroʊ/",
+    "readVi": "hi-râu"
+  },
+  "hide": {
+    "ipa": "/ˈhaɪd/",
+    "readVi": "haid"
+  },
+  "high": {
+    "ipa": "/ˈhaɪ/",
+    "readVi": "hai"
+  },
+  "hill": {
+    "ipa": "/ˈhɪl/",
+    "readVi": "hi-l"
+  },
+  "him": {
+    "ipa": "/hɪm/",
+    "readVi": "him"
+  },
+  "his": {
+    "ipa": "/hɪz/",
+    "readVi": "hít-z"
+  },
+  "hive": {
+    "ipa": "/ˈhaɪv/",
+    "readVi": "haiv"
+  },
+  "hobby": {
+    "ipa": "/ˈhɑːbi/",
+    "readVi": "ho-bi"
+  },
+  "hold": {
+    "ipa": "/ˈhoʊld/",
+    "readVi": "hâuld"
+  },
+  "holding": {
+    "ipa": "/ˈhoʊldɪŋ/",
+    "readVi": "hâu-l-đinh"
+  },
+  "holiday": {
+    "ipa": "/ˈhɑːlədeɪ/",
+    "readVi": "ho-lơ-đây"
+  },
+  "home": {
+    "ipa": "/hoʊm/",
+    "readVi": "hôm"
+  },
+  "homes": {
+    "ipa": "/ˈhoʊmz/",
+    "readVi": "hâumz"
+  },
+  "homework": {
+    "ipa": "/ˈhoʊmwɜːrk/",
+    "readVi": "hôm-uơ-k"
+  },
+  "honest": {
+    "ipa": "/ˈɑːnəst/",
+    "readVi": "anơx-t"
+  },
+  "honesty": {
+    "ipa": "/ˈɑːnəstiː/",
+    "readVi": "anơx-t-i"
+  },
+  "honey": {
+    "ipa": "/ˈhʌni/",
+    "readVi": "hă-ni"
+  },
+  "honeybee": {
+    "ipa": "/ˈhʌnibiː/",
+    "readVi": "hă-ni-bi"
+  },
+  "hop": {
+    "ipa": "/ˈhɑːp/",
+    "readVi": "hap"
+  },
+  "hospitals": {
+    "ipa": "/ˈhɑːˌspɪtəlz/",
+    "readVi": "hax-p-itơlz"
+  },
+  "hot": {
+    "ipa": "/ˈhɑːt/",
+    "readVi": "hat"
+  },
+  "house": {
+    "ipa": "/haʊs/",
+    "readVi": "hao-s"
+  },
+  "how": {
+    "ipa": "/haʊ/",
+    "readVi": "hao"
+  },
+  "hugs": {
+    "ipa": "/ˈhəgz/",
+    "readVi": "hơgz"
+  },
+  "humanity": {
+    "ipa": "/hjuːˈmænəti/",
+    "readVi": "hiu-me-nơ-ti"
+  },
+  "humans": {
+    "ipa": "/ˈhjuːmənz/",
+    "readVi": "hiu-mừn-z"
+  },
+  "hundred": {
+    "ipa": "/ˈhʌndrəd/",
+    "readVi": "hăn-đ-rợt"
+  },
+  "hurt": {
+    "ipa": "/ˈhɜːrt/",
+    "readVi": "hơt"
+  },
+  "hygiene": {
+    "ipa": "/ˈhaɪdʒiːn/",
+    "readVi": "hai-jin"
+  },
+  "if": {
+    "ipa": "/ɪf/",
+    "readVi": "íp-ph"
+  },
+  "imagination": {
+    "ipa": "/ɪˌmædʒɪˈneɪʃən/",
+    "readVi": "i-me-ji-nêi-shơn"
+  },
+  "imagine": {
+    "ipa": "/ɪˈmædʒɪn/",
+    "readVi": "i-me-jin"
+  },
+  "immediately": {
+    "ipa": "/ɪˈmiːdiətli/",
+    "readVi": "i-mi-đi-ợt-li"
+  },
+  "immense": {
+    "ipa": "/ɪˈmens/",
+    "readVi": "im-men-s"
+  },
+  "important": {
+    "ipa": "/ɪmˈpɔːrtnt/",
+    "readVi": "im-po-tần-t"
+  },
+  "in": {
+    "ipa": "/ɪn/",
+    "readVi": "in"
+  },
+  "included": {
+    "ipa": "/ɪnˈkluːdɪd/",
+    "readVi": "in-c-lu-địt-đ"
+  },
+  "inside": {
+    "ipa": "/ˌɪnˈsaɪd/",
+    "readVi": "in-sai-đ"
+  },
+  "inspires": {
+    "ipa": "/ˌɪnˈspaɪrz/",
+    "readVi": "inx-p-airz"
+  },
+  "interesting": {
+    "ipa": "/ˈɪntɜːrəstɪŋ/",
+    "readVi": "intơơx-t-inh"
+  },
+  "interrupting": {
+    "ipa": "/ˌɪntəˈrʌptɪŋ/",
+    "readVi": "in-tơ-rắp-tinh"
+  },
+  "into": {
+    "ipa": "/ˈɪntuː/",
+    "readVi": "in-tu"
+  },
+  "introduce": {
+    "ipa": "/ˌɪntrəˈduːs/",
+    "readVi": "in-t-rơ-đu-s"
+  },
+  "is": {
+    "ipa": "/ɪz/",
+    "readVi": "i-z"
+  },
+  "it": {
+    "ipa": "/ɪt/",
+    "readVi": "ít"
+  },
+  "its": {
+    "ipa": "/ɪts/",
+    "readVi": "ít-s"
+  },
+  "joy": {
+    "ipa": "/dʒɔɪ/",
+    "readVi": "joi"
+  },
+  "joyful": {
+    "ipa": "/ˈdʒɔɪfəl/",
+    "readVi": "joi-phu-l"
+  },
+  "juice": {
+    "ipa": "/ˈdʒuːs/",
+    "readVi": "chus"
+  },
+  "juicy": {
+    "ipa": "/ˈdʒuːsi/",
+    "readVi": "ju-xi"
+  },
+  "jump": {
+    "ipa": "/dʒʌmp/",
+    "readVi": "chăm-p"
+  },
+  "jumping": {
+    "ipa": "/ˈdʒʌmpɪŋ/",
+    "readVi": "chăm-pinh"
+  },
+  "jumps": {
+    "ipa": "/dʒʌmps/",
+    "readVi": "chăm-p-s"
+  },
+  "jungle": {
+    "ipa": "/ˈdʒəŋgəl/",
+    "readVi": "chơnhgơ-l"
+  },
+  "just": {
+    "ipa": "/ˈdʒəst/",
+    "readVi": "chơx-t"
+  },
+  "keep": {
+    "ipa": "/kiːp/",
+    "readVi": "khip"
+  },
+  "keeping": {
+    "ipa": "/ˈkiːpɪŋ/",
+    "readVi": "khi-pinh"
+  },
+  "keeps": {
+    "ipa": "/kiːps/",
+    "readVi": "khip-s"
+  },
+  "key": {
+    "ipa": "/kiː/",
+    "readVi": "khi"
+  },
+  "keys": {
+    "ipa": "/kiːz/",
+    "readVi": "khi-z"
+  },
+  "kick": {
+    "ipa": "/ˈkɪk/",
+    "readVi": "kik"
+  },
+  "kind": {
+    "ipa": "/ˈkaɪnd/",
+    "readVi": "kaind"
+  },
+  "kindness": {
+    "ipa": "/ˈkaɪndnəs/",
+    "readVi": "khai-n-đ-nớt"
+  },
+  "king": {
+    "ipa": "/ˈkɪŋ/",
+    "readVi": "kinh"
+  },
+  "kitchen": {
+    "ipa": "/ˈkɪtʃɪn/",
+    "readVi": "kít-chừn"
+  },
+  "kites": {
+    "ipa": "/ˈkaɪts/",
+    "readVi": "kaits"
+  },
+  "knights": {
+    "ipa": "/ˈnaɪts/",
+    "readVi": "naits"
+  },
+  "known": {
+    "ipa": "/ˈnoʊn/",
+    "readVi": "nâun"
+  },
+  "lamp": {
+    "ipa": "/ˈlæmp/",
+    "readVi": "lemp"
+  },
+  "lan": {
+    "ipa": "/læn/",
+    "readVi": "Lan"
+  },
+  "land": {
+    "ipa": "/ˈlænd/",
+    "readVi": "lend"
+  },
+  "language": {
+    "ipa": "/ˈlæŋɡwɪdʒ/",
+    "readVi": "lenh-g-uýt-j"
+  },
+  "lanterns": {
+    "ipa": "/ˈlæntərnz/",
+    "readVi": "len-tơn-z"
+  },
+  "large": {
+    "ipa": "/ˈlɑːrdʒ/",
+    "readVi": "larch"
+  },
+  "largest": {
+    "ipa": "/ˈlɑːrdʒəst/",
+    "readVi": "larchơx-t"
+  },
+  "last": {
+    "ipa": "/ˈlæs/",
+    "readVi": "les"
+  },
+  "laugh": {
+    "ipa": "/ˈlæf/",
+    "readVi": "lef"
+  },
+  "laughter": {
+    "ipa": "/ˈlæftər/",
+    "readVi": "lép-ph-tờ"
+  },
+  "leaders": {
+    "ipa": "/ˈliːdərz/",
+    "readVi": "li-đơ-z"
+  },
+  "leap": {
+    "ipa": "/ˈliːp/",
+    "readVi": "lip"
+  },
+  "learn": {
+    "ipa": "/lɜːrn/",
+    "readVi": "lơn"
+  },
+  "learning": {
+    "ipa": "/ˈlɜːrnɪŋ/",
+    "readVi": "lơ-ninh"
+  },
+  "leaves": {
+    "ipa": "/ˈliːvz/",
+    "readVi": "livz"
+  },
+  "left": {
+    "ipa": "/ˈleft/",
+    "readVi": "left"
+  },
+  "lego": {
+    "ipa": "/ˈleɡoʊ/",
+    "readVi": "le-gâu"
+  },
+  "legs": {
+    "ipa": "/ˈlegz/",
+    "readVi": "legz"
+  },
+  "lessons": {
+    "ipa": "/ˈlesənz/",
+    "readVi": "le-sừn-z"
+  },
+  "letters": {
+    "ipa": "/ˈletərz/",
+    "readVi": "le-tơ-z"
+  },
+  "lettuce": {
+    "ipa": "/ˈletɪs/",
+    "readVi": "le-tịt-s"
+  },
+  "library": {
+    "ipa": "/ˈlaɪbreri/",
+    "readVi": "lai-b-rơ-ri"
+  },
+  "light": {
+    "ipa": "/ˈlaɪt/",
+    "readVi": "lait"
+  },
+  "lights": {
+    "ipa": "/ˈlaɪts/",
+    "readVi": "laits"
+  },
+  "like": {
+    "ipa": "/laɪk/",
+    "readVi": "lai-k"
+  },
+  "lily": {
+    "ipa": "/ˈlɪli/",
+    "readVi": "li-li"
+  },
+  "lion": {
+    "ipa": "/ˈlaɪən/",
+    "readVi": "lai-ơn"
+  },
+  "lions": {
+    "ipa": "/ˈlaɪənz/",
+    "readVi": "lai-ơn-z"
+  },
+  "listen": {
+    "ipa": "/ˈlɪsən/",
+    "readVi": "li-xừn"
+  },
+  "listener": {
+    "ipa": "/ˈlɪsənər/",
+    "readVi": "li-xừn-nờ"
+  },
+  "listeners": {
+    "ipa": "/ˈlɪsənərz/",
+    "readVi": "li-xừn-nơ-z"
+  },
+  "listening": {
+    "ipa": "/ˈlɪsənɪŋ/",
+    "readVi": "li-xừn-ninh"
+  },
+  "listens": {
+    "ipa": "/ˈlɪsənz/",
+    "readVi": "li-xừn-z"
+  },
+  "little": {
+    "ipa": "/ˈlɪtl/",
+    "readVi": "lít-tồl"
+  },
+  "live": {
+    "ipa": "/lɪv/",
+    "readVi": "li-v"
+  },
+  "lively": {
+    "ipa": "/ˈlaɪvliː/",
+    "readVi": "li-v-li"
+  },
+  "lives": {
+    "ipa": "/lɪvz/",
+    "readVi": "li-v-z"
+  },
+  "living": {
+    "ipa": "/ˈlɪvɪŋ/",
+    "readVi": "li-vinh"
+  },
+  "local": {
+    "ipa": "/ˈloʊkəl/",
+    "readVi": "lâukơ-l"
+  },
+  "long": {
+    "ipa": "/ˈlɔːŋ/",
+    "readVi": "lonh"
+  },
+  "look": {
+    "ipa": "/lʊk/",
+    "readVi": "lúc-k"
+  },
+  "looking": {
+    "ipa": "/ˈlʊkɪŋ/",
+    "readVi": "lúc-kinh"
+  },
+  "looks": {
+    "ipa": "/lʊks/",
+    "readVi": "lúc-ks"
+  },
+  "lots": {
+    "ipa": "/ˈlɑːts/",
+    "readVi": "lats"
+  },
+  "lotus": {
+    "ipa": "/ˈloʊtəs/",
+    "readVi": "lâu-tớt"
+  },
+  "loud": {
+    "ipa": "/ˈlaʊd/",
+    "readVi": "laod"
+  },
+  "loudly": {
+    "ipa": "/ˈlaʊdli/",
+    "readVi": "lao-đ-li"
+  },
+  "love": {
+    "ipa": "/lʌv/",
+    "readVi": "lớp-v"
+  },
+  "loved": {
+    "ipa": "/lʌvd/",
+    "readVi": "lớp-v-đ"
+  },
+  "lovely": {
+    "ipa": "/ˈləvliː/",
+    "readVi": "lớp-v-li"
+  },
+  "loves": {
+    "ipa": "/lʌvz/",
+    "readVi": "lớp-v-z"
+  },
+  "loving": {
+    "ipa": "/ˈlʌvɪŋ/",
+    "readVi": "lắp-vinh"
+  },
+  "low": {
+    "ipa": "/ˈloʊ/",
+    "readVi": "lâu"
+  },
+  "lucky": {
+    "ipa": "/ˈlʌki/",
+    "readVi": "lắc-ki"
+  },
+  "lungs": {
+    "ipa": "/ˈləŋz/",
+    "readVi": "lơnhz"
+  },
+  "made": {
+    "ipa": "/meɪd/",
+    "readVi": "mêi-đ"
+  },
+  "magic": {
+    "ipa": "/ˈmædʒɪk/",
+    "readVi": "me-jíc"
+  },
+  "magical": {
+    "ipa": "/ˈmædʒɪkəl/",
+    "readVi": "mechikơ-l"
+  },
+  "make": {
+    "ipa": "/meɪk/",
+    "readVi": "mêi-k"
+  },
+  "makes": {
+    "ipa": "/meɪks/",
+    "readVi": "mêi-k-s"
+  },
+  "making": {
+    "ipa": "/ˈmeɪkɪŋ/",
+    "readVi": "mêi-kinh"
+  },
+  "male": {
+    "ipa": "/ˈmeɪl/",
+    "readVi": "mêi-l"
+  },
+  "manage": {
+    "ipa": "/ˈmænɪdʒ/",
+    "readVi": "me-nij"
+  },
+  "mane": {
+    "ipa": "/ˈmeɪn/",
+    "readVi": "mêin"
+  },
+  "manners": {
+    "ipa": "/ˈmænərz/",
+    "readVi": "me-nơ-z"
+  },
+  "marvelous": {
+    "ipa": "/ˈmɑːrvələs/",
+    "readVi": "ma-vơ-lớt"
+  },
+  "math": {
+    "ipa": "/ˈmæθ/",
+    "readVi": "meth"
+  },
+  "matters": {
+    "ipa": "/ˈmætərz/",
+    "readVi": "me-tơ-z"
+  },
+  "maturity": {
+    "ipa": "/məˈtʃʊrəti/",
+    "readVi": "mơ-chơ-rơ-ti"
+  },
+  "may": {
+    "ipa": "/meɪ/",
+    "readVi": "mêi"
+  },
+  "me": {
+    "ipa": "/miː/",
+    "readVi": "mi"
+  },
+  "meal": {
+    "ipa": "/ˈmiːl/",
+    "readVi": "mi-l"
+  },
+  "meals": {
+    "ipa": "/ˈmiːlz/",
+    "readVi": "milz"
+  },
+  "medicine": {
+    "ipa": "/ˈmedɪsɪn/",
+    "readVi": "me-đi-xừn"
+  },
+  "meet": {
+    "ipa": "/miːt/",
+    "readVi": "mít"
+  },
+  "melodies": {
+    "ipa": "/ˈmelədiz/",
+    "readVi": "me-lơ-đi-z"
+  },
+  "melodious": {
+    "ipa": "/məˈloʊdiəs/",
+    "readVi": "mơ-lâu-đi-ớt"
+  },
+  "mend": {
+    "ipa": "/ˈmend/",
+    "readVi": "mend"
+  },
+  "mid": {
+    "ipa": "/ˈmɪd/",
+    "readVi": "mid"
+  },
+  "might": {
+    "ipa": "/maɪt/",
+    "readVi": "mai-t"
+  },
+  "milk": {
+    "ipa": "/mɪlk/",
+    "readVi": "miu-k"
+  },
+  "millions": {
+    "ipa": "/ˈmɪljənz/",
+    "readVi": "mi-li-ơn-z"
+  },
+  "mimi": {
+    "ipa": "/ˈmiːmi/",
+    "readVi": "mi-mi"
+  },
+  "mind": {
+    "ipa": "/ˈmaɪnd/",
+    "readVi": "maind"
+  },
+  "minh": {
+    "ipa": "/mɪn/",
+    "readVi": "Minh"
+  },
+  "mint": {
+    "ipa": "/ˈmɪnt/",
+    "readVi": "mint"
+  },
+  "miss": {
+    "ipa": "/ˈmɪs/",
+    "readVi": "mis"
+  },
+  "mistake": {
+    "ipa": "/mɪˈsteɪk/",
+    "readVi": "mix-t-êik"
+  },
+  "misunderstandings": {
+    "ipa": "/ˌmɪsəndɜːrˈstændɪŋz/",
+    "readVi": "misơndơx-t-endinhz"
+  },
+  "money": {
+    "ipa": "/ˈmʌni/",
+    "readVi": "mă-ni"
+  },
+  "month": {
+    "ipa": "/ˈmənθ/",
+    "readVi": "mơnth"
+  },
+  "moon": {
+    "ipa": "/ˈmuːn/",
+    "readVi": "mun"
+  },
+  "mooncakes": {
+    "ipa": "/ˈmuːnkeɪks/",
+    "readVi": "mun-khêi-k-s"
+  },
+  "more": {
+    "ipa": "/mɔːr/",
+    "readVi": "mo"
+  },
+  "morning": {
+    "ipa": "/ˈmɔːrnɪŋ/",
+    "readVi": "mo-ninh"
+  },
+  "mornings": {
+    "ipa": "/ˈmɔːrnɪŋz/",
+    "readVi": "mo-ninh-z"
+  },
+  "most": {
+    "ipa": "/moʊst/",
+    "readVi": "mâu-x-t"
+  },
+  "mother": {
+    "ipa": "/ˈmʌðər/",
+    "readVi": "ma-đờ"
+  },
+  "motorbike": {
+    "ipa": "/ˈmoʊtərbaɪk/",
+    "readVi": "mâu-tơ-bai-k"
+  },
+  "mountains": {
+    "ipa": "/ˈmaʊntənz/",
+    "readVi": "mao-n-từn-z"
+  },
+  "mouths": {
+    "ipa": "/ˈmaʊðz/",
+    "readVi": "maođz"
+  },
+  "moving": {
+    "ipa": "/ˈmuːvɪŋ/",
+    "readVi": "mu-vinh"
+  },
+  "mr": {
+    "ipa": "/ˈmɪstɜːr/",
+    "readVi": "mix-t-ơ"
+  },
+  "much": {
+    "ipa": "/mʌtʃ/",
+    "readVi": "mắt-ch"
+  },
+  "muscles": {
+    "ipa": "/ˈmʌsəlz/",
+    "readVi": "mắt-xồ-z"
+  },
+  "music": {
+    "ipa": "/ˈmjuːzɪk/",
+    "readVi": "miu-zíc"
+  },
+  "must": {
+    "ipa": "/mʌst/",
+    "readVi": "mắt-x-t"
+  },
+  "my": {
+    "ipa": "/maɪ/",
+    "readVi": "mai"
+  },
+  "myself": {
+    "ipa": "/maɪˈself/",
+    "readVi": "mai-seo-ph"
+  },
+  "mysterious": {
+    "ipa": "/mɪˈstɪriːəs/",
+    "readVi": "mix-t-iriơs"
+  },
+  "nam": {
+    "ipa": "/næm/",
+    "readVi": "Nam"
+  },
+  "name": {
+    "ipa": "/neɪm/",
+    "readVi": "nêm"
+  },
+  "naps": {
+    "ipa": "/ˈnæps/",
+    "readVi": "neps"
+  },
+  "nature": {
+    "ipa": "/ˈneɪtʃər/",
+    "readVi": "nêi-chờ"
+  },
+  "near": {
+    "ipa": "/nɪr/",
+    "readVi": "nia"
+  },
+  "neat": {
+    "ipa": "/ˈniːt/",
+    "readVi": "nit"
+  },
+  "neatly": {
+    "ipa": "/ˈniːtli/",
+    "readVi": "nit-li"
+  },
+  "neck": {
+    "ipa": "/ˈnek/",
+    "readVi": "nek"
+  },
+  "nectar": {
+    "ipa": "/ˈnektər/",
+    "readVi": "néc-tờ"
+  },
+  "need": {
+    "ipa": "/niːd/",
+    "readVi": "nit-đ"
+  },
+  "neighbor": {
+    "ipa": "/ˈneɪbər/",
+    "readVi": "nêi-bờ"
+  },
+  "neighborhood": {
+    "ipa": "/ˈneɪbərhʊd/",
+    "readVi": "nêi-bơ-hút-đ"
+  },
+  "neighborhoods": {
+    "ipa": "/ˈneɪbərhʊdz/",
+    "readVi": "nêi-bơ-hút-đ-z"
+  },
+  "neighbors": {
+    "ipa": "/ˈneɪbərz/",
+    "readVi": "nêi-bơ-z"
+  },
+  "never": {
+    "ipa": "/ˈnevər/",
+    "readVi": "ne-vờ"
+  },
+  "new": {
+    "ipa": "/nuː/",
+    "readVi": "niu"
+  },
+  "news": {
+    "ipa": "/ˈnjuːz/",
+    "readVi": "niu-z"
+  },
+  "next": {
+    "ipa": "/ˈneks/",
+    "readVi": "neks"
+  },
+  "nice": {
+    "ipa": "/ˈnaɪs/",
+    "readVi": "nais"
+  },
+  "night": {
+    "ipa": "/naɪt/",
+    "readVi": "nai-t"
+  },
+  "nine": {
+    "ipa": "/naɪn/",
+    "readVi": "nai-n"
+  },
+  "noodle": {
+    "ipa": "/ˈnuːdəl/",
+    "readVi": "nudơ-l"
+  },
+  "noses": {
+    "ipa": "/ˈnoʊzɪz/",
+    "readVi": "nâu-ziz"
+  },
+  "notebooks": {
+    "ipa": "/ˈnoʊtbʊks/",
+    "readVi": "nâu-t-búc-s"
+  },
+  "numbers": {
+    "ipa": "/ˈnʌmbərz/",
+    "readVi": "năm-bơ-z"
+  },
+  "nursery": {
+    "ipa": "/ˈnɜːrsəri/",
+    "readVi": "nơ-xơ-ri"
+  },
+  "nurses": {
+    "ipa": "/ˈnɜːrsɪz/",
+    "readVi": "nơ-xịt-s"
+  },
+  "o'clock": {
+    "ipa": "/əˈklɑːk/",
+    "readVi": "âu-c-lóc-k"
+  },
+  "ocean": {
+    "ipa": "/ˈoʊʃən/",
+    "readVi": "âu-shơn"
+  },
+  "of": {
+    "ipa": "/ʌv/",
+    "readVi": "ơ-v"
+  },
+  "off": {
+    "ipa": "/ɔːf/",
+    "readVi": "o-ph"
+  },
+  "officers": {
+    "ipa": "/ˈɑːfɪsərz/",
+    "readVi": "o-phi-xơ-z"
+  },
+  "often": {
+    "ipa": "/ˈɔːfn/",
+    "readVi": "ó-phừn"
+  },
+  "old": {
+    "ipa": "/oʊld/",
+    "readVi": "âu-l-đ"
+  },
+  "on": {
+    "ipa": "/ɑːn/",
+    "readVi": "on"
+  },
+  "one": {
+    "ipa": "/wʌn/",
+    "readVi": "uăn"
+  },
+  "only": {
+    "ipa": "/ˈoʊnliː/",
+    "readVi": "on-li"
+  },
+  "onto": {
+    "ipa": "/ˈɑːntuː/",
+    "readVi": "on-tu"
+  },
+  "or": {
+    "ipa": "/ɔːr/",
+    "readVi": "o"
+  },
+  "orange": {
+    "ipa": "/ˈɔːrɪndʒ/",
+    "readVi": "o-rin-j"
+  },
+  "oranges": {
+    "ipa": "/ˈɔːrɪndʒɪz/",
+    "readVi": "o-rin-jiz"
+  },
+  "other": {
+    "ipa": "/ˈʌðər/",
+    "readVi": "ă-đờ"
+  },
+  "others": {
+    "ipa": "/ˈʌðərz/",
+    "readVi": "ă-đơ-z"
+  },
+  "our": {
+    "ipa": "/ˈaʊər/",
+    "readVi": "ao-ơ"
+  },
+  "out": {
+    "ipa": "/ˈaʊt/",
+    "readVi": "aot"
+  },
+  "outer": {
+    "ipa": "/ˈaʊtər/",
+    "readVi": "ao-tờ"
+  },
+  "outside": {
+    "ipa": "/ˌaʊtˈsaɪd/",
+    "readVi": "ao-t-sai-đ"
+  },
+  "over": {
+    "ipa": "/ˈoʊvər/",
+    "readVi": "âu-vờ"
+  },
+  "oxygen": {
+    "ipa": "/ˈɑːksɪdʒən/",
+    "readVi": "óc-xi-dừn"
+  },
+  "packages": {
+    "ipa": "/ˈpækɪdʒɪz/",
+    "readVi": "pe-kiz"
+  },
+  "packed": {
+    "ipa": "/ˈpækt/",
+    "readVi": "pekt"
+  },
+  "painted": {
+    "ipa": "/ˈpeɪntɪd/",
+    "readVi": "pên-tịt-đ"
+  },
+  "pair": {
+    "ipa": "/ˈper/",
+    "readVi": "per"
+  },
+  "pajamas": {
+    "ipa": "/pəˈdʒɑːməz/",
+    "readVi": "pơ-ja-mơ-z"
+  },
+  "paper": {
+    "ipa": "/ˈpeɪpər/",
+    "readVi": "pêi-pờ"
+  },
+  "parade": {
+    "ipa": "/pəˈreɪd/",
+    "readVi": "pơ-rết-đ"
+  },
+  "parents": {
+    "ipa": "/ˈperənts/",
+    "readVi": "pe-rừn-t-s"
+  },
+  "park": {
+    "ipa": "/ˈpɑːrk/",
+    "readVi": "park"
+  },
+  "party": {
+    "ipa": "/ˈpɑːrti/",
+    "readVi": "pa-ti"
+  },
+  "pass": {
+    "ipa": "/ˈpæs/",
+    "readVi": "pes"
+  },
+  "path": {
+    "ipa": "/ˈpæθ/",
+    "readVi": "peth"
+  },
+  "paths": {
+    "ipa": "/ˈpæðz/",
+    "readVi": "peđz"
+  },
+  "patience": {
+    "ipa": "/ˈpeɪʃəns/",
+    "readVi": "pêi-shừn-s"
+  },
+  "patient": {
+    "ipa": "/ˈpeɪʃənt/",
+    "readVi": "pêi-shừn-t"
+  },
+  "patterns": {
+    "ipa": "/ˈpætərnz/",
+    "readVi": "pe-tơn-z"
+  },
+  "paws": {
+    "ipa": "/ˈpɔːz/",
+    "readVi": "poz"
+  },
+  "peace": {
+    "ipa": "/ˈpiːs/",
+    "readVi": "pis"
+  },
+  "peaceful": {
+    "ipa": "/ˈpiːsfəl/",
+    "readVi": "pisfơ-l"
+  },
+  "peacefully": {
+    "ipa": "/ˈpiːsfəli/",
+    "readVi": "pi-x-phu-li"
+  },
+  "peach": {
+    "ipa": "/ˈpiːtʃ/",
+    "readVi": "pich"
+  },
+  "pedaling": {
+    "ipa": "/ˈpedəlɪŋ/",
+    "readVi": "pe-đơ-linh"
+  },
+  "pedestrian": {
+    "ipa": "/pəˈdestriən/",
+    "readVi": "pơ-đét-x-t-ri-ơn"
+  },
+  "peel": {
+    "ipa": "/ˈpiːl/",
+    "readVi": "pi-l"
+  },
+  "pencil": {
+    "ipa": "/ˈpensəl/",
+    "readVi": "pen-xồ"
+  },
+  "pencils": {
+    "ipa": "/ˈpensəlz/",
+    "readVi": "pen-xồ-z"
+  },
+  "people": {
+    "ipa": "/ˈpiːpəl/",
+    "readVi": "pipơ-l"
+  },
+  "perfect": {
+    "ipa": "/ˈpɜːrfɪkt/",
+    "readVi": "pơ-phíc-t"
+  },
+  "perseverance": {
+    "ipa": "/ˌpɜːrsəˈvɪrəns/",
+    "readVi": "pơ-xơ-vi-rừn-s"
+  },
+  "pet": {
+    "ipa": "/ˈpet/",
+    "readVi": "pet"
+  },
+  "pets": {
+    "ipa": "/ˈpets/",
+    "readVi": "pets"
+  },
+  "piano": {
+    "ipa": "/piˈænoʊ/",
+    "readVi": "pi-a-nâu"
+  },
+  "picture": {
+    "ipa": "/ˈpɪktʃər/",
+    "readVi": "píc-chờ"
+  },
+  "pictures": {
+    "ipa": "/ˈpɪktʃərz/",
+    "readVi": "píc-chơ-z"
+  },
+  "piece": {
+    "ipa": "/ˈpiːs/",
+    "readVi": "pis"
+  },
+  "pine": {
+    "ipa": "/ˈpaɪn/",
+    "readVi": "pain"
+  },
+  "pink": {
+    "ipa": "/pɪŋk/",
+    "readVi": "phinh-k"
+  },
+  "place": {
+    "ipa": "/ˈpleɪs/",
+    "readVi": "plêis"
+  },
+  "plains": {
+    "ipa": "/pleɪnz/",
+    "readVi": "p-lên-z"
+  },
+  "planet": {
+    "ipa": "/ˈplænɪt/",
+    "readVi": "p-le-nịt"
+  },
+  "planets": {
+    "ipa": "/ˈplænɪts/",
+    "readVi": "p-le-nịt-s"
+  },
+  "planted": {
+    "ipa": "/ˈplæntɪd/",
+    "readVi": "p-len-tịt-đ"
+  },
+  "planting": {
+    "ipa": "/ˈplæntɪŋ/",
+    "readVi": "p-len-tinh"
+  },
+  "plants": {
+    "ipa": "/plænts/",
+    "readVi": "p-len-t-s"
+  },
+  "plastic": {
+    "ipa": "/ˈplæstɪk/",
+    "readVi": "plex-t-ik"
+  },
+  "play": {
+    "ipa": "/pleɪ/",
+    "readVi": "p-lây"
+  },
+  "playground": {
+    "ipa": "/ˈpleɪɡraʊnd/",
+    "readVi": "p-lêi-g-rao-n-đ"
+  },
+  "playing": {
+    "ipa": "/ˈpleɪɪŋ/",
+    "readVi": "p-lêi-inh"
+  },
+  "playtime": {
+    "ipa": "/ˈpleɪtaɪm/",
+    "readVi": "p-lêi-thaim"
+  },
+  "pleasant": {
+    "ipa": "/ˈplezənt/",
+    "readVi": "p-le-zừn-t"
+  },
+  "plenty": {
+    "ipa": "/ˈplenti/",
+    "readVi": "p-len-ti"
+  },
+  "pockets": {
+    "ipa": "/ˈpɑːkɪts/",
+    "readVi": "po-kịt-s"
+  },
+  "pointy": {
+    "ipa": "/ˈpɔɪnti/",
+    "readVi": "poi-n-ti"
+  },
+  "police": {
+    "ipa": "/pəˈliːs/",
+    "readVi": "pơ-li-s"
+  },
+  "polite": {
+    "ipa": "/pəˈlaɪt/",
+    "readVi": "pơ-lai-t"
+  },
+  "politely": {
+    "ipa": "/pəˈlaɪtli/",
+    "readVi": "pơ-lai-t-li"
+  },
+  "politeness": {
+    "ipa": "/pəˈlaɪtnəs/",
+    "readVi": "pơ-lai-t-nớt"
+  },
+  "pollution": {
+    "ipa": "/pəˈluːʃən/",
+    "readVi": "pơ-lu-shơn"
+  },
+  "pool": {
+    "ipa": "/ˈpuːl/",
+    "readVi": "pu-l"
+  },
+  "popped": {
+    "ipa": "/ˈpɑːpt/",
+    "readVi": "papt"
+  },
+  "porch": {
+    "ipa": "/ˈpɔːrtʃ/",
+    "readVi": "porch"
+  },
+  "postcards": {
+    "ipa": "/ˈpoʊˌskɑːrdz/",
+    "readVi": "pâux-k-ardz"
+  },
+  "postman": {
+    "ipa": "/ˈpoʊsmən/",
+    "readVi": "pâux-m-ơn"
+  },
+  "pot": {
+    "ipa": "/ˈpɑːt/",
+    "readVi": "pat"
+  },
+  "potassium": {
+    "ipa": "/pəˈtæsiəm/",
+    "readVi": "pơ-te-xi-ơm"
+  },
+  "powerful": {
+    "ipa": "/ˈpaʊɜːrfəl/",
+    "readVi": "paoơfơ-l"
+  },
+  "practice": {
+    "ipa": "/ˈpræktɪs/",
+    "readVi": "p-réc-tít-s"
+  },
+  "practicing": {
+    "ipa": "/ˈpræktɪsɪŋ/",
+    "readVi": "p-réc-tí-sinh"
+  },
+  "precious": {
+    "ipa": "/ˈpreʃəs/",
+    "readVi": "p-re-sợt-s"
+  },
+  "prepares": {
+    "ipa": "/prɪˈperz/",
+    "readVi": "p-ri-pe-ơ-z"
+  },
+  "preserve": {
+    "ipa": "/prɪˈzɜːrv/",
+    "readVi": "p-ri-zơ-v"
+  },
+  "prevents": {
+    "ipa": "/prɪˈvents/",
+    "readVi": "p-ri-ven-t-s"
+  },
+  "produce": {
+    "ipa": "/prəˈduːs/",
+    "readVi": "p-rơ-đu-s"
+  },
+  "protect": {
+    "ipa": "/prəˈtekt/",
+    "readVi": "p-rơ-tếch-t"
+  },
+  "protecting": {
+    "ipa": "/prəˈtektɪŋ/",
+    "readVi": "p-rơ-tếch-tinh"
+  },
+  "protects": {
+    "ipa": "/prəˈtekts/",
+    "readVi": "p-rơ-tếch-t-s"
+  },
+  "proud": {
+    "ipa": "/ˈpraʊd/",
+    "readVi": "praod"
+  },
+  "provide": {
+    "ipa": "/prəˈvaɪd/",
+    "readVi": "p-rơ-vai-đ"
+  },
+  "public": {
+    "ipa": "/ˈpʌblɪk/",
+    "readVi": "pắp-b-líc"
+  },
+  "puddles": {
+    "ipa": "/ˈpʌdəlz/",
+    "readVi": "pắp-đơ-l-z"
+  },
+  "puffy": {
+    "ipa": "/ˈpʌfi/",
+    "readVi": "pắp-phi"
+  },
+  "punctually": {
+    "ipa": "/ˈpʌŋktʃuəli/",
+    "readVi": "păng-k-chu-ơ-li"
+  },
+  "puppy": {
+    "ipa": "/ˈpʌpi/",
+    "readVi": "pắp-pi"
+  },
+  "pushing": {
+    "ipa": "/ˈpʊʃɪŋ/",
+    "readVi": "pu-shinh"
+  },
+  "put": {
+    "ipa": "/pʊt/",
+    "readVi": "phút"
+  },
+  "putting": {
+    "ipa": "/ˈpʊtɪŋ/",
+    "readVi": "phú-tinh"
+  },
+  "puzzle": {
+    "ipa": "/ˈpəzəl/",
+    "readVi": "pơzơ-l"
+  },
+  "puzzles": {
+    "ipa": "/ˈpʌzəlz/",
+    "readVi": "pắt-zơ-l-z"
+  },
+  "quenches": {
+    "ipa": "/ˈkwentʃɪz/",
+    "readVi": "cuen-chịt-s"
+  },
+  "quick": {
+    "ipa": "/kwɪk/",
+    "readVi": "cuýc-k"
+  },
+  "quickly": {
+    "ipa": "/ˈkwɪkli/",
+    "readVi": "cuýc-k-li"
+  },
+  "quiet": {
+    "ipa": "/ˈkwaɪət/",
+    "readVi": "cuai-ợt"
+  },
+  "quietly": {
+    "ipa": "/ˈkwaɪətli/",
+    "readVi": "cuai-ợt-li"
+  },
+  "rabbit": {
+    "ipa": "/ˈræbɪt/",
+    "readVi": "re-bịt"
+  },
+  "rabbits": {
+    "ipa": "/ˈræbɪts/",
+    "readVi": "re-bịt-t-s"
+  },
+  "race": {
+    "ipa": "/ˈreɪs/",
+    "readVi": "rêis"
+  },
+  "rain": {
+    "ipa": "/ˈreɪn/",
+    "readVi": "rêin"
+  },
+  "rainbow": {
+    "ipa": "/ˈreɪnboʊ/",
+    "readVi": "rên-bâu"
+  },
+  "raincoat": {
+    "ipa": "/ˈreɪnkoʊt/",
+    "readVi": "rên-câu-t"
+  },
+  "raindrops": {
+    "ipa": "/ˈreɪndrɑːps/",
+    "readVi": "rên-đ-ro-p-s"
+  },
+  "rainy": {
+    "ipa": "/ˈreɪni/",
+    "readVi": "rêi-ni"
+  },
+  "reach": {
+    "ipa": "/ˈriːtʃ/",
+    "readVi": "rich"
+  },
+  "reaching": {
+    "ipa": "/ˈriːtʃɪŋ/",
+    "readVi": "ri-chinh"
+  },
+  "read": {
+    "ipa": "/riːd/",
+    "readVi": "rit-đ"
+  },
+  "reading": {
+    "ipa": "/ˈriːdɪŋ/",
+    "readVi": "ri-đinh"
+  },
+  "reads": {
+    "ipa": "/riːdz/",
+    "readVi": "rit-đ-z"
+  },
+  "ready": {
+    "ipa": "/ˈredi/",
+    "readVi": "re-đi"
+  },
+  "receive": {
+    "ipa": "/rɪˈsiːv/",
+    "readVi": "ri-xi-v"
+  },
+  "receiving": {
+    "ipa": "/rɪˈsiːvɪŋ/",
+    "readVi": "ri-xi-vinh"
+  },
+  "recess": {
+    "ipa": "/ˈriːses/",
+    "readVi": "ri-xét-s"
+  },
+  "recycle": {
+    "ipa": "/riːˈsaɪkəl/",
+    "readVi": "risaikơ-l"
+  },
+  "red": {
+    "ipa": "/red/",
+    "readVi": "rét-đ"
+  },
+  "reduce": {
+    "ipa": "/rɪˈduːs/",
+    "readVi": "ri-đu-s"
+  },
+  "reefs": {
+    "ipa": "/ˈriːfs/",
+    "readVi": "rifs"
+  },
+  "refreshing": {
+    "ipa": "/rɪˈfreʃɪŋ/",
+    "readVi": "ri-ph-re-shinh"
+  },
+  "rescue": {
+    "ipa": "/ˈreskjuː/",
+    "readVi": "rex-k-iu"
+  },
+  "respect": {
+    "ipa": "/riːˈspekt/",
+    "readVi": "rix-p-ekt"
+  },
+  "respected": {
+    "ipa": "/riːˈspektɪd/",
+    "readVi": "rix-p-ektid"
+  },
+  "responsible": {
+    "ipa": "/riːˈspɑːnsəbəl/",
+    "readVi": "rix-p-ansơbơ-l"
+  },
+  "rest": {
+    "ipa": "/ˈrest/",
+    "readVi": "rex-t"
+  },
+  "rhymes": {
+    "ipa": "/ˈraɪmz/",
+    "readVi": "raimz"
+  },
+  "rhythm": {
+    "ipa": "/ˈrɪðəm/",
+    "readVi": "rit-đừm"
+  },
+  "rhythmically": {
+    "ipa": "/ˈrɪðmɪkli/",
+    "readVi": "rit-đ-míc-li"
+  },
+  "rich": {
+    "ipa": "/ˈrɪtʃ/",
+    "readVi": "rich"
+  },
+  "ride": {
+    "ipa": "/ˈraɪd/",
+    "readVi": "raid"
+  },
+  "rides": {
+    "ipa": "/ˈraɪdz/",
+    "readVi": "raidz"
+  },
+  "riding": {
+    "ipa": "/ˈraɪdɪŋ/",
+    "readVi": "rai-đinh"
+  },
+  "right": {
+    "ipa": "/ˈraɪt/",
+    "readVi": "rait"
+  },
+  "rings": {
+    "ipa": "/ˈrɪŋz/",
+    "readVi": "rinhz"
+  },
+  "rises": {
+    "ipa": "/ˈraɪzɪz/",
+    "readVi": "rai-ziz"
+  },
+  "roars": {
+    "ipa": "/ˈrɔːrz/",
+    "readVi": "rorz"
+  },
+  "robotic": {
+    "ipa": "/roʊˈbɑːtɪk/",
+    "readVi": "râu-bo-tíc"
+  },
+  "rockets": {
+    "ipa": "/ˈrɑːkɪts/",
+    "readVi": "ro-kịt-s"
+  },
+  "rocky": {
+    "ipa": "/ˈrɑːki/",
+    "readVi": "ro-ki"
+  },
+  "room": {
+    "ipa": "/ruːm/",
+    "readVi": "rum"
+  },
+  "rooms": {
+    "ipa": "/ˈruːmz/",
+    "readVi": "rum-z"
+  },
+  "rope": {
+    "ipa": "/ˈroʊp/",
+    "readVi": "râup"
+  },
+  "rose": {
+    "ipa": "/ˈroʊz/",
+    "readVi": "râuz"
+  },
+  "roses": {
+    "ipa": "/ˈroʊzɪz/",
+    "readVi": "râu-ziz"
+  },
+  "round": {
+    "ipa": "/ˈraʊnd/",
+    "readVi": "raond"
+  },
+  "routine": {
+    "ipa": "/ruːˈtiːn/",
+    "readVi": "ru-tin"
+  },
+  "row": {
+    "ipa": "/ˈroʊ/",
+    "readVi": "râu"
+  },
+  "rule": {
+    "ipa": "/ˈruːl/",
+    "readVi": "ru-l"
+  },
+  "ruler": {
+    "ipa": "/ˈruːlər/",
+    "readVi": "ru-lờ"
+  },
+  "run": {
+    "ipa": "/rʌn/",
+    "readVi": "răn"
+  },
+  "running": {
+    "ipa": "/ˈrʌnɪŋ/",
+    "readVi": "răn-ninh"
+  },
+  "rush": {
+    "ipa": "/ˈrəʃ/",
+    "readVi": "rơsh"
+  },
+  "safari": {
+    "ipa": "/səˈfɑːri/",
+    "readVi": "xơ-pha-ri"
+  },
+  "safe": {
+    "ipa": "/ˈseɪf/",
+    "readVi": "sêif"
+  },
+  "safety": {
+    "ipa": "/ˈseɪfti/",
+    "readVi": "xêi-ph-ti"
+  },
+  "sandcastles": {
+    "ipa": "/ˈsændkæsəlz/",
+    "readVi": "xen-đ-két-xồ-z"
+  },
+  "sandy": {
+    "ipa": "/ˈsændi/",
+    "readVi": "xen-đi"
+  },
+  "sang": {
+    "ipa": "/ˈsæŋ/",
+    "readVi": "senh"
+  },
+  "satellites": {
+    "ipa": "/ˈsætəlaɪts/",
+    "readVi": "xe-tơ-lai-t-s"
+  },
+  "saturday": {
+    "ipa": "/ˈsætərdeɪ/",
+    "readVi": "xe-tơ-đây"
+  },
+  "saves": {
+    "ipa": "/ˈseɪvz/",
+    "readVi": "sêivz"
+  },
+  "saying": {
+    "ipa": "/ˈseɪɪŋ/",
+    "readVi": "xêi-inh"
+  },
+  "says": {
+    "ipa": "/sez/",
+    "readVi": "se-z"
+  },
+  "scales": {
+    "ipa": "/ˈskeɪlz/",
+    "readVi": "x-k-êilz"
+  },
+  "scared": {
+    "ipa": "/ˈskerd/",
+    "readVi": "x-k-erd"
+  },
+  "scarf": {
+    "ipa": "/ˈskɑːrf/",
+    "readVi": "x-k-arf"
+  },
+  "scent": {
+    "ipa": "/ˈsent/",
+    "readVi": "sent"
+  },
+  "school": {
+    "ipa": "/skuːl/",
+    "readVi": "x-cu-l"
+  },
+  "schoolyard": {
+    "ipa": "/ˈskuːlˌjɑːrd/",
+    "readVi": "x-k-uljard"
+  },
+  "science": {
+    "ipa": "/ˈsaɪəns/",
+    "readVi": "xai-ừn-s"
+  },
+  "scores": {
+    "ipa": "/ˈskɔːrz/",
+    "readVi": "x-k-orz"
+  },
+  "sea": {
+    "ipa": "/ˈsiː/",
+    "readVi": "si"
+  },
+  "season": {
+    "ipa": "/ˈsiːzən/",
+    "readVi": "xi-zừn"
+  },
+  "second": {
+    "ipa": "/ˈsekənd/",
+    "readVi": "xe-cần-đ"
+  },
+  "seed": {
+    "ipa": "/ˈsiːd/",
+    "readVi": "sid"
+  },
+  "seeds": {
+    "ipa": "/ˈsiːdz/",
+    "readVi": "sidz"
+  },
+  "seeing": {
+    "ipa": "/ˈsiːɪŋ/",
+    "readVi": "xi-inh"
+  },
+  "seek": {
+    "ipa": "/ˈsiːk/",
+    "readVi": "sik"
+  },
+  "set": {
+    "ipa": "/ˈset/",
+    "readVi": "set"
+  },
+  "seven": {
+    "ipa": "/ˈsevən/",
+    "readVi": "se-vừn"
+  },
+  "shade": {
+    "ipa": "/ˈʃeɪd/",
+    "readVi": "shêid"
+  },
+  "shaped": {
+    "ipa": "/ˈʃeɪpt/",
+    "readVi": "shêipt"
+  },
+  "shapes": {
+    "ipa": "/ʃeɪps/",
+    "readVi": "shêi-p-s"
+  },
+  "share": {
+    "ipa": "/ʃer/",
+    "readVi": "she-ơ"
+  },
+  "sharing": {
+    "ipa": "/ˈʃerɪŋ/",
+    "readVi": "she-rinh"
+  },
+  "sharp": {
+    "ipa": "/ˈʃɑːrp/",
+    "readVi": "sharp"
+  },
+  "she": {
+    "ipa": "/ʃiː/",
+    "readVi": "si"
+  },
+  "shelves": {
+    "ipa": "/ʃelvz/",
+    "readVi": "sheo-v-z"
+  },
+  "shine": {
+    "ipa": "/ˈʃaɪn/",
+    "readVi": "shain"
+  },
+  "shines": {
+    "ipa": "/ʃaɪnz/",
+    "readVi": "shai-n-z"
+  },
+  "shiny": {
+    "ipa": "/ˈʃaɪni/",
+    "readVi": "shai-ni"
+  },
+  "shirt": {
+    "ipa": "/ˈʃɜːrt/",
+    "readVi": "shơt"
+  },
+  "shoelaces": {
+    "ipa": "/ˈʃuːleɪsɪz/",
+    "readVi": "shu-lêi-xịt-s"
+  },
+  "shoes": {
+    "ipa": "/ʃuːz/",
+    "readVi": "su-z"
+  },
+  "shop": {
+    "ipa": "/ˈʃɑːp/",
+    "readVi": "shap"
+  },
+  "shopping": {
+    "ipa": "/ˈʃɑːpɪŋ/",
+    "readVi": "sho-pinh"
+  },
+  "shorts": {
+    "ipa": "/ʃɔːrts/",
+    "readVi": "sho-t-s"
+  },
+  "should": {
+    "ipa": "/ʃʊd/",
+    "readVi": "su-đ"
+  },
+  "show": {
+    "ipa": "/ˈʃoʊ/",
+    "readVi": "shâu"
+  },
+  "shower": {
+    "ipa": "/ˈʃaʊər/",
+    "readVi": "shao-ơ"
+  },
+  "shows": {
+    "ipa": "/ˈʃoʊz/",
+    "readVi": "shâuz"
+  },
+  "sick": {
+    "ipa": "/ˈsɪk/",
+    "readVi": "sik"
+  },
+  "side": {
+    "ipa": "/ˈsaɪd/",
+    "readVi": "said"
+  },
+  "sidewalk": {
+    "ipa": "/ˈsaɪdwɔːk/",
+    "readVi": "sai-đ-uoóc"
+  },
+  "signal": {
+    "ipa": "/ˈsɪgnəl/",
+    "readVi": "signơ-l"
+  },
+  "silver": {
+    "ipa": "/ˈsɪlvər/",
+    "readVi": "xin-vờ"
+  },
+  "simple": {
+    "ipa": "/ˈsɪmpəl/",
+    "readVi": "simpơ-l"
+  },
+  "sincere": {
+    "ipa": "/sɪnˈsɪr/",
+    "readVi": "xin-xi-ơ"
+  },
+  "sincerely": {
+    "ipa": "/sɪnˈsɪrli/",
+    "readVi": "xin-xi-ơ-li"
+  },
+  "sing": {
+    "ipa": "/sɪŋ/",
+    "readVi": "xinh"
+  },
+  "singing": {
+    "ipa": "/ˈsɪŋɪŋ/",
+    "readVi": "xinh-inh"
+  },
+  "single": {
+    "ipa": "/ˈsɪŋɡl/",
+    "readVi": "xinh-gồl"
+  },
+  "sings": {
+    "ipa": "/sɪŋz/",
+    "readVi": "xinh-z"
+  },
+  "sirens": {
+    "ipa": "/ˈsaɪrənz/",
+    "readVi": "xai-rừn-z"
+  },
+  "sister": {
+    "ipa": "/ˈsɪstər/",
+    "readVi": "xít-x-tờ"
+  },
+  "sit": {
+    "ipa": "/ˈsɪt/",
+    "readVi": "sit"
+  },
+  "sits": {
+    "ipa": "/ˈsɪts/",
+    "readVi": "sits"
+  },
+  "sitting": {
+    "ipa": "/ˈsɪtɪŋ/",
+    "readVi": "xít-tinh"
+  },
+  "six": {
+    "ipa": "/sɪks/",
+    "readVi": "xíc-s"
+  },
+  "skies": {
+    "ipa": "/ˈskaɪz/",
+    "readVi": "x-k-aiz"
+  },
+  "skin": {
+    "ipa": "/ˈskɪn/",
+    "readVi": "x-k-in"
+  },
+  "skip": {
+    "ipa": "/ˈskɪp/",
+    "readVi": "x-k-ip"
+  },
+  "sky": {
+    "ipa": "/ˈskaɪ/",
+    "readVi": "x-k-ai"
+  },
+  "skyscrapers": {
+    "ipa": "/ˈskaɪsˌkreɪpɜːrz/",
+    "readVi": "x-k-aix-k-rêipơz"
+  },
+  "sleep": {
+    "ipa": "/sliːp/",
+    "readVi": "x-líp"
+  },
+  "sleeping": {
+    "ipa": "/ˈsliːpɪŋ/",
+    "readVi": "x-lí-pinh"
+  },
+  "slice": {
+    "ipa": "/ˈslaɪs/",
+    "readVi": "slais"
+  },
+  "slices": {
+    "ipa": "/ˈslaɪsɪz/",
+    "readVi": "x-lai-xịt-s"
+  },
+  "slides": {
+    "ipa": "/slaɪdz/",
+    "readVi": "x-lai-đ-z"
+  },
+  "small": {
+    "ipa": "/smɔːl/",
+    "readVi": "x-mool"
+  },
+  "smart": {
+    "ipa": "/ˈsmɑːrt/",
+    "readVi": "x-m-art"
+  },
+  "smarter": {
+    "ipa": "/ˈsmɑːrtɜːr/",
+    "readVi": "x-m-artơ"
+  },
+  "smells": {
+    "ipa": "/ˈsmelz/",
+    "readVi": "x-m-elz"
+  },
+  "smile": {
+    "ipa": "/ˈsmaɪl/",
+    "readVi": "x-m-ai-l"
+  },
+  "smiles": {
+    "ipa": "/ˈsmaɪlz/",
+    "readVi": "x-m-ailz"
+  },
+  "smoothly": {
+    "ipa": "/ˈsmuːðliː/",
+    "readVi": "x-m-uđli"
+  },
+  "snack": {
+    "ipa": "/ˈsnæk/",
+    "readVi": "x-n-ek"
+  },
+  "snacks": {
+    "ipa": "/ˈsnæks/",
+    "readVi": "x-n-eks"
+  },
+  "sneakers": {
+    "ipa": "/ˈsniːkɜːrz/",
+    "readVi": "x-n-ikơz"
+  },
+  "sneeze": {
+    "ipa": "/ˈsniːz/",
+    "readVi": "x-n-iz"
+  },
+  "so": {
+    "ipa": "/soʊ/",
+    "readVi": "xâu"
+  },
+  "soap": {
+    "ipa": "/ˈsoʊp/",
+    "readVi": "sâup"
+  },
+  "soccer": {
+    "ipa": "/ˈsɑːkər/",
+    "readVi": "xo-cờ"
+  },
+  "sofa": {
+    "ipa": "/ˈsoʊfə/",
+    "readVi": "xâu-phơ"
+  },
+  "soft": {
+    "ipa": "/ˈsɑːft/",
+    "readVi": "saft"
+  },
+  "softly": {
+    "ipa": "/ˈsɔːftli/",
+    "readVi": "xóp-ph-t-li"
+  },
+  "soil": {
+    "ipa": "/ˈsɔːɪl/",
+    "readVi": "soi-l"
+  },
+  "solve": {
+    "ipa": "/ˈsɑːlv/",
+    "readVi": "salv"
+  },
+  "solving": {
+    "ipa": "/ˈsɑːlvɪŋ/",
+    "readVi": "xo-l-vinh"
+  },
+  "some": {
+    "ipa": "/sʌm/",
+    "readVi": "xăm"
+  },
+  "someone": {
+    "ipa": "/ˈsʌmwʌn/",
+    "readVi": "xăm-uăn"
+  },
+  "someone's": {
+    "ipa": "/ˈsʌmwʌnz/",
+    "readVi": "xăm-uăn-z"
+  },
+  "song": {
+    "ipa": "/ˈsɔːŋ/",
+    "readVi": "sonh"
+  },
+  "songs": {
+    "ipa": "/ˈsɔːŋz/",
+    "readVi": "sonhz"
+  },
+  "soon": {
+    "ipa": "/ˈsuːn/",
+    "readVi": "sun"
+  },
+  "soothe": {
+    "ipa": "/ˈsuːð/",
+    "readVi": "suđ"
+  },
+  "sorry": {
+    "ipa": "/ˈsɑːri/",
+    "readVi": "so-ri"
+  },
+  "soup": {
+    "ipa": "/ˈsuːp/",
+    "readVi": "sup"
+  },
+  "south": {
+    "ipa": "/ˈsaʊθ/",
+    "readVi": "saoth"
+  },
+  "space": {
+    "ipa": "/ˈspeɪs/",
+    "readVi": "x-p-êis"
+  },
+  "sparks": {
+    "ipa": "/ˈspɑːrks/",
+    "readVi": "x-p-arks"
+  },
+  "speak": {
+    "ipa": "/spiːk/",
+    "readVi": "x-píc-k"
+  },
+  "speaking": {
+    "ipa": "/ˈspiːkɪŋ/",
+    "readVi": "x-pi-kinh"
+  },
+  "spill": {
+    "ipa": "/ˈspɪl/",
+    "readVi": "x-p-i-l"
+  },
+  "spinach": {
+    "ipa": "/ˈspɪnətʃ/",
+    "readVi": "x-p-inơch"
+  },
+  "spoken": {
+    "ipa": "/ˈspoʊkən/",
+    "readVi": "x-p-âukơn"
+  },
+  "sports": {
+    "ipa": "/ˈspɔːrts/",
+    "readVi": "x-p-orts"
+  },
+  "spot": {
+    "ipa": "/ˈspɑːt/",
+    "readVi": "x-p-at"
+  },
+  "spotted": {
+    "ipa": "/ˈspɑːtɪd/",
+    "readVi": "x-p-atid"
+  },
+  "spread": {
+    "ipa": "/ˈspred/",
+    "readVi": "x-p-red"
+  },
+  "spreading": {
+    "ipa": "/ˈspredɪŋ/",
+    "readVi": "x-p-redinh"
+  },
+  "spring": {
+    "ipa": "/ˈsprɪŋ/",
+    "readVi": "x-p-rinh"
+  },
+  "sprout": {
+    "ipa": "/ˈspraʊt/",
+    "readVi": "x-p-raot"
+  },
+  "squeezes": {
+    "ipa": "/ˈskwiːzɪz/",
+    "readVi": "x-cui-ziz"
+  },
+  "stand": {
+    "ipa": "/ˈstænd/",
+    "readVi": "x-t-end"
+  },
+  "standing": {
+    "ipa": "/ˈstændɪŋ/",
+    "readVi": "x-t-endinh"
+  },
+  "star": {
+    "ipa": "/ˈstɑːr/",
+    "readVi": "x-t-ar"
+  },
+  "stars": {
+    "ipa": "/ˈstɑːrz/",
+    "readVi": "x-t-arz"
+  },
+  "start": {
+    "ipa": "/stɑːrt/",
+    "readVi": "x-tát"
+  },
+  "starting": {
+    "ipa": "/ˈstɑːrtɪŋ/",
+    "readVi": "x-tá-tinh"
+  },
+  "stay": {
+    "ipa": "/steɪ/",
+    "readVi": "x-tây"
+  },
+  "stays": {
+    "ipa": "/steɪz/",
+    "readVi": "x-tây-z"
+  },
+  "steadily": {
+    "ipa": "/ˈstedəliː/",
+    "readVi": "x-t-edơli"
+  },
+  "step": {
+    "ipa": "/step/",
+    "readVi": "x-tép"
+  },
+  "stepping": {
+    "ipa": "/ˈstepɪŋ/",
+    "readVi": "x-t-epinh"
+  },
+  "stethoscope": {
+    "ipa": "/ˈsteθəˌskoʊp/",
+    "readVi": "x-t-ethơx-k-âup"
+  },
+  "stocked": {
+    "ipa": "/ˈstɑːkt/",
+    "readVi": "x-t-akt"
+  },
+  "stores": {
+    "ipa": "/ˈstɔːrz/",
+    "readVi": "x-t-orz"
+  },
+  "stories": {
+    "ipa": "/ˈstɔːriːz/",
+    "readVi": "x-t-oriz"
+  },
+  "story": {
+    "ipa": "/ˈstɔːriː/",
+    "readVi": "x-t-ori"
+  },
+  "storybooks": {
+    "ipa": "/ˈstɔːriːˌbʊks/",
+    "readVi": "x-t-oribuks"
+  },
+  "straight": {
+    "ipa": "/ˈstreɪt/",
+    "readVi": "x-t-rêit"
+  },
+  "strawberries": {
+    "ipa": "/ˈstrɔːˌberiːz/",
+    "readVi": "x-t-roberiz"
+  },
+  "streams": {
+    "ipa": "/ˈstriːmz/",
+    "readVi": "x-t-rimz"
+  },
+  "street": {
+    "ipa": "/ˈstriːt/",
+    "readVi": "x-t-rit"
+  },
+  "streets": {
+    "ipa": "/ˈstriːts/",
+    "readVi": "x-t-rits"
+  },
+  "strengthens": {
+    "ipa": "/ˈstreŋθənz/",
+    "readVi": "x-t-renhthơnz"
+  },
+  "stretching": {
+    "ipa": "/ˈstretʃɪŋ/",
+    "readVi": "x-t-rechinh"
+  },
+  "strong": {
+    "ipa": "/ˈstrɔːŋ/",
+    "readVi": "x-t-ronh"
+  },
+  "stuck": {
+    "ipa": "/ˈstək/",
+    "readVi": "x-t-ơk"
+  },
+  "students": {
+    "ipa": "/ˈstuːdənts/",
+    "readVi": "x-tiu-đừn-t-s"
+  },
+  "study": {
+    "ipa": "/ˈstədiː/",
+    "readVi": "x-t-ơdi"
+  },
+  "success": {
+    "ipa": "/səkˈses/",
+    "readVi": "xơ-k-xét-s"
+  },
+  "summer": {
+    "ipa": "/ˈsʌmər/",
+    "readVi": "xăm-mờ"
+  },
+  "sun": {
+    "ipa": "/sʌn/",
+    "readVi": "xăn"
+  },
+  "sunday": {
+    "ipa": "/ˈsʌndeɪ/",
+    "readVi": "xăn-đây"
+  },
+  "sunflower": {
+    "ipa": "/ˈsʌnflaʊər/",
+    "readVi": "xăn-ph-lao-ơ"
+  },
+  "sunflowers": {
+    "ipa": "/ˈsʌnflaʊərz/",
+    "readVi": "xăn-ph-lao-ơ-z"
+  },
+  "sunny": {
+    "ipa": "/ˈsʌni/",
+    "readVi": "xăn-ni"
+  },
+  "sunshine": {
+    "ipa": "/ˈsʌnʃaɪn/",
+    "readVi": "xăn-shain"
+  },
+  "superfoods": {
+    "ipa": "/ˈsuːpərfuːdz/",
+    "readVi": "xu-pơ-phút-đ-z"
+  },
+  "supermarket": {
+    "ipa": "/ˈsuːpərmɑːrkɪt/",
+    "readVi": "xu-pơ-ma-kịt"
+  },
+  "support": {
+    "ipa": "/səˈpɔːrt/",
+    "readVi": "xơ-po-t"
+  },
+  "surely": {
+    "ipa": "/ˈʃʊrli/",
+    "readVi": "shu-ơ-li"
+  },
+  "swallows": {
+    "ipa": "/ˈswɑːloʊz/",
+    "readVi": "x-u-alâuz"
+  },
+  "sweater": {
+    "ipa": "/ˈswetɜːr/",
+    "readVi": "x-u-etơ"
+  },
+  "sweet": {
+    "ipa": "/ˈswiːt/",
+    "readVi": "x-u-it"
+  },
+  "sweetest": {
+    "ipa": "/ˈswiːtəst/",
+    "readVi": "x-u-itơx-t"
+  },
+  "swim": {
+    "ipa": "/ˈswɪm/",
+    "readVi": "x-u-im"
+  },
+  "swimming": {
+    "ipa": "/ˈswɪmɪŋ/",
+    "readVi": "x-u-iminh"
+  },
+  "swims": {
+    "ipa": "/ˈswɪmz/",
+    "readVi": "x-u-imz"
+  },
+  "swings": {
+    "ipa": "/ˈswɪŋz/",
+    "readVi": "x-u-inhz"
+  },
+  "system": {
+    "ipa": "/ˈsɪstəm/",
+    "readVi": "six-t-ơm"
+  },
+  "t": {
+    "ipa": "/ˈtiː/",
+    "readVi": "ti"
+  },
+  "table": {
+    "ipa": "/ˈteɪbl/",
+    "readVi": "thê-bồl"
+  },
+  "tail": {
+    "ipa": "/ˈteɪl/",
+    "readVi": "têi-l"
+  },
+  "tails": {
+    "ipa": "/ˈteɪlz/",
+    "readVi": "têilz"
+  },
+  "take": {
+    "ipa": "/teɪk/",
+    "readVi": "thêi-k"
+  },
+  "takes": {
+    "ipa": "/teɪks/",
+    "readVi": "thêi-k-s"
+  },
+  "taking": {
+    "ipa": "/ˈteɪkɪŋ/",
+    "readVi": "thêi-kinh"
+  },
+  "tale": {
+    "ipa": "/ˈteɪl/",
+    "readVi": "têi-l"
+  },
+  "tales": {
+    "ipa": "/ˈteɪlz/",
+    "readVi": "têilz"
+  },
+  "talk": {
+    "ipa": "/tɔːk/",
+    "readVi": "thoóc"
+  },
+  "tall": {
+    "ipa": "/ˈtɔːl/",
+    "readVi": "to-l"
+  },
+  "tangy": {
+    "ipa": "/tangy/",
+    "readVi": "tangy"
+  },
+  "tap": {
+    "ipa": "/ˈtæp/",
+    "readVi": "tep"
+  },
+  "tarts": {
+    "ipa": "/ˈtɑːrts/",
+    "readVi": "tarts"
+  },
+  "tasks": {
+    "ipa": "/ˈtæsks/",
+    "readVi": "tex-k-s"
+  },
+  "tastes": {
+    "ipa": "/ˈteɪsts/",
+    "readVi": "têix-t-s"
+  },
+  "taught": {
+    "ipa": "/tɔːt/",
+    "readVi": "thoot"
+  },
+  "teach": {
+    "ipa": "/tiːtʃ/",
+    "readVi": "tí-ch"
+  },
+  "teacher": {
+    "ipa": "/ˈtiːtʃər/",
+    "readVi": "ti-chờ"
+  },
+  "teachers": {
+    "ipa": "/ˈtiːtʃərz/",
+    "readVi": "ti-chơ-z"
+  },
+  "teaches": {
+    "ipa": "/ˈtiːtʃɪz/",
+    "readVi": "tí-chịt-z"
+  },
+  "teaching": {
+    "ipa": "/ˈtiːtʃɪŋ/",
+    "readVi": "tí-chinh"
+  },
+  "team": {
+    "ipa": "/ˈtiːm/",
+    "readVi": "tim"
+  },
+  "teamwork": {
+    "ipa": "/ˈtiːmwɜːrk/",
+    "readVi": "tim-uơ-k"
+  },
+  "tease": {
+    "ipa": "/ˈtiːz/",
+    "readVi": "tiz"
+  },
+  "teeth": {
+    "ipa": "/tiːθ/",
+    "readVi": "tith"
+  },
+  "television": {
+    "ipa": "/ˈtelɪvɪʒən/",
+    "readVi": "te-li-vi-zhơn"
+  },
+  "tell": {
+    "ipa": "/tel/",
+    "readVi": "theo-l"
+  },
+  "telling": {
+    "ipa": "/ˈtelɪŋ/",
+    "readVi": "theo-l-inh"
+  },
+  "tells": {
+    "ipa": "/ˈtelz/",
+    "readVi": "theo-l-z"
+  },
+  "ten": {
+    "ipa": "/ten/",
+    "readVi": "then"
+  },
+  "tenderness": {
+    "ipa": "/ˈtendərnəs/",
+    "readVi": "ten-đơ-nớt"
+  },
+  "tennis": {
+    "ipa": "/ˈtenɪs/",
+    "readVi": "ten-nít"
+  },
+  "tests": {
+    "ipa": "/ˈtests/",
+    "readVi": "tex-t-s"
+  },
+  "tet": {
+    "ipa": "/ˈtet/",
+    "readVi": "tet"
+  },
+  "textbooks": {
+    "ipa": "/ˈtekstˌbʊks/",
+    "readVi": "tekx-t-buks"
+  },
+  "than": {
+    "ipa": "/ˈðæn/",
+    "readVi": "đen"
+  },
+  "that": {
+    "ipa": "/ðæt/",
+    "readVi": "đét-t"
+  },
+  "the": {
+    "ipa": "/ðə/",
+    "readVi": "đơ"
+  },
+  "their": {
+    "ipa": "/ðer/",
+    "readVi": "đe-ơ"
+  },
+  "them": {
+    "ipa": "/ðem/",
+    "readVi": "đem"
+  },
+  "then": {
+    "ipa": "/ðen/",
+    "readVi": "đen"
+  },
+  "there": {
+    "ipa": "/ðer/",
+    "readVi": "đe-ơ"
+  },
+  "they": {
+    "ipa": "/ðeɪ/",
+    "readVi": "đêi"
+  },
+  "thick": {
+    "ipa": "/ˈθɪk/",
+    "readVi": "thik"
+  },
+  "thing": {
+    "ipa": "/θɪŋ/",
+    "readVi": "thinh"
+  },
+  "things": {
+    "ipa": "/θɪŋz/",
+    "readVi": "thinh-z"
+  },
+  "thinking": {
+    "ipa": "/ˈθɪŋkɪŋ/",
+    "readVi": "thinh-kinh"
+  },
+  "thirst": {
+    "ipa": "/ˈθɜːrst/",
+    "readVi": "thơx-t"
+  },
+  "this": {
+    "ipa": "/ðɪs/",
+    "readVi": "đít-s"
+  },
+  "three": {
+    "ipa": "/θriː/",
+    "readVi": "th-ri"
+  },
+  "through": {
+    "ipa": "/θruː/",
+    "readVi": "th-ru"
+  },
+  "throughout": {
+    "ipa": "/θruːˈaʊt/",
+    "readVi": "th-ru-ao-t"
+  },
+  "tick": {
+    "ipa": "/ˈtɪk/",
+    "readVi": "tik"
+  },
+  "tidiness": {
+    "ipa": "/ˈtaɪdinəs/",
+    "readVi": "thai-đi-nớt"
+  },
+  "tidy": {
+    "ipa": "/ˈtaɪdi/",
+    "readVi": "thai-đi"
+  },
+  "tie": {
+    "ipa": "/ˈtaɪ/",
+    "readVi": "tai"
+  },
+  "tightly": {
+    "ipa": "/ˈtaɪtli/",
+    "readVi": "tai-t-li"
+  },
+  "time": {
+    "ipa": "/taɪm/",
+    "readVi": "tai-m"
+  },
+  "times": {
+    "ipa": "/ˈtaɪmz/",
+    "readVi": "taimz"
+  },
+  "tiny": {
+    "ipa": "/ˈtaɪni/",
+    "readVi": "thai-ni"
+  },
+  "tired": {
+    "ipa": "/ˈtaɪərd/",
+    "readVi": "thai-ơ-đ"
+  },
+  "tissue": {
+    "ipa": "/ˈtɪʃuː/",
+    "readVi": "tí-shu"
+  },
+  "to": {
+    "ipa": "/tuː/",
+    "readVi": "tu"
+  },
+  "toast": {
+    "ipa": "/ˈtoʊst/",
+    "readVi": "tâux-t"
+  },
+  "today": {
+    "ipa": "/təˈdeɪ/",
+    "readVi": "tơ-đây"
+  },
+  "together": {
+    "ipa": "/təˈɡeðər/",
+    "readVi": "tơ-ge-đờ"
+  },
+  "tomorrow": {
+    "ipa": "/təˈmɔːroʊ/",
+    "readVi": "tơ-mo-râu"
+  },
+  "toothbrush": {
+    "ipa": "/ˈtuːθbrʌʃ/",
+    "readVi": "thu-th-b-rắt-sh"
+  },
+  "toothpaste": {
+    "ipa": "/ˈtuːθˌpeɪst/",
+    "readVi": "tuthpêix-t"
+  },
+  "top": {
+    "ipa": "/ˈtɑːp/",
+    "readVi": "tap"
+  },
+  "toward": {
+    "ipa": "/ˈtɔːrd/",
+    "readVi": "tord"
+  },
+  "towering": {
+    "ipa": "/ˈtaʊərɪŋ/",
+    "readVi": "thao-ơ-rinh"
+  },
+  "town": {
+    "ipa": "/ˈtaʊn/",
+    "readVi": "taon"
+  },
+  "toy": {
+    "ipa": "/tɔɪ/",
+    "readVi": "thoi"
+  },
+  "toys": {
+    "ipa": "/tɔɪz/",
+    "readVi": "thoi-z"
+  },
+  "traditional": {
+    "ipa": "/trəˈdɪʃənəl/",
+    "readVi": "t-rơ-đi-shơn-nồ"
+  },
+  "traffic": {
+    "ipa": "/ˈtræfɪk/",
+    "readVi": "t-re-phíc"
+  },
+  "training": {
+    "ipa": "/ˈtreɪnɪŋ/",
+    "readVi": "t-rêi-ninh"
+  },
+  "trapped": {
+    "ipa": "/ˈtræpt/",
+    "readVi": "trept"
+  },
+  "travel": {
+    "ipa": "/ˈtrævəl/",
+    "readVi": "trevơ-l"
+  },
+  "trays": {
+    "ipa": "/ˈtreɪz/",
+    "readVi": "trêiz"
+  },
+  "treat": {
+    "ipa": "/ˈtriːt/",
+    "readVi": "trit"
+  },
+  "trees": {
+    "ipa": "/triːz/",
+    "readVi": "t-ri-z"
+  },
+  "tripping": {
+    "ipa": "/ˈtrɪpɪŋ/",
+    "readVi": "t-rip-pinh"
+  },
+  "trouble": {
+    "ipa": "/ˈtrəbəl/",
+    "readVi": "trơbơ-l"
+  },
+  "trucks": {
+    "ipa": "/ˈtrəks/",
+    "readVi": "trơks"
+  },
+  "true": {
+    "ipa": "/ˈtruː/",
+    "readVi": "tru"
+  },
+  "trunk": {
+    "ipa": "/trʌŋk/",
+    "readVi": "t-răng-k"
+  },
+  "trusted": {
+    "ipa": "/ˈtrəstɪd/",
+    "readVi": "trơx-t-id"
+  },
+  "truth": {
+    "ipa": "/ˈtruːθ/",
+    "readVi": "truth"
+  },
+  "trying": {
+    "ipa": "/ˈtraɪɪŋ/",
+    "readVi": "t-rai-inh"
+  },
+  "tub": {
+    "ipa": "/ˈtəb/",
+    "readVi": "tơb"
+  },
+  "tunes": {
+    "ipa": "/ˈtuːnz/",
+    "readVi": "tunz"
+  },
+  "turn": {
+    "ipa": "/tɜːrn/",
+    "readVi": "tơ-n"
+  },
+  "turns": {
+    "ipa": "/tɜːrnz/",
+    "readVi": "tơ-n-z"
+  },
+  "turtles": {
+    "ipa": "/ˈtɜːrtəlz/",
+    "readVi": "thơ-tơ-l-z"
+  },
+  "twenty": {
+    "ipa": "/ˈtwenti/",
+    "readVi": "tuen-ti"
+  },
+  "twinkle": {
+    "ipa": "/ˈtwɪŋkəl/",
+    "readVi": "t-uynh-kồ"
+  },
+  "twinkling": {
+    "ipa": "/ˈtwɪŋklɪŋ/",
+    "readVi": "t-uynh-k-linh"
+  },
+  "two": {
+    "ipa": "/tuː/",
+    "readVi": "tu"
+  },
+  "under": {
+    "ipa": "/ˈʌndər/",
+    "readVi": "ăn-đờ"
+  },
+  "uniform": {
+    "ipa": "/ˈjuːnɪfɔːrm/",
+    "readVi": "iu-ni-phom"
+  },
+  "uniforms": {
+    "ipa": "/ˈjuːnɪfɔːrmz/",
+    "readVi": "iu-ni-phom-z"
+  },
+  "unity": {
+    "ipa": "/ˈjuːnəti/",
+    "readVi": "diu-nơ-ti"
+  },
+  "unknown": {
+    "ipa": "/ˌʌnˈnoʊn/",
+    "readVi": "ăn-nâu-n"
+  },
+  "up": {
+    "ipa": "/ʌp/",
+    "readVi": "ắp"
+  },
+  "upon": {
+    "ipa": "/əˈpɑːn/",
+    "readVi": "ơ-pon"
+  },
+  "us": {
+    "ipa": "/ʌs/",
+    "readVi": "ắt-s"
+  },
+  "use": {
+    "ipa": "/ˈjuːs/",
+    "readVi": "ius"
+  },
+  "usually": {
+    "ipa": "/ˈjuːʒuəli/",
+    "readVi": "diu-zhu-ơ-li"
+  },
+  "vacation": {
+    "ipa": "/veɪˈkeɪʃən/",
+    "readVi": "vêi-khêi-shơn"
+  },
+  "valleys": {
+    "ipa": "/ˈvæliz/",
+    "readVi": "ve-li-z"
+  },
+  "valuable": {
+    "ipa": "/ˈvæljəbəl/",
+    "readVi": "veljơbơ-l"
+  },
+  "vanilla": {
+    "ipa": "/vəˈnɪlə/",
+    "readVi": "vơ-ni-lơ"
+  },
+  "vegetables": {
+    "ipa": "/ˈvedʒtəbəlz/",
+    "readVi": "ve-j-tơ-bồ-z"
+  },
+  "very": {
+    "ipa": "/ˈveri/",
+    "readVi": "ve-ri"
+  },
+  "vibrant": {
+    "ipa": "/ˈvaɪbrənt/",
+    "readVi": "vai-b-rừn-t"
+  },
+  "victories": {
+    "ipa": "/ˈvɪktəriz/",
+    "readVi": "vic-tơ-ri-z"
+  },
+  "vietnamese": {
+    "ipa": "/ˌvjetnəˈmiːz/",
+    "readVi": "Việt-na-mi-z"
+  },
+  "villages": {
+    "ipa": "/ˈvɪlɪdʒɪz/",
+    "readVi": "vi-liz"
+  },
+  "visit": {
+    "ipa": "/ˈvɪzɪt/",
+    "readVi": "vi-zịt"
+  },
+  "visiting": {
+    "ipa": "/ˈvɪzɪtɪŋ/",
+    "readVi": "vi-zi-tinh"
+  },
+  "visits": {
+    "ipa": "/ˈvɪzɪts/",
+    "readVi": "vi-zit-s"
+  },
+  "vitamin": {
+    "ipa": "/ˈvaɪtəmɪn/",
+    "readVi": "vai-tơ-min"
+  },
+  "vitamins": {
+    "ipa": "/ˈvaɪtəmɪnz/",
+    "readVi": "vai-tơ-min-z"
+  },
+  "vocabulary": {
+    "ipa": "/vəˈkæbjəleri/",
+    "readVi": "vơ-kép-biu-lơ-ri"
+  },
+  "voice": {
+    "ipa": "/vɔɪs/",
+    "readVi": "voi-s"
+  },
+  "wags": {
+    "ipa": "/wæɡz/",
+    "readVi": "ua-g-z"
+  },
+  "wait": {
+    "ipa": "/weɪt/",
+    "readVi": "uêi-t"
+  },
+  "waits": {
+    "ipa": "/weɪts/",
+    "readVi": "uêi-t-s"
+  },
+  "wake": {
+    "ipa": "/weɪk/",
+    "readVi": "uêi-k"
+  },
+  "walk": {
+    "ipa": "/wɔːk/",
+    "readVi": "uoóc"
+  },
+  "walking": {
+    "ipa": "/ˈwɔːkɪŋ/",
+    "readVi": "uoóc-kinh"
+  },
+  "want": {
+    "ipa": "/wɑːnt/",
+    "readVi": "ua-n-t"
+  },
+  "warm": {
+    "ipa": "/wɔːrm/",
+    "readVi": "uo-m"
+  },
+  "warmly": {
+    "ipa": "/ˈwɔːrmli/",
+    "readVi": "ua-m-li"
+  },
+  "warms": {
+    "ipa": "/ˈwɔːrmz/",
+    "readVi": "uo-m-z"
+  },
+  "warmth": {
+    "ipa": "/wɔːrmθ/",
+    "readVi": "ua-m-th"
+  },
+  "was": {
+    "ipa": "/wɒz/",
+    "readVi": "uót-z"
+  },
+  "wash": {
+    "ipa": "/wɒʃ/",
+    "readVi": "uót-sh"
+  },
+  "washing": {
+    "ipa": "/ˈwɒʃɪŋ/",
+    "readVi": "uót-sinh"
+  },
+  "waste": {
+    "ipa": "/weɪst/",
+    "readVi": "uêi-x-t"
+  },
+  "watch": {
+    "ipa": "/wɑːtʃ/",
+    "readVi": "uót-ch"
+  },
+  "watching": {
+    "ipa": "/ˈwɑːtʃɪŋ/",
+    "readVi": "uót-chinh"
+  },
+  "water": {
+    "ipa": "/ˈwɔːtər/",
+    "readVi": "ua-tờ"
+  },
+  "watered": {
+    "ipa": "/ˈwɔːtərd/",
+    "readVi": "ua-tơ-đ"
+  },
+  "watermelon": {
+    "ipa": "/ˈwɔːtərmelən/",
+    "readVi": "ua-tơ-me-lừn"
+  },
+  "waves": {
+    "ipa": "/weɪvz/",
+    "readVi": "uêi-v-z"
+  },
+  "we": {
+    "ipa": "/wiː/",
+    "readVi": "uy"
+  },
+  "wear": {
+    "ipa": "/wer/",
+    "readVi": "ue-ơ"
+  },
+  "wearing": {
+    "ipa": "/ˈwerɪŋ/",
+    "readVi": "ue-ơ-rinh"
+  },
+  "wears": {
+    "ipa": "/werz/",
+    "readVi": "ue-ơ-z"
+  },
+  "weather": {
+    "ipa": "/ˈweðər/",
+    "readVi": "ue-đờ"
+  },
+  "week": {
+    "ipa": "/wiːk/",
+    "readVi": "uy-k"
+  },
+  "weekend": {
+    "ipa": "/ˈwiːkend/",
+    "readVi": "uy-k-en-đ"
+  },
+  "weekends": {
+    "ipa": "/ˈwiːkendz/",
+    "readVi": "uy-k-en-đ-z"
+  },
+  "wheel": {
+    "ipa": "/wiːl/",
+    "readVi": "hui-l"
+  },
+  "wheels": {
+    "ipa": "/wiːlz/",
+    "readVi": "hui-l-z"
+  },
+  "when": {
+    "ipa": "/wen/",
+    "readVi": "oen"
+  },
+  "whenever": {
+    "ipa": "/wenˈevər/",
+    "readVi": "uen-e-vờ"
+  },
+  "where": {
+    "ipa": "/wer/",
+    "readVi": "oe"
+  },
+  "which": {
+    "ipa": "/wɪtʃ/",
+    "readVi": "oít-ch"
+  },
+  "while": {
+    "ipa": "/waɪl/",
+    "readVi": "oai-l"
+  },
+  "whispers": {
+    "ipa": "/ˈwɪspərz/",
+    "readVi": "hui-x-pơ-z"
+  },
+  "white": {
+    "ipa": "/waɪt/",
+    "readVi": "oai-t"
+  },
+  "who": {
+    "ipa": "/huː/",
+    "readVi": "hu"
+  },
+  "whole": {
+    "ipa": "/ˈhoʊl/",
+    "readVi": "hâu-l"
+  },
+  "wide": {
+    "ipa": "/waɪd/",
+    "readVi": "uai-đ"
+  },
+  "wild": {
+    "ipa": "/waɪld/",
+    "readVi": "uai-l-đ"
+  },
+  "will": {
+    "ipa": "/wɪl/",
+    "readVi": "uy-l"
+  },
+  "wind": {
+    "ipa": "/wɪnd/",
+    "readVi": "uyn-đ"
+  },
+  "winding": {
+    "ipa": "/ˈwaɪndɪŋ/",
+    "readVi": "uai-n-đinh"
+  },
+  "window": {
+    "ipa": "/ˈwɪndoʊ/",
+    "readVi": "uyn-đâu"
+  },
+  "windows": {
+    "ipa": "/ˈwɪndoʊz/",
+    "readVi": "uyn-đâu-z"
+  },
+  "windy": {
+    "ipa": "/ˈwɪndi/",
+    "readVi": "uyn-đi"
+  },
+  "winter": {
+    "ipa": "/ˈwɪntər/",
+    "readVi": "uyn-tờ"
+  },
+  "wisdom": {
+    "ipa": "/ˈwɪzdəm/",
+    "readVi": "uýt-z-đừm"
+  },
+  "wisely": {
+    "ipa": "/ˈwaɪzli/",
+    "readVi": "uai-z-li"
+  },
+  "with": {
+    "ipa": "/wɪð/",
+    "readVi": "uýt-đ"
+  },
+  "without": {
+    "ipa": "/wɪˈðaʊt/",
+    "readVi": "uýt-đao-t"
+  },
+  "wonderful": {
+    "ipa": "/ˈwʌndərfl/",
+    "readVi": "uăn-đơ-phồl"
+  },
+  "wooden": {
+    "ipa": "/ˈwʊdən/",
+    "readVi": "u-đừn"
+  },
+  "woolen": {
+    "ipa": "/ˈwʊlən/",
+    "readVi": "u-lừn"
+  },
+  "words": {
+    "ipa": "/wɜːrdz/",
+    "readVi": "uơ-đ-z"
+  },
+  "work": {
+    "ipa": "/wɜːrk/",
+    "readVi": "uớc-k"
+  },
+  "working": {
+    "ipa": "/ˈwɜːrkɪŋ/",
+    "readVi": "uớc-kinh"
+  },
+  "world": {
+    "ipa": "/wɜːrld/",
+    "readVi": "uơ-l-đ"
+  },
+  "worlds": {
+    "ipa": "/wɜːrldz/",
+    "readVi": "uơ-l-đ-z"
+  },
+  "would": {
+    "ipa": "/wʊd/",
+    "readVi": "u-đ"
+  },
+  "write": {
+    "ipa": "/raɪt/",
+    "readVi": "rai-t"
+  },
+  "year": {
+    "ipa": "/jɪr/",
+    "readVi": "diơ"
+  },
+  "years": {
+    "ipa": "/jɪrz/",
+    "readVi": "diơ-z"
+  },
+  "yeast": {
+    "ipa": "/ˈjiːst/",
+    "readVi": "jix-t"
+  },
+  "yellow": {
+    "ipa": "/ˈjeloʊ/",
+    "readVi": "de-lâu"
+  },
+  "yogurt": {
+    "ipa": "/ˈjoʊɡərt/",
+    "readVi": "dâu-gơ-t"
+  },
+  "you": {
+    "ipa": "/juː/",
+    "readVi": "diu"
+  },
+  "young": {
+    "ipa": "/ˈjəŋ/",
+    "readVi": "jơnh"
+  },
+  "hi": {
+    "ipa": "/haɪ/",
+    "readVi": "hai"
+  },
+  "everybody": {
+    "ipa": "/ˈevribɑːdi/",
+    "readVi": "e-vri-bo-đi"
+  },
+  "welcome": {
+    "ipa": "/ˈwelkəm/",
+    "readVi": "oeo-cơm"
+  },
+  "yesterday": {
+    "ipa": "/ˈjestərdeɪ/",
+    "readVi": "dét-tơ-đây"
+  },
+  "yourself": {
+    "ipa": "/jɔːrˈself/",
+    "readVi": "do-seo-ph"
+  },
+  "himself": {
+    "ipa": "/hɪmˈself/",
+    "readVi": "him-seo-ph"
+  },
+  "herself": {
+    "ipa": "/hɜːrˈself/",
+    "readVi": "hơ-seo-ph"
+  },
+  "itself": {
+    "ipa": "/ɪtˈself/",
+    "readVi": "ít-seo-ph"
+  },
+  "ourselves": {
+    "ipa": "/aʊərˈselvz/",
+    "readVi": "ao-seo-v-z"
+  },
+  "yourselves": {
+    "ipa": "/jɔːrˈselvz/",
+    "readVi": "do-seo-v-z"
+  },
+  "themselves": {
+    "ipa": "/ðemˈselvz/",
+    "readVi": "đem-seo-v-z"
+  },
+  "could": {
+    "ipa": "/kʊd/",
+    "readVi": "cu-đ"
+  },
+  "shall": {
+    "ipa": "/ʃæl/",
+    "readVi": "seo-l"
+  },
+  "these": {
+    "ipa": "/ðiːz/",
+    "readVi": "đi-z"
+  },
+  "those": {
+    "ipa": "/ðoʊz/",
+    "readVi": "đâu-z"
+  },
+  "talks": {
+    "ipa": "/tɔːks/",
+    "readVi": "thoóc-s"
+  },
+  "talked": {
+    "ipa": "/tɔːkt/",
+    "readVi": "thoóc-t"
+  },
+  "talking": {
+    "ipa": "/ˈtɔːkɪŋ/",
+    "readVi": "thoóc-kinh"
+  },
+  "walks": {
+    "ipa": "/wɔːks/",
+    "readVi": "uoóc-s"
+  },
+  "walked": {
+    "ipa": "/wɔːkt/",
+    "readVi": "uoóc-t"
+  },
+  "lived": {
+    "ipa": "/lɪvd/",
+    "readVi": "li-v-đ"
+  },
+  "likes": {
+    "ipa": "/laɪks/",
+    "readVi": "lai-k-s"
+  },
+  "liked": {
+    "ipa": "/laɪkt/",
+    "readVi": "lai-k-t"
+  },
+  "liking": {
+    "ipa": "/ˈlaɪkɪŋ/",
+    "readVi": "lai-kinh"
+  },
+  "learns": {
+    "ipa": "/lɜːrnz/",
+    "readVi": "lơn-z"
+  },
+  "learned": {
+    "ipa": "/lɜːrnd/",
+    "readVi": "lơn-đ"
+  },
+  "listened": {
+    "ipa": "/ˈlɪsənd/",
+    "readVi": "li-xừn-đ"
+  },
+  "writes": {
+    "ipa": "/raɪts/",
+    "readVi": "rai-t-s"
+  },
+  "writing": {
+    "ipa": "/ˈraɪtɪŋ/",
+    "readVi": "rai-tinh"
+  },
+  "speaks": {
+    "ipa": "/spiːks/",
+    "readVi": "x-píc-s"
+  },
+  "shares": {
+    "ipa": "/ʃerz/",
+    "readVi": "she-ơ-z"
+  },
+  "helped": {
+    "ipa": "/helpt/",
+    "readVi": "heo-p-t"
+  },
+  "plays": {
+    "ipa": "/pleɪz/",
+    "readVi": "p-lây-z"
+  },
+  "played": {
+    "ipa": "/pleɪd/",
+    "readVi": "p-lêi-đ"
+  },
+  "waters": {
+    "ipa": "/ˈwɔːtərz/",
+    "readVi": "ua-tơ-z"
+  },
+  "watering": {
+    "ipa": "/ˈwɔːtərɪŋ/",
+    "readVi": "ua-tơ-rinh"
+  },
+  "worn": {
+    "ipa": "/wɔːrn/",
+    "readVi": "uo-n"
+  },
+  "say": {
+    "ipa": "/seɪ/",
+    "readVi": "xêi"
+  },
+  "said": {
+    "ipa": "/sed/",
+    "readVi": "xét-đ"
+  },
+  "see": {
+    "ipa": "/siː/",
+    "readVi": "xi"
+  },
+  "sees": {
+    "ipa": "/siːz/",
+    "readVi": "xi-z"
+  },
+  "saw": {
+    "ipa": "/sɔː/",
+    "readVi": "xo"
+  },
+  "took": {
+    "ipa": "/tʊk/",
+    "readVi": "thúc-k"
+  },
+  "kept": {
+    "ipa": "/kept/",
+    "readVi": "khep-t"
+  },
+  "grows": {
+    "ipa": "/ɡroʊz/",
+    "readVi": "g-râu-z"
+  },
+  "growing": {
+    "ipa": "/ˈɡroʊɪŋ/",
+    "readVi": "g-râu-inh"
+  },
+  "grew": {
+    "ipa": "/ɡruː/",
+    "readVi": "g-ru"
+  },
+  "protected": {
+    "ipa": "/prəˈtektɪd/",
+    "readVi": "p-rơ-tếch-tịt-đ"
+  },
+  "preserves": {
+    "ipa": "/prɪˈzɜːrvz/",
+    "readVi": "p-ri-zơ-v-z"
+  },
+  "preserving": {
+    "ipa": "/prɪˈzɜːrvɪŋ/",
+    "readVi": "p-ri-zơ-vinh"
+  },
+  "celebrates": {
+    "ipa": "/ˈselɪbreɪts/",
+    "readVi": "xe-li-b-rết-s"
+  },
+  "celebrating": {
+    "ipa": "/ˈselɪbreɪtɪŋ/",
+    "readVi": "xe-li-b-rêi-tinh"
+  },
+  "celebrated": {
+    "ipa": "/ˈselɪbreɪtɪd/",
+    "readVi": "xe-li-b-rêi-tịt-đ"
+  },
+  "classroom": {
+    "ipa": "/ˈklæsruːm/",
+    "readVi": "c-le-x-rum"
+  },
+  "student": {
+    "ipa": "/ˈstuːdənt/",
+    "readVi": "x-tiu-đừn-t"
+  },
+  "notebook": {
+    "ipa": "/ˈnoʊtbʊk/",
+    "readVi": "nâu-t-búc-k"
+  },
+  "book": {
+    "ipa": "/bʊk/",
+    "readVi": "búc-k"
+  },
+  "routines": {
+    "ipa": "/ruːˈtiːnz/",
+    "readVi": "ru-tin-z"
+  },
+  "faucets": {
+    "ipa": "/ˈfɔːsɪts/",
+    "readVi": "pho-xịt-s"
+  },
+  "t-shirt": {
+    "ipa": "/ˈtiː ʃɜːrt/",
+    "readVi": "thi-shơ-t"
+  },
+  "cloudy": {
+    "ipa": "/ˈklaʊdi/",
+    "readVi": "c-lao-đi"
+  },
+  "lunch": {
+    "ipa": "/lʌntʃ/",
+    "readVi": "lăn-ch"
+  },
+  "mid-autumn": {
+    "ipa": "/mɪd ˈɔːtəm/",
+    "readVi": "mít-đ o-từm"
+  },
+  "eco-action": {
+    "ipa": "/ˈiːkoʊ ˈækʃən/",
+    "readVi": "i-câu éc-shơn"
+  },
+  "heart-shaped": {
+    "ipa": "/ˈhɑːrt ʃeɪpt/",
+    "readVi": "ha-t shêi-p-t"
+  },
+  "hide-and-seek": {
+    "ipa": "/ˌhaɪd n ˈsiːk/",
+    "readVi": "hai-đ en-đ xíc"
+  },
+  "wave": {
+    "ipa": "/weɪv/",
+    "readVi": "uêi-v"
+  },
+  "waved": {
+    "ipa": "/weɪvd/",
+    "readVi": "uêi-v-đ"
+  },
+  "weeks": {
+    "ipa": "/wiːks/",
+    "readVi": "uy-k-s"
+  },
+  "whisper": {
+    "ipa": "/ˈwɪspər/",
+    "readVi": "hui-x-pờ"
+  },
+  "word": {
+    "ipa": "/wɜːrd/",
+    "readVi": "uơ-đ"
+  }
+}
